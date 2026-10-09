@@ -1,0 +1,279 @@
+{
+  "dataset": "cifar10",
+  "rows": [
+    {
+      "variant": "real",
+      "seed": 0,
+      "checkpoint_sha256": "f10a925c49f1c628e3c52cc6d9c3283f34e7ff4b639d1adecad1bc6016f3bdfd",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135533,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975472
+      },
+      "accuracy": 0.8833000063896179,
+      "learned_attention_entropy_normalized": 0.8315316438674927
+    },
+    {
+      "variant": "real",
+      "seed": 1,
+      "checkpoint_sha256": "146b0c58c1f4675058dabdc3f407870f90a4a767fffa52b4395a00ab8fe56865",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135533,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975472
+      },
+      "accuracy": 0.8798999786376953,
+      "learned_attention_entropy_normalized": 0.8250195384025574
+    },
+    {
+      "variant": "real",
+      "seed": 2,
+      "checkpoint_sha256": "e5e9e33283e3a6d59c9396fac6ed88a31a7ae9f85c7150d04e567a13f73d3dba",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135533,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975472
+      },
+      "accuracy": 0.8806999921798706,
+      "learned_attention_entropy_normalized": 0.8767395615577698
+    },
+    {
+      "variant": "real",
+      "seed": 3,
+      "checkpoint_sha256": "fce5f9a0b322b6ba7a9672418e9911a15a3acf6dd1f480180753d4089c105671",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135533,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975472
+      },
+      "accuracy": 0.8795999884605408,
+      "learned_attention_entropy_normalized": 0.8740077018737793
+    },
+    {
+      "variant": "real",
+      "seed": 4,
+      "checkpoint_sha256": "808c6c6639ed74c11152e9bfac80db8cb435c524f10a995313b65b87c822048d",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135533,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975472
+      },
+      "accuracy": 0.8806999921798706,
+      "learned_attention_entropy_normalized": 0.7438805103302002
+    },
+    {
+      "variant": "matched_random",
+      "seed": 0,
+      "checkpoint_sha256": "1e158eb165009522e73a83f2dd32887249823ab3d8a4201d6cc2e708bfb3bf2f",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.06299057706658959,
+        "mean_pair_cosine": 6.180418090327419e-05,
+        "pair_cosine_std": 0.031108625377418098,
+        "uncentered_effective_rank": 226.25161395675897,
+        "uncentered_participation_rank": 205.33015182447886,
+        "centered_effective_rank": 225.46391254672628,
+        "centered_participation_rank": 204.6618201255161
+      },
+      "accuracy": 0.8876000046730042,
+      "learned_attention_entropy_normalized": 0.9446641802787781
+    },
+    {
+      "variant": "matched_random",
+      "seed": 1,
+      "checkpoint_sha256": "173a53f723c6a82c3b9b314cbd0348ef4484e6999e0741fa6e6297e1fc7f7eef",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.06327452256486636,
+        "mean_pair_cosine": 9.779721078267784e-05,
+        "pair_cosine_std": 0.031218454866698563,
+        "uncentered_effective_rank": 226.03221725448037,
+        "uncentered_participation_rank": 205.04284115609963,
+        "centered_effective_rank": 225.24167185943486,
+        "centered_participation_rank": 204.38321423036626
+      },
+      "accuracy": 0.8855999708175659,
+      "learned_attention_entropy_normalized": 0.9556303024291992
+    },
+    {
+      "variant": "matched_random",
+      "seed": 2,
+      "checkpoint_sha256": "e3b38ff20d40c6a57bb0b1f6cf479637c0a44f5830c6045c7f42841176eab7a5",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.061017206733573366,
+        "mean_pair_cosine": -0.00018386869662928478,
+        "pair_cosine_std": 0.031295662000425835,
+        "uncentered_effective_rank": 225.9198415099486,
+        "uncentered_participation_rank": 204.83990193630655,
+        "centered_effective_rank": 225.127561830321,
+        "centered_participation_rank": 204.16930611682483
+      },
+      "accuracy": 0.8823999762535095,
+      "learned_attention_entropy_normalized": 0.9572255611419678
+    },
+    {
+      "variant": "matched_random",
+      "seed": 3,
+      "checkpoint_sha256": "5bff84cce90796ee11fc7533e763cf1216fad669a32b0841ab035249a6344e22",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.06284010561067156,
+        "mean_pair_cosine": 4.279605490459787e-05,
+        "pair_cosine_std": 0.031071960618881025,
+        "uncentered_effective_rank": 226.34825273798944,
+        "uncentered_participation_rank": 205.42602104882351,
+        "centered_effective_rank": 225.53767798025913,
+        "centered_participation_rank": 204.73019998466336
+      },
+      "accuracy": 0.8808000087738037,
+      "learned_attention_entropy_normalized": 0.9663108587265015
+    },
+    {
+      "variant": "matched_random",
+      "seed": 4,
+      "checkpoint_sha256": "850781149c5c81c7a986256f29685a31612e7c7646a1f6821507b2cb15a6b621",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.061678624054533865,
+        "mean_pair_cosine": -0.00010239734220609841,
+        "pair_cosine_std": 0.031149123499746176,
+        "uncentered_effective_rank": 226.1491962928086,
+        "uncentered_participation_rank": 205.22404302395475,
+        "centered_effective_rank": 225.3322141701412,
+        "centered_participation_rank": 204.51318714477128
+      },
+      "accuracy": 0.885699987411499,
+      "learned_attention_entropy_normalized": 0.9639924764633179
+    },
+    {
+      "variant": "rotated_matched",
+      "seed": 0,
+      "checkpoint_sha256": "aca45e137b3f2281339c01431b343910e46578d0852ee894e58358c4baab0d66",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.0862447873669758,
+        "uncentered_effective_rank": 2.6529140933135498,
+        "uncentered_participation_rank": 1.4147423781898394,
+        "centered_effective_rank": 27.388465992722722,
+        "centered_participation_rank": 9.934515818975466
+      },
+      "accuracy": 0.8841000199317932,
+      "learned_attention_entropy_normalized": 0.8287908434867859
+    },
+    {
+      "variant": "rotated_matched",
+      "seed": 1,
+      "checkpoint_sha256": "72a4c34e87fb668dc28061868852e95b4af239a40ff8f7dd09f5cd263d118ef4",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114948,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697581,
+        "uncentered_effective_rank": 2.6529140933135453,
+        "uncentered_participation_rank": 1.4147423781898387,
+        "centered_effective_rank": 27.388465992722736,
+        "centered_participation_rank": 9.934515818975473
+      },
+      "accuracy": 0.8802000284194946,
+      "learned_attention_entropy_normalized": 0.8319910168647766
+    },
+    {
+      "variant": "rotated_matched",
+      "seed": 2,
+      "checkpoint_sha256": "397c7c32ceeded50c141ee9b603144c5dacb39490d6eb230fca575ce81c1abbe",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114953,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697577,
+        "uncentered_effective_rank": 2.652914093313552,
+        "uncentered_participation_rank": 1.4147423781898392,
+        "centered_effective_rank": 27.38846599272271,
+        "centered_participation_rank": 9.934515818975466
+      },
+      "accuracy": 0.8794999718666077,
+      "learned_attention_entropy_normalized": 0.810543417930603
+    },
+    {
+      "variant": "rotated_matched",
+      "seed": 3,
+      "checkpoint_sha256": "d34e27d5c920057bb9af929c4c1c99428959e3eb0e4bb62cc6d72d28d8d708b8",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114951,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697577,
+        "uncentered_effective_rank": 2.652914093313554,
+        "uncentered_participation_rank": 1.4147423781898398,
+        "centered_effective_rank": 27.388465992722736,
+        "centered_participation_rank": 9.934515818975465
+      },
+      "accuracy": 0.8797000050544739,
+      "learned_attention_entropy_normalized": 0.799676775932312
+    },
+    {
+      "variant": "rotated_matched",
+      "seed": 4,
+      "checkpoint_sha256": "ad6f49536f8560142a07c568f453e7f7458f57f86c8df8c1e60eef5bcfd9569c",
+      "geometry": {
+        "prototypes": 256,
+        "dimension": 1024,
+        "mean_direction_norm": 0.9144716954114949,
+        "mean_pair_cosine": 0.835616358349364,
+        "pair_cosine_std": 0.08624478736697583,
+        "uncentered_effective_rank": 2.6529140933135507,
+        "uncentered_participation_rank": 1.4147423781898396,
+        "centered_effective_rank": 27.38846599272276,
+        "centered_participation_rank": 9.934515818975475
+      },
+      "accuracy": 0.8817999958992004,
+      "learned_attention_entropy_normalized": 0.8230870366096497
+    }
+  ],
+  "code_sha256": "b6d0710c99c0d8e7f7676617edb735fcc25b269da9bf2a36580bcaf73156d264",
+  "effective_rank": "exp of entropy of normalized nonnegative Gram eigenvalues (squared singular values).",
+  "participation_rank": "trace(Gram)^2 / trace(Gram^2). Centered removes the mean prototype first.",
+  "interpretation": "Random unit vectors also change anisotropy and effective rank. Matching initialization does not isolate semantic alignment from geometry. Rotations preserve within-bank geometry while changing alignment to image coordinates; trainable queries can realign."
+}

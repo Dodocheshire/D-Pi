@@ -1,0 +1,16 @@
+{
+  "checked_at": 1791202142.5542548,
+  "modules": {
+    "pi_experiments/export_major_results.py": "754e18080b32cb6b3435786cfc44c4aa5142c6bbd348448b78540ec4ae12acf5",
+    "pi_experiments/verify_major_results.py": "ba8695c455e663ea443ac57567b2a11bd27c5fca6b753224c01ba4e2940526a8",
+    "pi_experiments/export_concise_results.py": "1ac8acbb6664a4a61e0f1dfa467c3eaacd540cddab6b746f60cc17c4c1183ea9",
+    "pi_experiments/verify_concise_results.py": "6afa3b55f2201780c48432b46949c3db414ab036f09c2134dfe9b994d466351b",
+    "pi_experiments/verify_concept_case.py": "9e00d312c3d2b3d9dcd43364865020bac21c707657e9af448364c91aa4291d55",
+    "pi_experiments/closeout_backbone.py": "c64860a1f3de084bf8cf8f12ff12ee8ca4c643fc53e5b91b79d8ce8f1dc9f794",
+    "pi_experiments/closeout_delivery_notes.py": "6a5c53023750d2830686d84b9cb626631a4ee96148e3051195bcf34d9622fe09",
+    "pi_experiments/background_calibration_diagnostics.py": "7df4e478ecaf0ce66f1dfa78e466bdaabe2737180451fc4709c6b7c740245ae0",
+    "pi_experiments/background_semantic_prewarm.py": "1179839dcfff69111de4863e0b9e19a4552c63745d444a4e63490e68eb2dd0a8",
+    "pi_experiments/background_semantic_uncertainty.py": "bb60bb39a7bb8a46273fd30c6adb3ddeb4f17044544010bc12b841dcf4f51820",
+    "pi_experiments/verify_retrieval_evidence.py": "56baed3be4b097474e4ee37ba8d129679869fa5c8eb501a26f5a7db301e5f3e3"
+  }
+}

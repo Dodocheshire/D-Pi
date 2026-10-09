@@ -1,0 +1,22 @@
+{
+  "completed_at": 1791201779.7635562,
+  "command": [
+    "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python",
+    "-u",
+    "-m",
+    "pi_experiments.backgrounds",
+    "--stage",
+    "evaluate",
+    "--device",
+    "cpu",
+    "--directory",
+    "artifacts/datasets/cub",
+    "--pack",
+    "artifacts/datasets/cub/baseline_k2048_seed0.pt",
+    "--run",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed2"
+  ],
+  "source_sha256": "90ef13e74f59f3b82f8accf87426b567ed7ba0018a28d5728a25d14d1b136a02",
+  "report_sha256": "ce420995f7f41ec0dded418761834baf90dc571c2e779592d469653e1a18ef37",
+  "reason": "Original follower passed this model before raw background report became ready; finish this missing CPU-derived report during bounded closeout."
+}

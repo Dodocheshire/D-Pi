@@ -1,0 +1,13 @@
+{
+  "comparison": "Initialization-matched random bank minus real semantic bank",
+  "accuracy_delta": 0.00358,
+  "ci95": [
+    0.0011000000000000003,
+    0.005940000000000001
+  ],
+  "adaptation_seeds": 5,
+  "test_images": 10000,
+  "draws": 2000,
+  "seed": 731,
+  "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+}

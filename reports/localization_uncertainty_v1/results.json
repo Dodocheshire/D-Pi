@@ -1,0 +1,341 @@
+{
+  "comparisons": [
+    {
+      "metrics": {
+        "grid_attribution": {
+          "delta": 0.006855607387959898,
+          "ci95": [
+            0.006007844259885609,
+            0.007710284902025438
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "grid_max_point": {
+          "delta": 0.013643424231964116,
+          "ci95": [
+            0.010876769071453232,
+            0.016380781843286174
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_attribution": {
+          "delta": 0.004646593871045506,
+          "ci95": [
+            0.003902277160803588,
+            0.005385243522788843
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_max_point": {
+          "delta": 0.014155025673110134,
+          "ci95": [
+            0.011436601980497053,
+            0.01672168541810492
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "part_hit": {
+          "delta": 0.005061372935293228,
+          "ci95": [
+            0.00018052086145376963,
+            0.009862092501932061
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        }
+      },
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "eligible_concepts_per_metric": [
+        28970.0,
+        28970.0,
+        28970.0,
+        28970.0,
+        6599.0
+      ],
+      "protocol": "Paired adaptation seeds and one common image resample. Aggregate eligible-concept numerators over denominators within each resample; zero heatmaps score zero. Fixed clean top-5 targets, grids, part eligibility and visible-support mapping.",
+      "bank": "RN50_GDINO",
+      "control": "clean",
+      "adapted": "pi",
+      "source_sha256": {
+        "clean": [
+          "bc42da486cdb2c6bad1b9c821f1f29a5cdebcb4ff8e3698b4f0371a2e39f6612",
+          "971b67a196a2d4ce94e6f60590c940d8042d69b869cb1638a5bd7bc20abe339f",
+          "3af9e9c23109d07ab93646ace57cf5f5e5ba30a1a5fe31c28223c2f6b4662e46",
+          "77ae61a2fd174530027577196cded92f364ff1e3f0a8570e334ca2fd364fd476",
+          "bae3790b0d6f4c7ea713a2109f8400f1458f0d01f8fb93cf03273dc06da2f1c0"
+        ],
+        "pi": [
+          "0214b89973001768019f9e99647f41c30acf9dfd9c9056818e27a0b01c2be848",
+          "4aac9a7340927ccc3370f2b7490c677e357e6dff9628214b2eb51c08ac0bd3a5",
+          "edf6e836dd379de9ff23cc3a21168833c1c2f983b69e80886b89360555ebd3c9",
+          "c609e391de6dba54fdbc120db6959a07e8df76f6ab3e9edd20cbd78fc7e10f8a",
+          "9a6bda0e96a1b84941f112747559809af0e65261bf36ca3a965906bcaad8e23c"
+        ]
+      },
+      "fixed_targets_sha256": "63d0993d3f79f27e381e44fe8e4815daed3c51bc9274c0d3ee814e1b2f0fd049",
+      "grid_plan_sha256": "3f73795ad5f503bd4a85efeefe4e3086d26b3d595c2650dd299b0f0fa94bda3d",
+      "mapping_sha256": "2788d806bf9007d9385675a2f9ca91d0f8217ffedc1843b75541202003fe8ceb",
+      "code_sha256": "5f378a79cd32bdc08a7a95a4443f66583c563037cc011d30c6280db900dd1533"
+    },
+    {
+      "metrics": {
+        "grid_attribution": {
+          "delta": 0.006855701529882784,
+          "ci95": [
+            0.006007690471618398,
+            0.007710757345924561
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "grid_max_point": {
+          "delta": 0.013643424231964116,
+          "ci95": [
+            0.010876769071453232,
+            0.016380781843286174
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_attribution": {
+          "delta": 0.004646416473282833,
+          "ci95": [
+            0.00390207017429966,
+            0.00538496143647868
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_max_point": {
+          "delta": 0.014155025673110134,
+          "ci95": [
+            0.011448795359423546,
+            0.016724864892561263
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "part_hit": {
+          "delta": 0.005212911047128354,
+          "ci95": [
+            0.0003352041165248191,
+            0.010091122974194898
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        }
+      },
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "eligible_concepts_per_metric": [
+        28970.0,
+        28970.0,
+        28970.0,
+        28970.0,
+        6599.0
+      ],
+      "protocol": "Paired adaptation seeds and one common image resample. Aggregate eligible-concept numerators over denominators within each resample; zero heatmaps score zero. Fixed clean top-5 targets, grids, part eligibility and visible-support mapping.",
+      "bank": "RN50_GDINO",
+      "control": "fixed",
+      "adapted": "pi",
+      "source_sha256": {
+        "fixed": [
+          "deee79476bce050fa659a7979ad6afdf23e95e3e1605587b028c30b969ea930c",
+          "63d9fb16df18d048aa404119a43224cf37fa9c726820f1610d4e8b4cf946dfbf",
+          "a812a7f8f8ecb55a47102afb4c9881cd8ba07ce2c727eb88ddfc44de7927cbf1",
+          "3a43c03c245c8377db5f66933f7f0219d67a4ee85e9810d7db05dccb3cf8c843",
+          "758d1b0967153c1c11df8a29df77f19a07bc11dd4fd73f33e5fd2a1ae5dc51fb"
+        ],
+        "pi": [
+          "0214b89973001768019f9e99647f41c30acf9dfd9c9056818e27a0b01c2be848",
+          "4aac9a7340927ccc3370f2b7490c677e357e6dff9628214b2eb51c08ac0bd3a5",
+          "edf6e836dd379de9ff23cc3a21168833c1c2f983b69e80886b89360555ebd3c9",
+          "c609e391de6dba54fdbc120db6959a07e8df76f6ab3e9edd20cbd78fc7e10f8a",
+          "9a6bda0e96a1b84941f112747559809af0e65261bf36ca3a965906bcaad8e23c"
+        ]
+      },
+      "fixed_targets_sha256": "63d0993d3f79f27e381e44fe8e4815daed3c51bc9274c0d3ee814e1b2f0fd049",
+      "grid_plan_sha256": "3f73795ad5f503bd4a85efeefe4e3086d26b3d595c2650dd299b0f0fa94bda3d",
+      "mapping_sha256": "2788d806bf9007d9385675a2f9ca91d0f8217ffedc1843b75541202003fe8ceb",
+      "code_sha256": "5f378a79cd32bdc08a7a95a4443f66583c563037cc011d30c6280db900dd1533"
+    },
+    {
+      "metrics": {
+        "grid_attribution": {
+          "delta": 1.3631687176850913e-05,
+          "ci95": [
+            -4.420360318888403e-05,
+            7.649037906631739e-05
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "grid_max_point": {
+          "delta": 0.0001397997928891958,
+          "ci95": [
+            -0.00013121332412840866,
+            0.0004193993786675872
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_attribution": {
+          "delta": -4.245455608130226e-05,
+          "ci95": [
+            -0.00014206860426473192,
+            2.4768079405527896e-05
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_max_point": {
+          "delta": -0.00014985869002416292,
+          "ci95": [
+            -0.0004448729288919574,
+            0.00012818217121159803
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "part_hit": {
+          "delta": 6.0615244734050626e-05,
+          "ci95": [
+            -0.0004837754437535081,
+            0.0005825607407107835
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        }
+      },
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "eligible_concepts_per_metric": [
+        28970.0,
+        28970.0,
+        28970.0,
+        28970.0,
+        6599.0
+      ],
+      "protocol": "Paired adaptation seeds and one common image resample. Aggregate eligible-concept numerators over denominators within each resample; zero heatmaps score zero. Fixed clean top-5 targets, grids, part eligibility and visible-support mapping.",
+      "bank": "RN50_GDINO",
+      "control": "mean_only",
+      "adapted": "pi",
+      "source_sha256": {
+        "mean_only": [
+          "ff122b4458fb9bc06c59945733574c3eae7e2b152dd091cca8d23d1e2b9d5015",
+          "bdf451e6eb5858b48440e594c729b4956ad8a483f9e06dbf98cd4fb798022bf0",
+          "314eb7cda6cad51973252e47d5b78b72ca116df973830c1fc89be0bd3aaac0b9",
+          "eb97c219fec042810ff0e5a8c9ac417c35142ae4f6e677322977e3b3e498f689",
+          "ebe4e2a08c9dd758de0557c0a990fa26f4c674904f83cbf8c78d5dc4012301d9"
+        ],
+        "pi": [
+          "0214b89973001768019f9e99647f41c30acf9dfd9c9056818e27a0b01c2be848",
+          "4aac9a7340927ccc3370f2b7490c677e357e6dff9628214b2eb51c08ac0bd3a5",
+          "edf6e836dd379de9ff23cc3a21168833c1c2f983b69e80886b89360555ebd3c9",
+          "c609e391de6dba54fdbc120db6959a07e8df76f6ab3e9edd20cbd78fc7e10f8a",
+          "9a6bda0e96a1b84941f112747559809af0e65261bf36ca3a965906bcaad8e23c"
+        ]
+      },
+      "fixed_targets_sha256": "63d0993d3f79f27e381e44fe8e4815daed3c51bc9274c0d3ee814e1b2f0fd049",
+      "grid_plan_sha256": "3f73795ad5f503bd4a85efeefe4e3086d26b3d595c2650dd299b0f0fa94bda3d",
+      "mapping_sha256": "2788d806bf9007d9385675a2f9ca91d0f8217ffedc1843b75541202003fe8ceb",
+      "code_sha256": "5f378a79cd32bdc08a7a95a4443f66583c563037cc011d30c6280db900dd1533"
+    },
+    {
+      "metrics": {
+        "grid_attribution": {
+          "delta": 1.3691810955879242e-06,
+          "ci95": [
+            -6.563833803567313e-05,
+            7.477578636318499e-05
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "grid_max_point": {
+          "delta": 4.659993096306523e-05,
+          "ci95": [
+            -0.0002313168795305487,
+            0.00032451674145667916
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_attribution": {
+          "delta": -6.794901445873356e-05,
+          "ci95": [
+            -0.00016622077042470306,
+            5.710649634930975e-07
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "foreground_max_point": {
+          "delta": -0.00019667436140835345,
+          "ci95": [
+            -0.0005265684328615812,
+            0.00011610070762858113
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        },
+        "part_hit": {
+          "delta": 3.0307622367025317e-05,
+          "ci95": [
+            -0.0005905225188789096,
+            0.0006348318672081721
+          ],
+          "valid_draws": 2000,
+          "undefined_draws": 0
+        }
+      },
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "eligible_concepts_per_metric": [
+        28970.0,
+        28970.0,
+        28970.0,
+        28970.0,
+        6599.0
+      ],
+      "protocol": "Paired adaptation seeds and one common image resample. Aggregate eligible-concept numerators over denominators within each resample; zero heatmaps score zero. Fixed clean top-5 targets, grids, part eligibility and visible-support mapping.",
+      "bank": "RN50_GDINO",
+      "control": "adapter_matched",
+      "adapted": "pi",
+      "source_sha256": {
+        "adapter_matched": [
+          "58ed297c34e50a72529fc3434762c6f42f3998e3057d90f019581a381400e353",
+          "93d8b423a7baf4621871353894cd38b4b1968bd2d5fac359519350afcb69735d",
+          "a79a1053ac61ae5de6da40fb554322106348589f450aa0def00a4e0da68ed4f6",
+          "745d65cb649fbabd899324d57fac9115e644b29d8ef90abb4cac43a0f540f606",
+          "cc02d4fc4f4da7d72f259e8844437a2f9742c0313b096e725d8c24938291315a"
+        ],
+        "pi": [
+          "0214b89973001768019f9e99647f41c30acf9dfd9c9056818e27a0b01c2be848",
+          "4aac9a7340927ccc3370f2b7490c677e357e6dff9628214b2eb51c08ac0bd3a5",
+          "edf6e836dd379de9ff23cc3a21168833c1c2f983b69e80886b89360555ebd3c9",
+          "c609e391de6dba54fdbc120db6959a07e8df76f6ab3e9edd20cbd78fc7e10f8a",
+          "9a6bda0e96a1b84941f112747559809af0e65261bf36ca3a965906bcaad8e23c"
+        ]
+      },
+      "fixed_targets_sha256": "63d0993d3f79f27e381e44fe8e4815daed3c51bc9274c0d3ee814e1b2f0fd049",
+      "grid_plan_sha256": "3f73795ad5f503bd4a85efeefe4e3086d26b3d595c2650dd299b0f0fa94bda3d",
+      "mapping_sha256": "2788d806bf9007d9385675a2f9ca91d0f8217ffedc1843b75541202003fe8ceb",
+      "code_sha256": "5f378a79cd32bdc08a7a95a4443f66583c563037cc011d30c6280db900dd1533"
+    }
+  ],
+  "limits": "Complete five-seed comparisons only. Descriptive 95% intervals without multiplicity correction, conditional on fixed bank, mapping, concept targets, grid and one MC8 CAM realization. Grid distractor images are shared/reused; image bootstrap conditions on this fixed grid plan and does not resample the source pool or model initialization."
+}

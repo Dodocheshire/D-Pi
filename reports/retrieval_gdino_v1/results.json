@@ -1,0 +1,210 @@
+{
+  "groups": [
+    {
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "precision_at_5_macro": {
+          "mean": 0.22302631962750302,
+          "std": 0.0
+        },
+        "precision_at_5_distinct_images_macro": {
+          "mean": 0.2221491266074672,
+          "std": 3.1031676915590914e-17
+        },
+        "excess_precision_over_chance": {
+          "mean": 0.1633318639255876,
+          "std": 0.0
+        },
+        "evaluated_queries": {
+          "mean": 1824.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "precision_at_5_macro": {
+          "mean": 0.22276316172067534,
+          "std": 0.0002962556286530125
+        },
+        "precision_at_5_distinct_images_macro": {
+          "mean": 0.22195175817530405,
+          "std": 0.0002838197301355207
+        },
+        "excess_precision_over_chance": {
+          "mean": 0.1630687060187599,
+          "std": 0.0002962556286530125
+        },
+        "evaluated_queries": {
+          "mean": 1824.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "precision_at_5_macro": {
+          "mean": 0.22603070558489935,
+          "std": 0.00048170795731512263
+        },
+        "precision_at_5_distinct_images_macro": {
+          "mean": 0.22640351260963237,
+          "std": 0.0004480880940174758
+        },
+        "excess_precision_over_chance": {
+          "mean": 0.16633624988298396,
+          "std": 0.0004817079573151227
+        },
+        "evaluated_queries": {
+          "mean": 1824.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "precision_at_5_macro": {
+          "mean": 0.22605263541142145,
+          "std": 0.000469062494046391
+        },
+        "precision_at_5_distinct_images_macro": {
+          "mean": 0.22642544243615448,
+          "std": 0.0004385964972530715
+        },
+        "excess_precision_over_chance": {
+          "mean": 0.16635817970950603,
+          "std": 0.000469062494046391
+        },
+        "evaluated_queries": {
+          "mean": 1824.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "precision_at_5_macro": {
+          "mean": 0.22618421435421499,
+          "std": 0.0007730068784872245
+        },
+        "precision_at_5_distinct_images_macro": {
+          "mean": 0.2264912319042834,
+          "std": 0.0007891690467619073
+        },
+        "excess_precision_over_chance": {
+          "mean": 0.16648975865229956,
+          "std": 0.0007730068784872245
+        },
+        "evaluated_queries": {
+          "mean": 1824.0,
+          "std": 0.0
+        }
+      }
+    }
+  ],
+  "pi_paired_comparisons": [
+    {
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "precision_delta": 0.0031578947267119407,
+      "ci95": [
+        0.0025877192828869687,
+        0.0037944078893939986
+      ],
+      "uncertainty": "Paired adaptation seeds only; fixed region pool and prototype queries. Image, region and prototype-building uncertainty not represented."
+    },
+    {
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "precision_delta": 0.003421052633539634,
+      "ci95": [
+        0.002784539467875703,
+        0.004232456151134617
+      ],
+      "uncertainty": "Paired adaptation seeds only; fixed region pool and prototype queries. Image, region and prototype-building uncertainty not represented."
+    },
+    {
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "precision_delta": 0.00015350876931559675,
+      "ci95": [
+        -0.00021929824724792324,
+        0.0004605263210179622
+      ],
+      "uncertainty": "Paired adaptation seeds only; fixed region pool and prototype queries. Image, region and prototype-building uncertainty not represented."
+    },
+    {
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "precision_delta": 0.0001315789427935088,
+      "ci95": [
+        -0.0002192982554174161,
+        0.0004824561475400391
+      ],
+      "uncertainty": "Paired adaptation seeds only; fixed region pool and prototype queries. Image, region and prototype-building uncertainty not represented."
+    }
+  ]
+}

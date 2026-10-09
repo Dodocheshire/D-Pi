@@ -1,0 +1,686 @@
+{
+  "checked_at": 1791202663.6274235,
+  "datasets": {
+    "cifar10": {
+      "split_sizes": {
+        "train": 45000,
+        "val": 5000,
+        "test": 10000
+      },
+      "proposals_complete": 500,
+      "proposals_required": 500,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "cifar100": {
+      "split_sizes": {
+        "train": 45000,
+        "val": 5000,
+        "test": 10000
+      },
+      "proposals_complete": 5000,
+      "proposals_required": 5000,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "cub": {
+      "split_sizes": {
+        "train": 5394,
+        "val": 600,
+        "test": 5794
+      },
+      "proposals_complete": 5394,
+      "proposals_required": 5394,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "cub_background_natural": {
+      "split_sizes": {
+        "train": 5394,
+        "val": 600,
+        "test": 5794
+      },
+      "proposals_complete": 0,
+      "proposals_required": 5394,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "cub_gdino": {
+      "split_sizes": {
+        "train": 5394,
+        "val": 600,
+        "test": 5794
+      },
+      "proposals_complete": 5394,
+      "proposals_required": 5394,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "imagenet": {
+      "split_sizes": {
+        "train": 189000,
+        "val": 21000,
+        "test": 50000
+      },
+      "proposals_complete": 0,
+      "proposals_required": 50000,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    },
+    "imagenet_r": {
+      "split_sizes": {
+        "test": 30000
+      },
+      "proposals_complete": 0,
+      "proposals_required": 0,
+      "feature_files": {
+        "test": true
+      }
+    },
+    "places365": {
+      "split_sizes": {
+        "train": 1623114,
+        "val": 180346,
+        "test": 36500
+      },
+      "proposals_complete": 2400,
+      "proposals_required": 18250,
+      "feature_files": {
+        "train": true,
+        "val": true,
+        "test": true
+      }
+    }
+  },
+  "official_files_verified": 93,
+  "checks_passed": 64,
+  "additional_studies": {
+    "backbone_feature_prewarm_v1": {
+      "pid": 762720,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 3,
+      "source_status": "artifacts/logs/backbone_feature_prewarm_v1/status.json"
+    },
+    "backbone_large_v1": {
+      "pid": 547102,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "ViT-B16_places365_regions",
+      "child_pid": 758248,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/backbone_large_v1/status.json"
+    },
+    "backbone_v1": {
+      "pid": 525558,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "waiting_for_gpu",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 253,
+      "source_status": "artifacts/logs/backbone_v1/status.json"
+    },
+    "background_gdino_v1": {
+      "pid": 519612,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 26,
+      "source_status": "artifacts/logs/background_gdino_v1/status.json"
+    },
+    "background_sam2_v1": {
+      "pid": 523221,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 25,
+      "source_status": "artifacts/logs/background_sam2_v1/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/background/adapter_matched": {
+      "pid": 883193,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/background/adapter_matched/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/background/fixed": {
+      "pid": 883191,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 4,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/background/fixed/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/background/mean_only": {
+      "pid": 883192,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/background/mean_only/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/background/pi": {
+      "pid": 883194,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/background/pi/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/natural_background/adapter_matched": {
+      "pid": 874318,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/natural_background/adapter_matched/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/natural_background/fixed": {
+      "pid": 874316,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/natural_background/fixed/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/natural_background/mean_only": {
+      "pid": 874317,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 5,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/natural_background/mean_only/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_GDINO/natural_background/pi": {
+      "pid": 874319,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 4,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_GDINO/natural_background/pi/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/background/adapter_matched": {
+      "pid": 914696,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/background/adapter_matched/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/background/fixed": {
+      "pid": 925947,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/background/fixed/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/background/mean_only": {
+      "pid": 914695,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/background/mean_only/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/background/pi": {
+      "pid": 923979,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/background/pi/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/natural_background/adapter_matched": {
+      "pid": 914694,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/natural_background/adapter_matched/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/natural_background/fixed": {
+      "pid": 914692,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/natural_background/fixed/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/natural_background/mean_only": {
+      "pid": 914693,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/natural_background/mean_only/status.json"
+    },
+    "background_semantic_prewarm_v1/RN50_SAM2/natural_background/pi": {
+      "pid": 923978,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/background_semantic_prewarm_v1/RN50_SAM2/natural_background/pi/status.json"
+    },
+    "background_semantic_uncertainty_v1": {
+      "pid": 872338,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 75,
+      "source_status": "artifacts/logs/background_semantic_uncertainty_v1/status.json"
+    },
+    "closeout_backbone_v1": {
+      "pid": 909276,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 107,
+      "source_status": "artifacts/logs/closeout_backbone_v1/status.json"
+    },
+    "concept_ablation_v1/cifar10": {
+      "pid": 473428,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 7,
+      "source_status": "artifacts/logs/concept_ablation_v1/cifar10/status.json"
+    },
+    "concept_study_v1/cifar10": {
+      "pid": 502547,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 358,
+      "source_status": "artifacts/logs/concept_study_v1/cifar10/status.json"
+    },
+    "conditioning_v1": {
+      "pid": 506834,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 11,
+      "source_status": "artifacts/logs/conditioning_v1/status.json"
+    },
+    "corruption_prewarm_v1": {
+      "pid": 775176,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/corruption_prewarm_v1/status.json"
+    },
+    "corruption_uncertainty_v1": {
+      "pid": 776032,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 2,
+      "source_status": "artifacts/logs/corruption_uncertainty_v1/status.json"
+    },
+    "gdino_localization_v1": {
+      "pid": 502563,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 30,
+      "source_status": "artifacts/logs/gdino_localization_v1/status.json"
+    },
+    "gdino_v1": {
+      "pid": 488893,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 105,
+      "source_status": "artifacts/logs/gdino_v1/status.json"
+    },
+    "head_sparsity_v1": {
+      "pid": 510804,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 10,
+      "source_status": "artifacts/logs/head_sparsity_v1/status.json"
+    },
+    "imagenet_r_data_v1": {
+      "pid": 504158,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/imagenet_r_data_v1/status.json"
+    },
+    "internal_v1": {
+      "pid": 475919,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 33,
+      "source_status": "artifacts/logs/internal_v1/status.json"
+    },
+    "internal_v2": {
+      "pid": 505731,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 40,
+      "source_status": "artifacts/logs/internal_v2/status.json"
+    },
+    "large_feature_prewarm_v1": {
+      "pid": 759866,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 2,
+      "source_status": "artifacts/logs/large_feature_prewarm_v1/status.json"
+    },
+    "large_manifest_preflight_v1": {
+      "pid": 754157,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 2,
+      "source_status": "artifacts/logs/large_manifest_preflight_v1/status.json"
+    },
+    "large_proposal_prewarm_v1": {
+      "pid": 772068,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "places365_proposals",
+      "child_pid": 772208,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/large_proposal_prewarm_v1/status.json"
+    },
+    "large_v1": {
+      "pid": 507871,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "places365_proposals",
+      "child_pid": 853372,
+      "child_alive": false,
+      "completed_commands": 1,
+      "source_status": "artifacts/logs/large_v1/status.json"
+    },
+    "localization_uncertainty_v1": {
+      "pid": 750955,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "waiting_for_full_test_localization",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/localization_uncertainty_v1/status.json"
+    },
+    "matched_nec_v2": {
+      "pid": 591995,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 10,
+      "source_status": "artifacts/logs/matched_nec_v2/status.json"
+    },
+    "natural_background_gdino_v1": {
+      "pid": 544696,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 25,
+      "source_status": "artifacts/logs/natural_background_gdino_v1/status.json"
+    },
+    "natural_background_sam2_v1": {
+      "pid": 544786,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 25,
+      "source_status": "artifacts/logs/natural_background_sam2_v1/status.json"
+    },
+    "noise_branch_evidence_v1": {
+      "pid": 782905,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 30,
+      "source_status": "artifacts/logs/noise_branch_evidence_v1/status.json"
+    },
+    "postprocess_v1": {
+      "pid": 467806,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "cub_adapter_matched_seed4_localization",
+      "child_pid": 890179,
+      "child_alive": false,
+      "completed_commands": 80,
+      "source_status": "artifacts/logs/postprocess_v1/status.json"
+    },
+    "proximal_sparsity_v1": {
+      "pid": 554870,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 10,
+      "source_status": "artifacts/logs/proximal_sparsity_v1/status.json"
+    },
+    "proximal_sparsity_v2": {
+      "pid": 575803,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 10,
+      "source_status": "artifacts/logs/proximal_sparsity_v2/status.json"
+    },
+    "rendition_backbones_v1": {
+      "pid": 550019,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "waiting_for_vit_imagenet_models",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/rendition_backbones_v1/status.json"
+    },
+    "rendition_eval_v1": {
+      "pid": 512853,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "upstream_failed",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 0,
+      "source_status": "artifacts/logs/rendition_eval_v1/status.json"
+    },
+    "retrieval_gdino_v1": {
+      "pid": 532219,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 25,
+      "source_status": "artifacts/logs/retrieval_gdino_v1/status.json"
+    },
+    "retrieval_sam2_v1": {
+      "pid": 532305,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 25,
+      "source_status": "artifacts/logs/retrieval_sam2_v1/status.json"
+    },
+    "rotation_conditioning_v1": {
+      "pid": 564811,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 11,
+      "source_status": "artifacts/logs/rotation_conditioning_v1/status.json"
+    },
+    "sampling_budget_v1": {
+      "pid": 559026,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "upstream_failed",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 35,
+      "source_status": "artifacts/logs/sampling_budget_v1/status.json"
+    },
+    "semantic_uncertainty_v1": {
+      "pid": 605127,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "waiting_for_visible_semantic_reports",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 105,
+      "source_status": "artifacts/logs/semantic_uncertainty_v1/status.json"
+    },
+    "sparse_capacity_v1": {
+      "pid": 742129,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 30,
+      "source_status": "artifacts/logs/sparse_capacity_v1/status.json"
+    },
+    "study_v1": {
+      "pid": 467383,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "complete",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 500,
+      "source_status": "artifacts/logs/study_v1/status.json"
+    },
+    "visible_semantics_v1": {
+      "pid": 597541,
+      "alive": false,
+      "process_start_ticks": null,
+      "phase": "ViT-B16_SAM2_pi_seed1_attributes",
+      "child_pid": null,
+      "child_alive": false,
+      "completed_commands": 205,
+      "source_status": "artifacts/logs/visible_semantics_v1/status.json"
+    }
+  },
+  "cub_annotations": {
+    "attributes": 312,
+    "parts": 15,
+    "primary_min_certainty": 3,
+    "sensitivity_min_certainties": [
+      2,
+      4
+    ]
+  }
+}

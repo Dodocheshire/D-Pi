@@ -1,0 +1,926 @@
+{
+  "groups": [
+    {
+      "dataset": "cub",
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6404556393623352,
+          "std": 0.0002250373485845816
+        },
+        "macro_f1": {
+          "mean": 0.6414313096565396,
+          "std": 0.0007479330263119032
+        },
+        "nll": {
+          "mean": 1.3284475326538085,
+          "std": 0.004079448909410519
+        },
+        "ece_15_bins": {
+          "mean": 0.043288489785734505,
+          "std": 0.0018302164262622193
+        },
+        "brier": {
+          "mean": 0.49160109758377074,
+          "std": 0.002026605330576243
+        },
+        "standardized_concept_mse": {
+          "mean": 0.06642937511205674,
+          "std": 0.0031188180994991626
+        },
+        "top5_clean_agreement": {
+          "mean": 0.6533103942871094,
+          "std": 0.006028990812484992
+        },
+        "noise_energy": {
+          "mean": 0.05680902451276779,
+          "std": 0.004002894391427632
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mu_rms": {
+          "mean": 0.23393032252788543,
+          "std": 0.007910021503740459
+        },
+        "sigma_rms": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.9197810292243958,
+          "std": 0.005731990201918003
+        }
+      },
+      "semantic_runs": 5,
+      "semantic_metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5864200037891117,
+          "std": 0.0006646323432358052
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.618681168636747,
+          "std": 0.0003673654275319006
+        },
+        "evaluated_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 157.0,
+          "std": 0.0
+        }
+      },
+      "localization_runs": 5,
+      "localization_metrics": {
+        "relative_attribution": {
+          "mean": 0.416930551438117,
+          "std": 0.0002958109511511183
+        },
+        "max_point_accuracy": {
+          "mean": 0.5825043148084225,
+          "std": 0.0007533166181633044
+        },
+        "quadrant_gini_normalized": {
+          "mean": 0.41627556138822436,
+          "std": 0.0004988293772036209
+        }
+      },
+      "localization_valid_coverage": 0.9766862271315153
+    },
+    {
+      "dataset": "cub",
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.5944080352783203,
+          "std": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.5945125043928299,
+          "std": 0.0
+        },
+        "nll": {
+          "mean": 1.5069959163665771,
+          "std": 0.0
+        },
+        "ece_15_bins": {
+          "mean": 0.014978634252403205,
+          "std": 1.939479807224432e-18
+        },
+        "brier": {
+          "mean": 0.5448140501976013,
+          "std": 0.0
+        },
+        "standardized_concept_mse": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "top5_clean_agreement": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "noise_energy": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        }
+      },
+      "semantic_runs": 5,
+      "semantic_metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.578192810027354,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6084886825578988,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 157.0,
+          "std": 0.0
+        }
+      },
+      "localization_runs": 5,
+      "localization_metrics": {
+        "relative_attribution": {
+          "mean": 0.410076313231256,
+          "std": 0.0
+        },
+        "max_point_accuracy": {
+          "mean": 0.5689074905074215,
+          "std": 0.0
+        },
+        "quadrant_gini_normalized": {
+          "mean": 0.40933586493513996,
+          "std": 0.0
+        }
+      },
+      "localization_valid_coverage": 0.9753192958232655
+    },
+    {
+      "dataset": "cub",
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.5948567628860474,
+          "std": 0.00043319859829361976
+        },
+        "macro_f1": {
+          "mean": 0.5949035368607384,
+          "std": 0.000457020842771057
+        },
+        "nll": {
+          "mean": 1.5070836067199707,
+          "std": 0.00010023242257086801
+        },
+        "ece_15_bins": {
+          "mean": 0.015642331186877422,
+          "std": 0.0016302366250787112
+        },
+        "brier": {
+          "mean": 0.5448535084724426,
+          "std": 4.987190476504348e-05
+        },
+        "standardized_concept_mse": {
+          "mean": 4.032060533063486e-05,
+          "std": 4.3510043676545697e-07
+        },
+        "top5_clean_agreement": {
+          "mean": 0.989119803905487,
+          "std": 0.0005180615932230187
+        },
+        "noise_energy": {
+          "mean": 9.999996109399945e-05,
+          "std": 0.0
+        },
+        "sampling_top5_stability": {
+          "mean": 0.9720927000045776,
+          "std": 0.00014027992972902358
+        },
+        "concept_sampling_variance": {
+          "mean": 0.00028035645955242216,
+          "std": 1.6259183396194237e-06
+        }
+      },
+      "semantic_runs": 5,
+      "semantic_metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5784914785338421,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6084821223553354,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 157.0,
+          "std": 0.0
+        }
+      },
+      "localization_runs": 5,
+      "localization_metrics": {
+        "relative_attribution": {
+          "mean": 0.4100762190893271,
+          "std": 0.0
+        },
+        "max_point_accuracy": {
+          "mean": 0.5689074905074215,
+          "std": 0.0
+        },
+        "quadrant_gini_normalized": {
+          "mean": 0.4093345316524298,
+          "std": 0.0
+        }
+      },
+      "localization_valid_coverage": 0.9753192958232655
+    },
+    {
+      "dataset": "cub",
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6401449680328369,
+          "std": 0.0002440829365751715
+        },
+        "macro_f1": {
+          "mean": 0.6411000844412447,
+          "std": 0.0008924422488457517
+        },
+        "nll": {
+          "mean": 1.3287335634231567,
+          "std": 0.0040183356316974
+        },
+        "ece_15_bins": {
+          "mean": 0.04319299641562232,
+          "std": 0.002034955538188936
+        },
+        "brier": {
+          "mean": 0.49170867800712587,
+          "std": 0.0019975207870738024
+        },
+        "standardized_concept_mse": {
+          "mean": 0.0660411424934864,
+          "std": 0.0030978618750871953
+        },
+        "top5_clean_agreement": {
+          "mean": 0.654028344154358,
+          "std": 0.005893626095662297
+        },
+        "noise_energy": {
+          "mean": 0.056380116194486615,
+          "std": 0.003954329570286045
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mu_rms": {
+          "mean": 0.23306249976158142,
+          "std": 0.007846518671676354
+        },
+        "sigma_rms": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.9195979118347168,
+          "std": 0.0057829668463509325
+        }
+      },
+      "semantic_runs": 5,
+      "semantic_metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5863113856995795,
+          "std": 0.0006558345787188309
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.618641286608486,
+          "std": 0.00036749513970641567
+        },
+        "evaluated_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 157.0,
+          "std": 0.0
+        }
+      },
+      "localization_runs": 5,
+      "localization_metrics": {
+        "relative_attribution": {
+          "mean": 0.4169182889320348,
+          "std": 0.0002793040056284036
+        },
+        "max_point_accuracy": {
+          "mean": 0.5824111149464963,
+          "std": 0.000757919159275328
+        },
+        "quadrant_gini_normalized": {
+          "mean": 0.41625219911861394,
+          "std": 0.00047397447542369976
+        }
+      },
+      "localization_valid_coverage": 0.9766655160510872
+    },
+    {
+      "dataset": "cub",
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6400068879127503,
+          "std": 0.0006728986277782133
+        },
+        "macro_f1": {
+          "mean": 0.6410240391776284,
+          "std": 0.0008601805772989273
+        },
+        "nll": {
+          "mean": 1.3289027452468871,
+          "std": 0.00400218414204933
+        },
+        "ece_15_bins": {
+          "mean": 0.04322036676095868,
+          "std": 0.002286679754549518
+        },
+        "brier": {
+          "mean": 0.4917482554912567,
+          "std": 0.0020402099465169988
+        },
+        "standardized_concept_mse": {
+          "mean": 0.06610786095261574,
+          "std": 0.0031107100550588954
+        },
+        "top5_clean_agreement": {
+          "mean": 0.6536486625671387,
+          "std": 0.006012926159609463
+        },
+        "noise_energy": {
+          "mean": 0.05664632618427277,
+          "std": 0.0040379900845458035
+        },
+        "sampling_top5_stability": {
+          "mean": 0.9852804899215698,
+          "std": 0.00024632973808248255
+        },
+        "concept_sampling_variance": {
+          "mean": 8.968768524937331e-05,
+          "std": 3.211895769458631e-06
+        },
+        "mu_rms": {
+          "mean": 0.23340598344802857,
+          "std": 0.008015486757900233
+        },
+        "sigma_rms": {
+          "mean": 0.010438624955713748,
+          "std": 0.0001037402782273826
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.9198235630989074,
+          "std": 0.005684459609415119
+        }
+      },
+      "semantic_runs": 5,
+      "semantic_metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5862763580281504,
+          "std": 0.0009124309597336759
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6186334913235138,
+          "std": 0.00038021676066939
+        },
+        "evaluated_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 157.0,
+          "std": 0.0
+        }
+      },
+      "localization_runs": 5,
+      "localization_metrics": {
+        "relative_attribution": {
+          "mean": 0.4169319206192149,
+          "std": 0.00024399704784134612
+        },
+        "max_point_accuracy": {
+          "mean": 0.5825509147393857,
+          "std": 0.0007198621335616714
+        },
+        "quadrant_gini_normalized": {
+          "mean": 0.4162530064894705,
+          "std": 0.00040357731110338385
+        }
+      },
+      "localization_valid_coverage": 0.9767000345184673
+    }
+  ],
+  "pi_paired_comparisons": [
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.04590956161546427,
+      "ci95": [
+        0.0381429064549534,
+        0.05419399378667587
+      ],
+      "draws": 2000,
+      "wins": 425,
+      "losses": 159
+    },
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.04487400759406282,
+      "ci95": [
+        0.03710735243355195,
+        0.052813255091473936
+      ],
+      "draws": 2000,
+      "wins": 413,
+      "losses": 153
+    },
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.04625474628926476,
+      "ci95": [
+        0.038833275802554364,
+        0.05419399378667587
+      ],
+      "draws": 2000,
+      "wins": 404,
+      "losses": 136
+    },
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.046082153952364514,
+      "ci95": [
+        0.037970314118053156,
+        0.05384880911287539
+      ],
+      "draws": 2000,
+      "wins": 409,
+      "losses": 142
+    },
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.04487400759406282,
+      "ci95": [
+        0.03710735243355195,
+        0.05298584742837418
+      ],
+      "draws": 2000,
+      "wins": 413,
+      "losses": 153
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.04590956161546427,
+      "ci95": [
+        0.038311183983431134,
+        0.05419399378667587
+      ],
+      "draws": 2000,
+      "wins": 426,
+      "losses": 160
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0443562305833621,
+      "ci95": [
+        0.03658526061442872,
+        0.052295478080773214
+      ],
+      "draws": 2000,
+      "wins": 412,
+      "losses": 155
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.04539178460476355,
+      "ci95": [
+        0.03779772178115292,
+        0.0531627545736969
+      ],
+      "draws": 2000,
+      "wins": 399,
+      "losses": 136
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.046082153952364514,
+      "ci95": [
+        0.0381429064549534,
+        0.05384880911287539
+      ],
+      "draws": 2000,
+      "wins": 409,
+      "losses": 142
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.04401104590956161,
+      "ci95": [
+        0.03624439074905074,
+        0.05195029340697273
+      ],
+      "draws": 2000,
+      "wins": 411,
+      "losses": 156
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0010355540214014498,
+        0.0010355540214014498
+      ],
+      "draws": 2000,
+      "wins": 5,
+      "losses": 5
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": -0.0006903693476009665,
+      "ci95": [
+        -0.0018985157059026579,
+        0.00034518467380048324
+      ],
+      "draws": 2000,
+      "wins": 3,
+      "losses": 7
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.00034518467380048324,
+      "ci95": [
+        -0.0010355540214014498,
+        0.0017259233690024164
+      ],
+      "draws": 2000,
+      "wins": 9,
+      "losses": 7
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.00017259233690024162,
+      "ci95": [
+        -0.0008629616845012082,
+        0.0012081463583016915
+      ],
+      "draws": 2000,
+      "wins": 5,
+      "losses": 4
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": -0.0005177770107007249,
+      "ci95": [
+        -0.0015533310321021747,
+        0.0005177770107007249
+      ],
+      "draws": 2000,
+      "wins": 3,
+      "losses": 6
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0012081463583016915,
+        0.0012081463583016915
+      ],
+      "draws": 2000,
+      "wins": 6,
+      "losses": 6
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": -0.0010355540214014498,
+      "ci95": [
+        -0.0022437003797031413,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 8
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": -0.00017259233690024162,
+      "ci95": [
+        -0.001380738695201933,
+        0.0010355540214014498
+      ],
+      "draws": 2000,
+      "wins": 7,
+      "losses": 8
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0012081463583016915,
+        0.0010355540214014498
+      ],
+      "draws": 2000,
+      "wins": 5,
+      "losses": 5
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": -0.0010355540214014498,
+      "ci95": [
+        -0.0022437003797031413,
+        0.00017259233690024162
+      ],
+      "draws": 2000,
+      "wins": 3,
+      "losses": 9
+    }
+  ],
+  "pi_stochastic_vs_mean": [
+    {
+      "dataset": "cub",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": 4.8160552978515625e-05,
+      "ece_delta": 0.00012263825005200124,
+      "accuracy_delta": -0.00017259233690024162,
+      "ci95": [
+        -0.0010355540214014498,
+        0.0005177770107007249
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 3
+    },
+    {
+      "dataset": "cub",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": 8.344650268554688e-05,
+      "ece_delta": 0.0006308415908723441,
+      "accuracy_delta": -0.0006903693476009665,
+      "ci95": [
+        -0.0017259233690024164,
+        0.00017259233690024162
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 6
+    },
+    {
+      "dataset": "cub",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -2.2292137145996094e-05,
+      "ece_delta": -6.029793031508274e-05,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0006903693476009665,
+        0.0006903693476009665
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 2
+    },
+    {
+      "dataset": "cub",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -3.731250762939453e-05,
+      "ece_delta": -0.000543732850101182,
+      "accuracy_delta": 0.0005177770107007249,
+      "ci95": [
+        -0.00017259233690024162,
+        0.001380738695201933
+      ],
+      "draws": 2000,
+      "wins": 4,
+      "losses": 1
+    },
+    {
+      "dataset": "cub",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -3.0517578125e-05,
+      "ece_delta": 0.00012047817055336335,
+      "accuracy_delta": -0.00017259233690024162,
+      "ci95": [
+        -0.0008672764929237139,
+        0.0005177770107007249
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 3
+    }
+  ],
+  "pi_hierarchical_comparisons": [
+    {
+      "dataset": "cub",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.04559889540904384,
+      "ci95": [
+        0.03838194684156023,
+        0.052813255091473936
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cub",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.04515015533310321,
+      "ci95": [
+        0.03783137728684846,
+        0.052401622367966846
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cub",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0001380738695201933,
+      "ci95": [
+        -0.0008629616845012082,
+        0.0006213324128408698
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cub",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00044874007594062823,
+      "ci95": [
+        -0.001277183293061788,
+        0.0003797031411805315
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cub",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00010355540214014498,
+      "ci95": [
+        -0.0006903693476009665,
+        0.0005177770107007249
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    }
+  ]
+}

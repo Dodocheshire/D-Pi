@@ -1,0 +1,1447 @@
+{
+  "bank": "RN50_SAM2",
+  "version": "background",
+  "groups": {
+    "clean": {
+      "identity": {
+        "balanced_accuracy": {
+          "mean": 0.6058678151421102,
+          "std": 0.0
+        },
+        "auroc": {
+          "mean": 0.642052465899928,
+          "std": 0.0
+        }
+      },
+      "gray": {
+        "balanced_accuracy": {
+          "mean": 0.5366733185103627,
+          "std": 0.0
+        },
+        "auroc": {
+          "mean": 0.6456172158222444,
+          "std": 0.0
+        }
+      },
+      "train_background_17": {
+        "balanced_accuracy": {
+          "mean": 0.5699593945822171,
+          "std": 0.0
+        },
+        "auroc": {
+          "mean": 0.6202917526202214,
+          "std": 0.0
+        }
+      },
+      "train_background_29": {
+        "balanced_accuracy": {
+          "mean": 0.5697279445137153,
+          "std": 0.0
+        },
+        "auroc": {
+          "mean": 0.6201201425797749,
+          "std": 0.0
+        }
+      },
+      "train_background_43": {
+        "balanced_accuracy": {
+          "mean": 0.5694028843715875,
+          "std": 0.0
+        },
+        "auroc": {
+          "mean": 0.619362594095643,
+          "std": 0.0
+        }
+      }
+    },
+    "fixed": {
+      "identity": {
+        "balanced_accuracy": {
+          "mean": 0.6061817109472355,
+          "std": 0.00010811086736247317
+        },
+        "auroc": {
+          "mean": 0.6420511619291769,
+          "std": 6.196812329970948e-06
+        }
+      },
+      "gray": {
+        "balanced_accuracy": {
+          "mean": 0.536817937884679,
+          "std": 4.6733394383079364e-05
+        },
+        "auroc": {
+          "mean": 0.6456159697296139,
+          "std": 7.963680006994934e-06
+        }
+      },
+      "train_background_17": {
+        "balanced_accuracy": {
+          "mean": 0.5706833163430091,
+          "std": 0.00010626606714358864
+        },
+        "auroc": {
+          "mean": 0.6202940094872849,
+          "std": 1.1696015304130082e-05
+        }
+      },
+      "train_background_29": {
+        "balanced_accuracy": {
+          "mean": 0.570729240050917,
+          "std": 3.295394440656489e-05
+        },
+        "auroc": {
+          "mean": 0.6201196009056635,
+          "std": 7.1225530104154584e-06
+        }
+      },
+      "train_background_43": {
+        "balanced_accuracy": {
+          "mean": 0.5702453046260935,
+          "std": 6.001462396021314e-05
+        },
+        "auroc": {
+          "mean": 0.6193574962796695,
+          "std": 4.591866369818556e-06
+        }
+      }
+    },
+    "mean_only": {
+      "identity": {
+        "balanced_accuracy": {
+          "mean": 0.6113732992122771,
+          "std": 0.0005290126029951988
+        },
+        "auroc": {
+          "mean": 0.6479477176349014,
+          "std": 0.0004703484519193002
+        }
+      },
+      "gray": {
+        "balanced_accuracy": {
+          "mean": 0.5451527939607017,
+          "std": 0.0011449222622566208
+        },
+        "auroc": {
+          "mean": 0.6525354754444501,
+          "std": 0.0005862503432603596
+        }
+      },
+      "train_background_17": {
+        "balanced_accuracy": {
+          "mean": 0.57720412708813,
+          "std": 0.0005277102391032587
+        },
+        "auroc": {
+          "mean": 0.6283832172392084,
+          "std": 0.0006658161878288538
+        }
+      },
+      "train_background_29": {
+        "balanced_accuracy": {
+          "mean": 0.576548667793695,
+          "std": 0.0006649227481127165
+        },
+        "auroc": {
+          "mean": 0.6279953215289067,
+          "std": 0.0006613485574328227
+        }
+      },
+      "train_background_43": {
+        "balanced_accuracy": {
+          "mean": 0.5760228596910496,
+          "std": 0.0006896462372933925
+        },
+        "auroc": {
+          "mean": 0.6275614541157113,
+          "std": 0.0006513555443375904
+        }
+      }
+    },
+    "adapter_matched": {
+      "identity": {
+        "balanced_accuracy": {
+          "mean": 0.611446915298545,
+          "std": 0.0004614756644312548
+        },
+        "auroc": {
+          "mean": 0.6479703798612667,
+          "std": 0.0004701190246307305
+        }
+      },
+      "gray": {
+        "balanced_accuracy": {
+          "mean": 0.5452148402561514,
+          "std": 0.0011710240506596346
+        },
+        "auroc": {
+          "mean": 0.6525624434713161,
+          "std": 0.0005852176304233692
+        }
+      },
+      "train_background_17": {
+        "balanced_accuracy": {
+          "mean": 0.5773139178825065,
+          "std": 0.00046583784968817586
+        },
+        "auroc": {
+          "mean": 0.6284150005220808,
+          "std": 0.0006640972707476574
+        }
+      },
+      "train_background_29": {
+        "balanced_accuracy": {
+          "mean": 0.5767101121555284,
+          "std": 0.0006915237881569244
+        },
+        "auroc": {
+          "mean": 0.6280265575270193,
+          "std": 0.0006604612240797233
+        }
+      },
+      "train_background_43": {
+        "balanced_accuracy": {
+          "mean": 0.5761630012794164,
+          "std": 0.0006447298801235502
+        },
+        "auroc": {
+          "mean": 0.6275944485100451,
+          "std": 0.0006505786666683121
+        }
+      }
+    },
+    "pi": {
+      "identity": {
+        "balanced_accuracy": {
+          "mean": 0.6114751282092262,
+          "std": 0.000514590518653882
+        },
+        "auroc": {
+          "mean": 0.6479561195956719,
+          "std": 0.00047295286000364925
+        }
+      },
+      "gray": {
+        "balanced_accuracy": {
+          "mean": 0.545127391164318,
+          "std": 0.0010550507751680848
+        },
+        "auroc": {
+          "mean": 0.6525355078393031,
+          "std": 0.0005866344048334978
+        }
+      },
+      "train_background_17": {
+        "balanced_accuracy": {
+          "mean": 0.5772205245422473,
+          "std": 0.0005703259052956649
+        },
+        "auroc": {
+          "mean": 0.6283881050504336,
+          "std": 0.0006652832175569506
+        }
+      },
+      "train_background_29": {
+        "balanced_accuracy": {
+          "mean": 0.5766332235748756,
+          "std": 0.0007272984116126006
+        },
+        "auroc": {
+          "mean": 0.627997601505386,
+          "std": 0.0006582918470796909
+        }
+      },
+      "train_background_43": {
+        "balanced_accuracy": {
+          "mean": 0.5760576824189728,
+          "std": 0.0006944963216502468
+        },
+        "auroc": {
+          "mean": 0.6275634600518384,
+          "std": 0.0006498032789488896
+        }
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "case": "identity",
+      "control": "clean",
+      "semantic": {
+        "balanced_accuracy_delta": 0.005607313067116142,
+        "ci95": [
+          0.004576266269919753,
+          0.0066618504232401204
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.023023817742492233,
+        "ci95": [
+          0.01667241974456334,
+          0.029582326544701415
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "identity",
+      "control": "fixed",
+      "semantic": {
+        "balanced_accuracy_delta": 0.005293417261990667,
+        "ci95": [
+          0.00431127530546578,
+          0.0063135519907571115
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.023161891612012427,
+        "ci95": [
+          0.016775112185018985,
+          0.029617707973765964
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "identity",
+      "control": "mean_only",
+      "semantic": {
+        "balanced_accuracy_delta": 0.00010182899694917267,
+        "ci95": [
+          -6.802083754713911e-05,
+          0.0002836117251615199
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0003106662064204349,
+        "ci95": [
+          -0.0011045909561615466,
+          0.00041422160856057996
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "identity",
+      "control": "adapter_matched",
+      "semantic": {
+        "balanced_accuracy_delta": 2.8212910681457203e-05,
+        "ci95": [
+          -0.00015035070130464044,
+          0.00019461317856407585
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0004142216085605799,
+        "ci95": [
+          -0.001139109423541595,
+          0.0002770107007248832
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "identity",
+      "control": "same_checkpoint_mean",
+      "semantic": {
+        "balanced_accuracy_delta": 2.9784543321790158e-05,
+        "ci95": [
+          -5.294904053581097e-05,
+          0.00010529400551736238
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.00017259233690024162,
+        "ci95": [
+          -0.00037970314118053163,
+          0.0006903693476009665
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "gray",
+      "control": "clean",
+      "semantic": {
+        "balanced_accuracy_delta": 0.008454072653955208,
+        "ci95": [
+          0.007383809540800665,
+          0.009635423185925555
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.05025888850535036,
+        "ci95": [
+          0.04373489817052124,
+          0.056956334138764234
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "gray",
+      "control": "fixed",
+      "semantic": {
+        "balanced_accuracy_delta": 0.008309453279638843,
+        "ci95": [
+          0.007248775463058598,
+          0.009508701480932765
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.050396962374870555,
+        "ci95": [
+          0.04407749395926821,
+          0.05698998964445978
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "gray",
+      "control": "mean_only",
+      "semantic": {
+        "balanced_accuracy_delta": -2.540279638391025e-05,
+        "ci95": [
+          -0.00024071179157882417,
+          0.00017106651425522688
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.0001380738695201933,
+        "ci95": [
+          -0.0004832585433206765,
+          0.0007939247497411114
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "gray",
+      "control": "adapter_matched",
+      "semantic": {
+        "balanced_accuracy_delta": -8.744909183344578e-05,
+        "ci95": [
+          -0.0003360505189353011,
+          0.00012882394077397958
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0002761477390403866,
+        "ci95": [
+          -0.0009319986192613048,
+          0.00034518467380048324
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "gray",
+      "control": "same_checkpoint_mean",
+      "semantic": {
+        "balanced_accuracy_delta": 1.6003900718617252e-06,
+        "ci95": [
+          -8.689825827964539e-05,
+          9.87576409707797e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.00010355540214014498,
+        "ci95": [
+          -0.00044874007594062823,
+          0.0006903693476009665
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_17",
+      "control": "clean",
+      "semantic": {
+        "balanced_accuracy_delta": 0.007261129960030096,
+        "ci95": [
+          0.006217514445909,
+          0.00827159472027595
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.03130824991370383,
+        "ci95": [
+          0.024646185709354507,
+          0.038211943389713496
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_17",
+      "control": "fixed",
+      "semantic": {
+        "balanced_accuracy_delta": 0.006537208199238342,
+        "ci95": [
+          0.00553377461660353,
+          0.007514798005976568
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.031204694511563685,
+        "ci95": [
+          0.02467984121505005,
+          0.03810925094925785
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_17",
+      "control": "mean_only",
+      "semantic": {
+        "balanced_accuracy_delta": 1.639745411734303e-05,
+        "ci95": [
+          -0.00015585300072082353,
+          0.00020210842255486176
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0005868139454608216,
+        "ci95": [
+          -0.0013816016568864342,
+          0.00017259233690024162
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_17",
+      "control": "adapter_matched",
+      "semantic": {
+        "balanced_accuracy_delta": -9.339334025935714e-05,
+        "ci95": [
+          -0.0002687141693407952,
+          7.375494697076545e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0005522954780807732,
+        "ci95": [
+          -0.0013117017604418364,
+          0.00017259233690024162
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_17",
+      "control": "same_checkpoint_mean",
+      "semantic": {
+        "balanced_accuracy_delta": -3.26879741010635e-05,
+        "ci95": [
+          -0.00011110529991901725,
+          4.4506389284801135e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0003797031411805316,
+        "ci95": [
+          -0.0010010355540214016,
+          0.0002416292716603383
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_29",
+      "control": "clean",
+      "semantic": {
+        "balanced_accuracy_delta": 0.006905279061160185,
+        "ci95": [
+          0.005819535017351156,
+          0.008011582193981038
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.03054884363134277,
+        "ci95": [
+          0.02374611667241975,
+          0.03738436313427683
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_29",
+      "control": "fixed",
+      "semantic": {
+        "balanced_accuracy_delta": 0.005903983523958587,
+        "ci95": [
+          0.004820660648997763,
+          0.007010536399891403
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.030686917500862963,
+        "ci95": [
+          0.023745253710735242,
+          0.03766051087331722
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_29",
+      "control": "mean_only",
+      "semantic": {
+        "balanced_accuracy_delta": 8.455578118066567e-05,
+        "ci95": [
+          -0.00011818882432273425,
+          0.0003551964164759206
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.0001380738695201933,
+        "ci95": [
+          -0.000759406282361063,
+          0.0004832585433206765
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_29",
+      "control": "adapter_matched",
+      "semantic": {
+        "balanced_accuracy_delta": -7.688858065280206e-05,
+        "ci95": [
+          -0.00023097708226943572,
+          8.356289887546245e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -0.00017259233690024162,
+        "ci95": [
+          -0.0007939247497411116,
+          0.00044874007594062823
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_29",
+      "control": "same_checkpoint_mean",
+      "semantic": {
+        "balanced_accuracy_delta": -6.397568475498395e-06,
+        "ci95": [
+          -9.217046280255316e-05,
+          6.701950634078048e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.0001380738695201933,
+        "ci95": [
+          -0.0003797031411805315,
+          0.0006558508802209182
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_43",
+      "control": "clean",
+      "semantic": {
+        "balanced_accuracy_delta": 0.006654798047385257,
+        "ci95": [
+          0.005698565536548416,
+          0.007776852618989313
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.0277873662409389,
+        "ci95": [
+          0.021401449775629966,
+          0.034725578184328615
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_43",
+      "control": "fixed",
+      "semantic": {
+        "balanced_accuracy_delta": 0.0058123777928793165,
+        "ci95": [
+          0.004839076803906845,
+          0.0068779551348896305
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 0.027545736969278565,
+        "ci95": [
+          0.021261649982740764,
+          0.03441663790127718
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_43",
+      "control": "mean_only",
+      "semantic": {
+        "balanced_accuracy_delta": 3.4822727923212714e-05,
+        "ci95": [
+          -0.00017174165644822412,
+          0.00028735908730946093
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -3.451846738004832e-05,
+        "ci95": [
+          -0.0006558508802209182,
+          0.0005868139454608216
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_43",
+      "control": "adapter_matched",
+      "semantic": {
+        "balanced_accuracy_delta": -0.0001053188604435886,
+        "ci95": [
+          -0.00029182257760572444,
+          6.960577758566583e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": -6.903693476009665e-05,
+        "ci95": [
+          -0.0006903693476009665,
+          0.0005522954780807733
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    },
+    {
+      "case": "train_background_43",
+      "control": "same_checkpoint_mean",
+      "semantic": {
+        "balanced_accuracy_delta": -7.803029553985313e-06,
+        "ci95": [
+          -9.844392186730857e-05,
+          9.147467669485839e-05
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "attributes": 161,
+        "draws": 2000,
+        "valid_draws": 2000,
+        "undefined_draws": 0,
+        "seed": 731,
+        "minimum_positive_samples": 58,
+        "minimum_negative_samples": 569,
+        "protocol": "Paired adaptation seeds and one common image resample; fixed validation thresholds, semantic mapping and attribute cohort. Balanced accuracy normalizes the positive and negative classes separately.",
+        "undefined_policy": "Discard a replicate if either class is absent for any fixed evaluated attribute; disclose the count rather than changing its attribute cohort."
+      },
+      "task": {
+        "accuracy_delta": 6.903693476009665e-05,
+        "ci95": [
+          -0.0004150845702450811,
+          0.0006221953745253664
+        ],
+        "adaptation_seeds": 5,
+        "test_images": 5794,
+        "draws": 2000,
+        "seed": 731,
+        "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+      }
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "case_order": [
+    "identity",
+    "gray",
+    "train_background_17",
+    "train_background_29",
+    "train_background_43"
+  ],
+  "test_images": 5794,
+  "evaluated_attributes": 161,
+  "attribute_ids": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    44,
+    45,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    63,
+    64,
+    66,
+    68,
+    69,
+    70,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    109,
+    110,
+    111,
+    113,
+    115,
+    116,
+    117,
+    118,
+    119,
+    121,
+    125,
+    126,
+    127,
+    131,
+    132,
+    133,
+    134,
+    145,
+    146,
+    147,
+    149,
+    150,
+    151,
+    152,
+    153,
+    156,
+    157,
+    158,
+    159,
+    163,
+    164,
+    182,
+    183,
+    184,
+    187,
+    188,
+    189,
+    190,
+    192,
+    193,
+    194,
+    195,
+    196,
+    203,
+    209,
+    212,
+    213,
+    214,
+    215,
+    216,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    245,
+    247,
+    263,
+    264,
+    268,
+    269,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    283,
+    284,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    298,
+    299,
+    300,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311
+  ],
+  "prediction_sha256": {
+    "clean": [
+      "09068fc2f8c0a9346ac1ffb0d687438e3cb34572d03af63a076ad1b195f8d680",
+      "7bf54cb6dcf49025b655b96745ba1e3df0cb26bed4b46cf618199946dc2924e5",
+      "5b748d498129cbd927784f82bd2b417c390e2850bab61c28546b580892e7740d",
+      "0ad8883baba2d1f3b785455ccf665ea4780fce96506dd177565f1ff14b3e8107",
+      "2715f97d8b4239037751ef4896bb4f461113c43268d594b0f79a4802b00d00d8"
+    ],
+    "fixed": [
+      "9ffb511c3fcdfe6905cee4753c1291b74cd9806b7864902673379c426b324e22",
+      "5d7d47b141f197be7c0f1f06bb20050bfe7798d22022a14123892748018fe30f",
+      "f29bc365ef00c26ae126e305a4385dd5602cbacc1f39a7f347bbac6e05d3bdd8",
+      "25828bac046b74c565491828d17c9ad31b3247be28c8ed9b128d7ba2ceabb2d5",
+      "68175015a21a60d3f6cfdd534e6adcb71b78068b2d93241f077a2fa3a50522e2"
+    ],
+    "mean_only": [
+      "8c217ecca771989f4222624e6ea70285a10996eb6a0e2e5f5c226d57ccd5cd72",
+      "f12132dfaa6faa781c265a1f9a64c9b5425beef9f6e8e21be1b896571cc312ec",
+      "df0af61efed5fdfbc2e3705106e28bf6071c87028dcb0e61f566b895b433aff3",
+      "ff5139ab46d5359b4b20a051ac001ac790d447d91bb8aab814764f58117810cd",
+      "26729b9cd9009b2dcf54be141efed53f800805eeee42b17078a4262ec22a300f"
+    ],
+    "adapter_matched": [
+      "cdab6a8f812b48a6cd447b994d810990b52b8f52df6f00139caf6bd450e2d727",
+      "21cf4632a513eaae708e9572aef326f731a2b1edcb81f3e5dc0b2c031f60cb3a",
+      "2a7bdf364384fff2da1d5299f07c1c1f199835b0435bd98761f4e3f203f4bb2e",
+      "2169629d156d1c4271c466c21c6bbe12f07769e0871a489aa7270206eb862890",
+      "827bf2154880ed3bbe176f62fb45cf1ef6ecafad73ab788d7f58a6684fe33c89"
+    ],
+    "pi": [
+      "6730c9206835e51c05210508a519affdf9ce3896899f002323649cfb9994abd1",
+      "513fbb71dadab9bf387b4fa82e3f3f3535c05fe145b572f0a6f9ed7594be8d8a",
+      "24a60972cf2b88a1a66d680da2610d8a3fda5bf24ae0d482281095029aaa72df",
+      "e923a52364404b57dab36d11b2d263314eddca1040e01ad65f9e70b6607b0317",
+      "04b1fcca99676e5e228a35e156e2329d11d12f3b89b81c9694ee130573635be7"
+    ]
+  },
+  "source_sha256": {
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed0/model.pt": "21bc72db27c3f3ce5ce891a892fd1e517ccd99844a443e1f8f46b880be0b52d8",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed0/backgrounds.json": "08f6aab5a147fc61c689ca4f2014c477ce2d44c65fe46d5e603154e0245a3314",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed0/background_predictions.pt": "312d8a91111ef215ae6ee0954bf2afeceb075960b5d1169dad3292e089fb3f91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed0/cub_concepts.json": "1ac0141ea9d179d0a1b694074963a539b1671dda2ca35fb6247792141da89d34",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed1/model.pt": "d20dfbb15c9ccd21815fb5e9b7a3779b7944eaea6ecde14873d12abbd635ee91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed1/backgrounds.json": "329997b42db09d62ec23f6fef2c6b58f02574ca463bcce12e08245f3e53dae43",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed1/background_predictions.pt": "312d8a91111ef215ae6ee0954bf2afeceb075960b5d1169dad3292e089fb3f91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed1/cub_concepts.json": "41a4f2ceb3bf0537d820b26108872f6c832a0634454670c94f005c0885b35808",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed2/model.pt": "367a539edae1e92b59721ce5b4cdcb3e7a8853dd7d578579f4258b6027ac860b",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed2/backgrounds.json": "893e6114a3195667860369950c4e072de14c35d03b9fc3b3881023ba587c966c",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed2/background_predictions.pt": "312d8a91111ef215ae6ee0954bf2afeceb075960b5d1169dad3292e089fb3f91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed2/cub_concepts.json": "e4a95bcecd7daca6e6b073888eadca0890e97812ab68ca3201185b1c239ec129",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed3/model.pt": "f4fad55a57db9487953396bf216120f3e71a2e98db97f1a8ca738b4decbfdace",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed3/backgrounds.json": "c77d96ad324879827c3999bf0bc7f9e9afab508e1a626b005440adad409507a8",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed3/background_predictions.pt": "312d8a91111ef215ae6ee0954bf2afeceb075960b5d1169dad3292e089fb3f91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed3/cub_concepts.json": "e29dcaa001ef499f67c04267c4fa5941bf4fcac4cc318f1b75ed8269419f89d2",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed4/model.pt": "12c49c747e51fda31300210cee589792f9ffb3fd7f59a450f39a85f8be9774ce",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed4/backgrounds.json": "1013f9e312e9d452f1ea918616be8375eb0ae6e2b19538893da93a34d96e9ef4",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed4/background_predictions.pt": "312d8a91111ef215ae6ee0954bf2afeceb075960b5d1169dad3292e089fb3f91",
+    "outputs/visible_background_v1/RN50_SAM2/clean_seed4/cub_concepts.json": "2f5dcc46923ca28db299e71a522d9572957567bb6fc229fd82b7d64f1a388abe",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed0/model.pt": "91048482cf85489909cb4ca54721ad09f24729d6ee873077589dd7aea64a5a28",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed0/backgrounds.json": "4aa777e26d52be11bfc67b9abe2e2edd7e258ecc7b3258a4ee2e8c4a824c9aa0",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed0/background_predictions.pt": "0dd1ea63eea990faa44a5593b61bf5a914df13947eeb2919aa34fbb622910d1c",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed0/cub_concepts.json": "1640dde3f5e6be932f20ca6adcec0bc26c6130bb0447c1d26c2c495d590499f5",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed1/model.pt": "133f06f547a790d72afe5e4c89ccce082f19ee4e58396d22091c16211c8cde8e",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed1/backgrounds.json": "aff5b2714c309203068c1e1b3ae481e838a6f546a1f3a5043e1508391253ce46",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed1/background_predictions.pt": "80066284901e4fe1e2674b19987b468d69403493e565d8989b51496a9639fb0f",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed1/cub_concepts.json": "4e319123331f191229b2ec705503cea5daaa144921b405b335f884363c63afd1",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed2/model.pt": "90ef13e74f59f3b82f8accf87426b567ed7ba0018a28d5728a25d14d1b136a02",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed2/backgrounds.json": "ce420995f7f41ec0dded418761834baf90dc571c2e779592d469653e1a18ef37",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed2/background_predictions.pt": "9db6a4817d1af426fb3bd9d27015e7c2c211cf7972abb700a6723891fdfab274",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed2/cub_concepts.json": "d41ab0fc0ea6e99326b307ffecc1cf1d363577b059c689ce11c9f3b1bec73f74",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed3/model.pt": "93e753a17f4867361c21bdaf9c4c9ba3c3b17e9680098ed1c4427f24a7e68c1a",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed3/backgrounds.json": "f5888b4c5c010c793d917c0d18bb3761efed8e0343167572112a7ee136135c9a",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed3/background_predictions.pt": "5a7523cd2f7cfae8fd0da80c2d2665e8f280049b5f43b3c35eb1ed0af9ce6fed",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed3/cub_concepts.json": "654ad946da2cc2a919a0f32f239b8408fc18ce8ddb74d6361acea4d8268bc207",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed4/model.pt": "ffa1af989f632a680bec4e7b9a2c86da34ea3f0dbfb00858d935a966ff4e2d99",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed4/backgrounds.json": "4224b39dcc8f9d57492e938d59c57fae1f32bf992c64d4a61e9b0b76f46fbbe0",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed4/background_predictions.pt": "428682987936ace9d56d096a68a42f22533f18ea4eb250d2fe999284ff8197fa",
+    "outputs/visible_background_v1/RN50_SAM2/fixed_seed4/cub_concepts.json": "bc31f04e8d9bd3c4f9a8d63ecfee9ee33b35ec1f2f8a043e1102062a3b3c05c5",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed0/model.pt": "886103afbef00a2e54744e75a796f12e801559fb1525ae0b93b83c903a081dc0",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed0/backgrounds.json": "8cd05432076b4dc9c8f4fb5efb8f4467aaf45f64037c6fab64cf366b32abbae1",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed0/background_predictions.pt": "ac27822637a7eb669bb5391d201fddfdd14c3091e391ac94e1cc33345e844477",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed0/cub_concepts.json": "bd40b2144279226142d9adf907303deb9c9b101b977fb432d0fb7bfc87e4011e",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed1/model.pt": "92c0105005b5643932c22e2d09941675e8e294e68c9e5450262438a1ec5bdd3f",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed1/backgrounds.json": "182a5652c22b7aa7772f027d75f28a2dd583ef95a0f8633c2e1f6c4cf065c1ab",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed1/background_predictions.pt": "cb984cc21049dda0d27c6d94ae8ea4a4355ae4ef6ef40b6a48ad66ab97168c4b",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed1/cub_concepts.json": "0f5260e723de7afa2fdc7dd55c19a7b60c906d1543989ed7331fbb03b2f6d431",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed2/model.pt": "65a2ba4bca7b0d54f7bb4c63715ff2185a1cdb5590875aab72200fc583c96a3d",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed2/backgrounds.json": "f600dbe6894746e24c653c544c0aca5f5f928ee56f6ae04fec756ea8188f487b",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed2/background_predictions.pt": "0f2191de19386d1e30ab2ae1db2ea5ddeaabeae61209fbc53b604980cc2e7bb0",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed2/cub_concepts.json": "13be5d85e67b76781ac8924d9b6e285d0d4ef8c536d9e2943cc34aa1316e9728",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed3/model.pt": "baedbaff261db4a03511c89080fa9589a3193fa8faf0bf252ac2115874ef1dad",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed3/backgrounds.json": "2916960e3778f4fe234d24af7dacb966652d5e1219f67541516c0d1a5c42c516",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed3/background_predictions.pt": "d2a4f21c6731a7f2746acb73d58a38a59d9e6645e5655492b6d168940c030a38",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed3/cub_concepts.json": "c092da67bf0ec02664d7e1576ce1a46709f4f8c2861781a343941a2f6fd81106",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed4/model.pt": "2d9a5e0c1983158ba05701a36055eec5e55367fbe49806eb0d53da7c3ce1de98",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed4/backgrounds.json": "e401013aecefa30ab39c6d6e502e16062e7bbb23a0eb18842b4e1d8aa2a954e0",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed4/background_predictions.pt": "0296f75bb091dbecf4711afc62b2f49e19434fc1577f78ff0e5c03de0200092c",
+    "outputs/visible_background_v1/RN50_SAM2/mean_only_seed4/cub_concepts.json": "c84b9b3ca7dd56f19f2bba0c30b6ab6455af3bc178455af85c3fc4f6a6d9e511",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed0/model.pt": "20b13cf68a8a4f434c5ff3699e690562f1c849c68a78cbaf36e8eb1cb10882d5",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed0/backgrounds.json": "5dbc9b05e3f09438912479040be769b17617891dd9c099ffe63b8fbde1e4ede2",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed0/background_predictions.pt": "b2ca574f7530ecaae1b071e1d3bffb82db39fcb10f789e21fa2452c5d4b3a8c7",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed0/cub_concepts.json": "fc1f17ffa18bba6e115caf3df953b7758c10fcbd47e6758daac966f828dfa8e2",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed1/model.pt": "65a53371ba48c9d35e74d85f54d8e126f1eac49bcfccc733b9f46551d1506c2e",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed1/backgrounds.json": "bb2e58a1e00cc34adf74530e75ab55fa91fcf1d15bb5c78c5906770bf83a3d40",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed1/background_predictions.pt": "c82bae06ff6370980a68c05c9ac0d86f91ab47e24a47868960060e3b2fae86d9",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed1/cub_concepts.json": "fb80f3c30276529082bd272a5411b4ebfda6c5f83cd2446867ea87f1cac6d08d",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed2/model.pt": "547fd14a9bb3ad2d98872aa216cba7450b52fe911d1e9fd7c3a18a93075a1034",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed2/backgrounds.json": "bee845c9e36079af2833ec6956a6c4a475c20fbc0b8a998c2b1eb2a3f94ef423",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed2/background_predictions.pt": "3938cb8a369b042498228907211a62f8d345fbafe4ecc239149c30798bf33ba9",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed2/cub_concepts.json": "d1f47afa08a7cb8ae15fa79d086cbcac96c2e5d84e9ad462d92e2cb0a78805d8",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed3/model.pt": "806474d50d279a1b65baaaddfccd91a7c58dbc66d786bc3c6def5c492ea50a4e",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed3/backgrounds.json": "d9a1106eb1e8fc73c4f965f2c704ff68654d89515a17e4334becd7e4fefd5fc9",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed3/background_predictions.pt": "fa140f35b6bdc028368e6bb113432610b34cabe90a1cc58c8fb6a2710265fe1a",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed3/cub_concepts.json": "7a159a817906425b9d202df67012c5a810e3da0f12c9fa1316436beffa26780e",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed4/model.pt": "fef97ba99c1170f3b215728ba65efe72d8d4939210f9d641dc481c53df9acf1b",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed4/backgrounds.json": "07647287db64de46a2854b0fd28d91590ee59dbbce83bddd0a29d635be032166",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed4/background_predictions.pt": "46ca860f0d43ce389f72f5c6d3d6f3a8e43cf6ba67951631dd4f32389d4f84f7",
+    "outputs/visible_background_v1/RN50_SAM2/adapter_matched_seed4/cub_concepts.json": "ec29dd91db46e0770e14c138024929965dbe730cc03814f03837e64a4231a394",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed0/model.pt": "24530187db5d0b2d229eeb8c1816462faa74e62cc18838ec302353b5a5f7e196",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed0/backgrounds.json": "0db9cf82a21845ab2ab3a95052690d423f114c10baff4f8e3fa6d99928e6e66b",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed0/background_predictions.pt": "d251d0ccb018161ec59cad0ad22088914d25888170e44d69f242134c040ecb3c",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed0/cub_concepts.json": "056e6e42f44715d0f27a1cd4071dea6bd6e388aefbc79e84cd36f5e11e9eb3b0",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed1/model.pt": "eaa2a0fcf515d7ba3abd6ecc4685ab1e894db02cc083667106b3e0a97970a387",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed1/backgrounds.json": "f90eebe5bef38c1f4ac2a2c6cc16898ece76a1d3c7c69779e5353749b8978669",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed1/background_predictions.pt": "dd2cf1904c6dad5029b5b5e40bf47cd0de2d38f5685d8b9594b83b2674a1b8f3",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed1/cub_concepts.json": "a891291e91cdbec8ead65abd67ff5d04d9c5811759262505561d764e8bd37637",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed2/model.pt": "bba52fac121d8a6727c6ec9efa0955fbcbc9291e5f56fa2cadfc20e01f6dd466",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed2/backgrounds.json": "a3f041e5e9bc59d9b6f259adc7d1048ca921f0bdb3d0fcb0f2361add1f1786b6",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed2/background_predictions.pt": "6452a71d74da94ae18742ccb0a4df8fdb804a069be2e7432a7dd1b8a37378dd8",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed2/cub_concepts.json": "201903f196273801340a2a67425f653cb14f35bcc1db29e9183dcb0d2728e38d",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed3/model.pt": "252f8b919da5358402e82717c2134024e1a9ba43c2f76050577dba62e625ef51",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed3/backgrounds.json": "9518e24e8407fc3d697b2b7556a0e30efa1e306a94a799f3f344be32bb90119d",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed3/background_predictions.pt": "5c452f8be9b72ea1c02dbb04592ab99063783fd6ad16cdaaa77f966d412dfe9c",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed3/cub_concepts.json": "2c13a04b3436136bde14f43635d0cdc49464bf08bdc91d139ec87cdaa168562a",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed4/model.pt": "fa6b1c5f77ff60b71bfcc480f1d16b2f9f69b21f93394163053f535d120aa560",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed4/backgrounds.json": "26955444b589b22a28aac2432d6f48a3e2343c6e88435d0e9c78806ad155e7d2",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed4/background_predictions.pt": "02ad7bd97fce1273f011b6696d2cf5235ada898023ca1c13299ce913dc636480",
+    "outputs/visible_background_v1/RN50_SAM2/pi_seed4/cub_concepts.json": "f7d6610b6f462dbb207cdc19686a1c3839b83a887dd47a490aed37e01bfe5cf5"
+  },
+  "mapping_sha256": "46441998ba177a620ca2206ae517981ec5a7422f42deb93a130865f3ffc041f2",
+  "background_protocol_sha256": "482dcefefdf9cf0077bb50ffd3d53f81a257b69c0d5d12ae016128d12845e386",
+  "code_sha256": "bb60bb39a7bb8a46273fd30c6adb3ddeb4f17044544010bc12b841dcf4f51820",
+  "checked_at": 1791201887.76918,
+  "verified_models": 25,
+  "verified_prediction_cases": 125,
+  "verified_inference_arrays": 250,
+  "native_attribute_truth_exact": true,
+  "per_attribute_report_metrics_reproduced": true,
+  "original_cpu_probabilities_bitwise_exact": true,
+  "limits": "Original models, context images, training-only mapping and original-validation thresholds fixed. Native certainty>=3 labels and the same attribute cohort used for every condition. Twenty-five semantic and twenty-five task intervals are descriptive, unadjusted, paired adaptation seeds/common source images and conditional on this fixed background protocol and one MC8 realization. No test recalibration; mean inference does not retrain the model. Majority foreground pixels are preserved, but compositing/resizing remain synthetic. Banks have different attribute cohorts; do not compare absolute BA across banks. Identity uses the background evaluation sampling seed, not the seed of the clean attribute report."
+}

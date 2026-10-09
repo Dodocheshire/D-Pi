@@ -1,0 +1,3197 @@
+{
+  "bank": "CUB/GDINO/RN50",
+  "mapped_prototypes": 1824,
+  "assigned_part_removed_by_clip_crop": 177,
+  "fraction": 0.09703947368421052,
+  "min_certainty": 3,
+  "mapping_sha256": "a98b0da53815391664b3ebdac9554d9f621b4f1d8540898932403d542043154b",
+  "details": [
+    {
+      "prototype": 325,
+      "attribute": 3,
+      "name": "has_bill_shape::needle",
+      "source_index": 2001,
+      "proposal_box": [
+        283,
+        66,
+        375,
+        88
+      ],
+      "clip_visible_window": [
+        317.991452991453,
+        66.0,
+        340.008547008547,
+        88.0
+      ]
+    },
+    {
+      "prototype": 57,
+      "attribute": 14,
+      "name": "has_wing_color::grey",
+      "source_index": 4362,
+      "proposal_box": [
+        200,
+        29,
+        284,
+        283
+      ],
+      "clip_visible_window": [
+        200.0,
+        113.7917282127031,
+        284.0,
+        197.8330871491876
+      ]
+    },
+    {
+      "prototype": 1248,
+      "attribute": 14,
+      "name": "has_wing_color::grey",
+      "source_index": 4235,
+      "proposal_box": [
+        166,
+        202,
+        270,
+        405
+      ],
+      "clip_visible_window": [
+        166.0,
+        251.24027459954232,
+        270.0,
+        355.29519450800916
+      ]
+    },
+    {
+      "prototype": 1529,
+      "attribute": 15,
+      "name": "has_wing_color::yellow",
+      "source_index": 2914,
+      "proposal_box": [
+        300,
+        141,
+        344,
+        259
+      ],
+      "clip_visible_window": [
+        300.0,
+        177.97333333333333,
+        344.0,
+        222.02666666666667
+      ]
+    },
+    {
+      "prototype": 465,
+      "attribute": 20,
+      "name": "has_wing_color::black",
+      "source_index": 873,
+      "proposal_box": [
+        269,
+        124,
+        492,
+        215
+      ],
+      "clip_visible_window": [
+        334.92335766423355,
+        124.0,
+        426.07664233576645,
+        215.0
+      ]
+    },
+    {
+      "prototype": 661,
+      "attribute": 20,
+      "name": "has_wing_color::black",
+      "source_index": 1468,
+      "proposal_box": [
+        244,
+        153,
+        300,
+        198
+      ],
+      "clip_visible_window": [
+        249.4388489208633,
+        153.0,
+        294.5611510791367,
+        198.0
+      ]
+    },
+    {
+      "prototype": 1863,
+      "attribute": 20,
+      "name": "has_wing_color::black",
+      "source_index": 3216,
+      "proposal_box": [
+        136,
+        157,
+        294,
+        236
+      ],
+      "clip_visible_window": [
+        175.5,
+        157.0,
+        254.5,
+        236.0
+      ]
+    },
+    {
+      "prototype": 2020,
+      "attribute": 29,
+      "name": "has_upperparts_color::grey",
+      "source_index": 1744,
+      "proposal_box": [
+        176,
+        90,
+        300,
+        155
+      ],
+      "clip_visible_window": [
+        205.62060889929742,
+        90.0,
+        270.6697892271663,
+        155.0
+      ]
+    },
+    {
+      "prototype": 1936,
+      "attribute": 34,
+      "name": "has_upperparts_color::orange",
+      "source_index": 3240,
+      "proposal_box": [
+        227,
+        121,
+        363,
+        180
+      ],
+      "clip_visible_window": [
+        265.48062015503876,
+        121.0,
+        324.51937984496124,
+        180.0
+      ]
+    },
+    {
+      "prototype": 153,
+      "attribute": 35,
+      "name": "has_upperparts_color::black",
+      "source_index": 1488,
+      "proposal_box": [
+        166,
+        143,
+        289,
+        177
+      ],
+      "clip_visible_window": [
+        210.4925925925926,
+        143.0,
+        244.5074074074074,
+        177.0
+      ]
+    },
+    {
+      "prototype": 1419,
+      "attribute": 36,
+      "name": "has_upperparts_color::white",
+      "source_index": 1863,
+      "proposal_box": [
+        192,
+        149,
+        244,
+        293
+      ],
+      "clip_visible_window": [
+        192.0,
+        194.98709677419356,
+        244.0,
+        247.01290322580644
+      ]
+    },
+    {
+      "prototype": 1022,
+      "attribute": 45,
+      "name": "has_underparts_color::yellow",
+      "source_index": 588,
+      "proposal_box": [
+        246,
+        199,
+        280,
+        253
+      ],
+      "clip_visible_window": [
+        246.0,
+        209.03943661971832,
+        280.0,
+        243.11267605633805
+      ]
+    },
+    {
+      "prototype": 1811,
+      "attribute": 45,
+      "name": "has_underparts_color::yellow",
+      "source_index": 5055,
+      "proposal_box": [
+        211,
+        223,
+        276,
+        280
+      ],
+      "clip_visible_window": [
+        215.078431372549,
+        223.0,
+        272.1764705882353,
+        280.0
+      ]
+    },
+    {
+      "prototype": 1129,
+      "attribute": 51,
+      "name": "has_underparts_color::white",
+      "source_index": 2520,
+      "proposal_box": [
+        200,
+        144,
+        276,
+        180
+      ],
+      "clip_visible_window": [
+        219.96610169491527,
+        144.0,
+        256.03389830508473,
+        180.0
+      ]
+    },
+    {
+      "prototype": 410,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 4645,
+      "proposal_box": [
+        214,
+        61,
+        268,
+        199
+      ],
+      "clip_visible_window": [
+        214.0,
+        102.97902097902099,
+        268.0,
+        157.02097902097904
+      ]
+    },
+    {
+      "prototype": 447,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 4056,
+      "proposal_box": [
+        291,
+        191,
+        422,
+        258
+      ],
+      "clip_visible_window": [
+        322.7757437070938,
+        191.0,
+        389.92448512585815,
+        258.0
+      ]
+    },
+    {
+      "prototype": 609,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 1830,
+      "proposal_box": [
+        184,
+        234,
+        254,
+        276
+      ],
+      "clip_visible_window": [
+        197.88739946380696,
+        234.0,
+        239.92493297587131,
+        276.0
+      ]
+    },
+    {
+      "prototype": 624,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 1927,
+      "proposal_box": [
+        208,
+        218,
+        275,
+        261
+      ],
+      "clip_visible_window": [
+        219.9025787965616,
+        218.0,
+        262.9054441260745,
+        261.0
+      ]
+    },
+    {
+      "prototype": 706,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 4275,
+      "proposal_box": [
+        226,
+        136,
+        278,
+        165
+      ],
+      "clip_visible_window": [
+        237.41147132169576,
+        136.0,
+        266.45885286783044,
+        165.0
+      ]
+    },
+    {
+      "prototype": 1092,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 4104,
+      "proposal_box": [
+        338,
+        182,
+        416,
+        242
+      ],
+      "clip_visible_window": [
+        347.11340206185565,
+        182.0,
+        407.1546391752577,
+        242.0
+      ]
+    },
+    {
+      "prototype": 1295,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 3521,
+      "proposal_box": [
+        276,
+        109,
+        393,
+        178
+      ],
+      "clip_visible_window": [
+        300.0791556728232,
+        109.0,
+        369.2295514511873,
+        178.0
+      ]
+    },
+    {
+      "prototype": 1427,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 3474,
+      "proposal_box": [
+        217,
+        180,
+        329,
+        243
+      ],
+      "clip_visible_window": [
+        241.4824120603015,
+        180.0,
+        304.5175879396985,
+        243.0
+      ]
+    },
+    {
+      "prototype": 1851,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 40,
+      "proposal_box": [
+        225,
+        180,
+        293,
+        218
+      ],
+      "clip_visible_window": [
+        239.96,
+        180.0,
+        278.04,
+        218.0
+      ]
+    },
+    {
+      "prototype": 1961,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 4363,
+      "proposal_box": [
+        235,
+        174,
+        386,
+        253
+      ],
+      "clip_visible_window": [
+        270.9859813084112,
+        174.0,
+        350.0140186915888,
+        253.0
+      ]
+    },
+    {
+      "prototype": 1972,
+      "attribute": 54,
+      "name": "has_breast_pattern::solid",
+      "source_index": 835,
+      "proposal_box": [
+        131,
+        93,
+        228,
+        280
+      ],
+      "clip_visible_window": [
+        131.0,
+        138.122969837587,
+        228.0,
+        235.31090487238978
+      ]
+    },
+    {
+      "prototype": 1885,
+      "attribute": 55,
+      "name": "has_breast_pattern::spotted",
+      "source_index": 4456,
+      "proposal_box": [
+        121,
+        178,
+        324,
+        274
+      ],
+      "clip_visible_window": [
+        174.21775898520085,
+        178.0,
+        270.35306553911204,
+        274.0
+      ]
+    },
+    {
+      "prototype": 436,
+      "attribute": 57,
+      "name": "has_breast_pattern::multi-colored",
+      "source_index": 5939,
+      "proposal_box": [
+        172,
+        135,
+        366,
+        251
+      ],
+      "clip_visible_window": [
+        210.90374331550802,
+        135.0,
+        327.096256684492,
+        251.0
+      ]
+    },
+    {
+      "prototype": 895,
+      "attribute": 59,
+      "name": "has_back_color::brown",
+      "source_index": 836,
+      "proposal_box": [
+        146,
+        109,
+        268,
+        328
+      ],
+      "clip_visible_window": [
+        146.0,
+        157.48507462686567,
+        268.0,
+        279.51492537313436
+      ]
+    },
+    {
+      "prototype": 1956,
+      "attribute": 59,
+      "name": "has_back_color::brown",
+      "source_index": 812,
+      "proposal_box": [
+        188,
+        158,
+        273,
+        334
+      ],
+      "clip_visible_window": [
+        188.0,
+        203.61555075593952,
+        273.0,
+        288.7645788336933
+      ]
+    },
+    {
+      "prototype": 652,
+      "attribute": 63,
+      "name": "has_back_color::grey",
+      "source_index": 4888,
+      "proposal_box": [
+        278,
+        132,
+        377,
+        276
+      ],
+      "clip_visible_window": [
+        278.0,
+        154.15384615384616,
+        377.0,
+        253.40307692307692
+      ]
+    },
+    {
+      "prototype": 1386,
+      "attribute": 63,
+      "name": "has_back_color::grey",
+      "source_index": 1823,
+      "proposal_box": [
+        92,
+        72,
+        222,
+        230
+      ],
+      "clip_visible_window": [
+        92.0,
+        85.94117647058823,
+        222.0,
+        216.05882352941177
+      ]
+    },
+    {
+      "prototype": 1000,
+      "attribute": 65,
+      "name": "has_back_color::olive",
+      "source_index": 695,
+      "proposal_box": [
+        167,
+        213,
+        242,
+        466
+      ],
+      "clip_visible_window": [
+        167.0,
+        302.1364238410596,
+        242.0,
+        377.19867549668874
+      ]
+    },
+    {
+      "prototype": 1820,
+      "attribute": 69,
+      "name": "has_back_color::black",
+      "source_index": 748,
+      "proposal_box": [
+        265,
+        196,
+        377,
+        269
+      ],
+      "clip_visible_window": [
+        284.59183673469386,
+        196.0,
+        357.734693877551,
+        269.0
+      ]
+    },
+    {
+      "prototype": 22,
+      "attribute": 73,
+      "name": "has_tail_shape::forked_tail",
+      "source_index": 4214,
+      "proposal_box": [
+        336,
+        164,
+        444,
+        221
+      ],
+      "clip_visible_window": [
+        361.47169811320754,
+        164.0,
+        418.52830188679246,
+        221.0
+      ]
+    },
+    {
+      "prototype": 1243,
+      "attribute": 73,
+      "name": "has_tail_shape::forked_tail",
+      "source_index": 4360,
+      "proposal_box": [
+        309,
+        212,
+        386,
+        252
+      ],
+      "clip_visible_window": [
+        327.5800464037123,
+        212.0,
+        367.5986078886311,
+        252.0
+      ]
+    },
+    {
+      "prototype": 429,
+      "attribute": 74,
+      "name": "has_tail_shape::rounded_tail",
+      "source_index": 3340,
+      "proposal_box": [
+        18,
+        199,
+        151,
+        231
+      ],
+      "clip_visible_window": [
+        68.57142857142857,
+        199.0,
+        100.57142857142857,
+        231.0
+      ]
+    },
+    {
+      "prototype": 2016,
+      "attribute": 74,
+      "name": "has_tail_shape::rounded_tail",
+      "source_index": 1920,
+      "proposal_box": [
+        303,
+        313,
+        460,
+        367
+      ],
+      "clip_visible_window": [
+        354.6098310291859,
+        313.0,
+        408.63133640552996,
+        367.0
+      ]
+    },
+    {
+      "prototype": 258,
+      "attribute": 75,
+      "name": "has_tail_shape::notched_tail",
+      "source_index": 5397,
+      "proposal_box": [
+        11,
+        152,
+        102,
+        178
+      ],
+      "clip_visible_window": [
+        43.5,
+        152.0,
+        69.5,
+        178.0
+      ]
+    },
+    {
+      "prototype": 924,
+      "attribute": 75,
+      "name": "has_tail_shape::notched_tail",
+      "source_index": 2402,
+      "proposal_box": [
+        10,
+        178,
+        104,
+        231
+      ],
+      "clip_visible_window": [
+        30.36272040302267,
+        178.0,
+        83.40050377833754,
+        231.0
+      ]
+    },
+    {
+      "prototype": 1374,
+      "attribute": 76,
+      "name": "has_tail_shape::fan-shaped_tail",
+      "source_index": 2071,
+      "proposal_box": [
+        131,
+        162,
+        204,
+        289
+      ],
+      "clip_visible_window": [
+        131.0,
+        188.7712082262211,
+        204.0,
+        261.90231362467864
+      ]
+    },
+    {
+      "prototype": 403,
+      "attribute": 95,
+      "name": "has_head_pattern::malar",
+      "source_index": 1659,
+      "proposal_box": [
+        338,
+        66,
+        366,
+        86
+      ],
+      "clip_visible_window": [
+        341.93610223642173,
+        66.0,
+        361.9744408945687,
+        86.0
+      ]
+    },
+    {
+      "prototype": 2038,
+      "attribute": 95,
+      "name": "has_head_pattern::malar",
+      "source_index": 4879,
+      "proposal_box": [
+        237,
+        109,
+        267,
+        125
+      ],
+      "clip_visible_window": [
+        244.0,
+        109.0,
+        260.0,
+        125.0
+      ]
+    },
+    {
+      "prototype": 1128,
+      "attribute": 96,
+      "name": "has_head_pattern::crested",
+      "source_index": 2380,
+      "proposal_box": [
+        205,
+        69,
+        242,
+        101
+      ],
+      "clip_visible_window": [
+        207.57142857142858,
+        69.0,
+        239.57142857142856,
+        101.0
+      ]
+    },
+    {
+      "prototype": 821,
+      "attribute": 97,
+      "name": "has_head_pattern::masked",
+      "source_index": 597,
+      "proposal_box": [
+        248,
+        75,
+        260,
+        86
+      ],
+      "clip_visible_window": [
+        248.49180327868854,
+        75.0,
+        259.5081967213115,
+        86.0
+      ]
+    },
+    {
+      "prototype": 133,
+      "attribute": 99,
+      "name": "has_head_pattern::eyebrow",
+      "source_index": 3757,
+      "proposal_box": [
+        178,
+        46,
+        208,
+        67
+      ],
+      "clip_visible_window": [
+        182.5,
+        46.0,
+        203.5,
+        67.0
+      ]
+    },
+    {
+      "prototype": 552,
+      "attribute": 99,
+      "name": "has_head_pattern::eyebrow",
+      "source_index": 5120,
+      "proposal_box": [
+        172,
+        72,
+        208,
+        98
+      ],
+      "clip_visible_window": [
+        176.99354838709678,
+        72.0,
+        203.00645161290322,
+        98.0
+      ]
+    },
+    {
+      "prototype": 1093,
+      "attribute": 99,
+      "name": "has_head_pattern::eyebrow",
+      "source_index": 5334,
+      "proposal_box": [
+        286,
+        67,
+        377,
+        105
+      ],
+      "clip_visible_window": [
+        312.4850746268657,
+        67.0,
+        350.51492537313436,
+        105.0
+      ]
+    },
+    {
+      "prototype": 1534,
+      "attribute": 99,
+      "name": "has_head_pattern::eyebrow",
+      "source_index": 5802,
+      "proposal_box": [
+        58,
+        118,
+        188,
+        252
+      ],
+      "clip_visible_window": [
+        58.0,
+        119.74782608695652,
+        188.0,
+        250.2521739130435
+      ]
+    },
+    {
+      "prototype": 1793,
+      "attribute": 99,
+      "name": "has_head_pattern::eyebrow",
+      "source_index": 2627,
+      "proposal_box": [
+        249,
+        73,
+        268,
+        90
+      ],
+      "clip_visible_window": [
+        249.988,
+        73.0,
+        267.012,
+        90.0
+      ]
+    },
+    {
+      "prototype": 430,
+      "attribute": 100,
+      "name": "has_head_pattern::eyering",
+      "source_index": 4084,
+      "proposal_box": [
+        294,
+        68,
+        337,
+        121
+      ],
+      "clip_visible_window": [
+        294.0,
+        72.9927536231884,
+        337.0,
+        116.0072463768116
+      ]
+    },
+    {
+      "prototype": 763,
+      "attribute": 100,
+      "name": "has_head_pattern::eyering",
+      "source_index": 3836,
+      "proposal_box": [
+        144,
+        143,
+        181,
+        165
+      ],
+      "clip_visible_window": [
+        151.47872340425533,
+        143.0,
+        173.52127659574467,
+        165.0
+      ]
+    },
+    {
+      "prototype": 857,
+      "attribute": 100,
+      "name": "has_head_pattern::eyering",
+      "source_index": 248,
+      "proposal_box": [
+        148,
+        48,
+        189,
+        67
+      ],
+      "clip_visible_window": [
+        159.03519668737061,
+        48.0,
+        178.0496894409938,
+        67.0
+      ]
+    },
+    {
+      "prototype": 878,
+      "attribute": 100,
+      "name": "has_head_pattern::eyering",
+      "source_index": 5071,
+      "proposal_box": [
+        143,
+        78,
+        379,
+        167
+      ],
+      "clip_visible_window": [
+        216.22765598650926,
+        78.0,
+        305.3743676222597,
+        167.0
+      ]
+    },
+    {
+      "prototype": 1779,
+      "attribute": 100,
+      "name": "has_head_pattern::eyering",
+      "source_index": 5849,
+      "proposal_box": [
+        110,
+        219,
+        238,
+        300
+      ],
+      "clip_visible_window": [
+        133.20679886685554,
+        219.0,
+        214.43059490084985,
+        300.0
+      ]
+    },
+    {
+      "prototype": 515,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 5140,
+      "proposal_box": [
+        210,
+        129,
+        325,
+        198
+      ],
+      "clip_visible_window": [
+        232.81501340482575,
+        129.0,
+        301.87667560321717,
+        198.0
+      ]
+    },
+    {
+      "prototype": 1029,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 854,
+      "proposal_box": [
+        320,
+        61,
+        397,
+        160
+      ],
+      "clip_visible_window": [
+        320.0,
+        72.0,
+        397.0,
+        149.0
+      ]
+    },
+    {
+      "prototype": 1339,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 1746,
+      "proposal_box": [
+        239,
+        93,
+        290,
+        130
+      ],
+      "clip_visible_window": [
+        245.95454545454547,
+        93.0,
+        283.04545454545456,
+        130.0
+      ]
+    },
+    {
+      "prototype": 1505,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 2236,
+      "proposal_box": [
+        259,
+        54,
+        318,
+        85
+      ],
+      "clip_visible_window": [
+        272.98826291079814,
+        54.0,
+        304.01173708920186,
+        85.0
+      ]
+    },
+    {
+      "prototype": 1804,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 1850,
+      "proposal_box": [
+        194,
+        114,
+        238,
+        141
+      ],
+      "clip_visible_window": [
+        202.43835616438355,
+        114.0,
+        229.44109589041096,
+        141.0
+      ]
+    },
+    {
+      "prototype": 1841,
+      "attribute": 101,
+      "name": "has_head_pattern::plain",
+      "source_index": 3193,
+      "proposal_box": [
+        120,
+        36,
+        177,
+        77
+      ],
+      "clip_visible_window": [
+        128.06430868167203,
+        36.0,
+        169.11897106109325,
+        77.0
+      ]
+    },
+    {
+      "prototype": 761,
+      "attribute": 102,
+      "name": "has_head_pattern::eyeline",
+      "source_index": 5413,
+      "proposal_box": [
+        177,
+        177,
+        218,
+        200
+      ],
+      "clip_visible_window": [
+        186.04260651629073,
+        177.0,
+        209.06015037593986,
+        200.0
+      ]
+    },
+    {
+      "prototype": 848,
+      "attribute": 102,
+      "name": "has_head_pattern::eyeline",
+      "source_index": 3929,
+      "proposal_box": [
+        166,
+        80,
+        213,
+        101
+      ],
+      "clip_visible_window": [
+        178.94610778443115,
+        80.0,
+        199.96007984031937,
+        101.0
+      ]
+    },
+    {
+      "prototype": 1085,
+      "attribute": 102,
+      "name": "has_head_pattern::eyeline",
+      "source_index": 4592,
+      "proposal_box": [
+        307,
+        61,
+        360,
+        78
+      ],
+      "clip_visible_window": [
+        324.99570200573066,
+        61.0,
+        342.00429799426934,
+        78.0
+      ]
+    },
+    {
+      "prototype": 1028,
+      "attribute": 103,
+      "name": "has_head_pattern::striped",
+      "source_index": 2949,
+      "proposal_box": [
+        110,
+        133,
+        147,
+        154
+      ],
+      "clip_visible_window": [
+        117.98223350253807,
+        133.0,
+        139.01776649746193,
+        154.0
+      ]
+    },
+    {
+      "prototype": 617,
+      "attribute": 104,
+      "name": "has_head_pattern::capped",
+      "source_index": 5643,
+      "proposal_box": [
+        298,
+        82,
+        339,
+        99
+      ],
+      "clip_visible_window": [
+        309.9962962962963,
+        82.0,
+        327.0037037037037,
+        99.0
+      ]
+    },
+    {
+      "prototype": 1263,
+      "attribute": 106,
+      "name": "has_breast_color::brown",
+      "source_index": 1502,
+      "proposal_box": [
+        302,
+        131,
+        351,
+        190
+      ],
+      "clip_visible_window": [
+        302.0,
+        135.82527881040892,
+        351.0,
+        184.95539033457248
+      ]
+    },
+    {
+      "prototype": 671,
+      "attribute": 111,
+      "name": "has_breast_color::yellow",
+      "source_index": 463,
+      "proposal_box": [
+        154,
+        144,
+        228,
+        190
+      ],
+      "clip_visible_window": [
+        167.9777777777778,
+        144.0,
+        214.02222222222224,
+        190.0
+      ]
+    },
+    {
+      "prototype": 2017,
+      "attribute": 111,
+      "name": "has_breast_color::yellow",
+      "source_index": 2287,
+      "proposal_box": [
+        174,
+        193,
+        240,
+        271
+      ],
+      "clip_visible_window": [
+        174.0,
+        198.9090909090909,
+        240.0,
+        265.0909090909091
+      ]
+    },
+    {
+      "prototype": 1513,
+      "attribute": 117,
+      "name": "has_breast_color::white",
+      "source_index": 4507,
+      "proposal_box": [
+        113,
+        157,
+        220,
+        228
+      ],
+      "clip_visible_window": [
+        130.78041543026706,
+        157.0,
+        201.9020771513353,
+        228.0
+      ]
+    },
+    {
+      "prototype": 680,
+      "attribute": 121,
+      "name": "has_throat_color::brown",
+      "source_index": 4053,
+      "proposal_box": [
+        207,
+        120,
+        261,
+        145
+      ],
+      "clip_visible_window": [
+        221.53416149068323,
+        120.0,
+        246.5776397515528,
+        145.0
+      ]
+    },
+    {
+      "prototype": 1244,
+      "attribute": 121,
+      "name": "has_throat_color::brown",
+      "source_index": 1006,
+      "proposal_box": [
+        193,
+        73,
+        242,
+        95
+      ],
+      "clip_visible_window": [
+        206.47991967871485,
+        73.0,
+        228.52008032128515,
+        95.0
+      ]
+    },
+    {
+      "prototype": 1976,
+      "attribute": 125,
+      "name": "has_throat_color::grey",
+      "source_index": 1495,
+      "proposal_box": [
+        238,
+        122,
+        284,
+        175
+      ],
+      "clip_visible_window": [
+        238.0,
+        125.4922480620155,
+        284.0,
+        171.5077519379845
+      ]
+    },
+    {
+      "prototype": 1046,
+      "attribute": 131,
+      "name": "has_throat_color::black",
+      "source_index": 3055,
+      "proposal_box": [
+        237,
+        80,
+        270,
+        99
+      ],
+      "clip_visible_window": [
+        243.95629820051414,
+        80.0,
+        262.95886889460155,
+        99.0
+      ]
+    },
+    {
+      "prototype": 1511,
+      "attribute": 131,
+      "name": "has_throat_color::black",
+      "source_index": 2559,
+      "proposal_box": [
+        287,
+        170,
+        321,
+        213
+      ],
+      "clip_visible_window": [
+        287.0,
+        174.55830388692578,
+        321.0,
+        208.59363957597174
+      ]
+    },
+    {
+      "prototype": 411,
+      "attribute": 132,
+      "name": "has_throat_color::white",
+      "source_index": 1471,
+      "proposal_box": [
+        225,
+        141,
+        252,
+        183
+      ],
+      "clip_visible_window": [
+        225.0,
+        148.48275862068965,
+        252.0,
+        175.51724137931035
+      ]
+    },
+    {
+      "prototype": 1118,
+      "attribute": 132,
+      "name": "has_throat_color::white",
+      "source_index": 3532,
+      "proposal_box": [
+        209,
+        117,
+        252,
+        145
+      ],
+      "clip_visible_window": [
+        216.5,
+        117.0,
+        244.5,
+        145.0
+      ]
+    },
+    {
+      "prototype": 1679,
+      "attribute": 132,
+      "name": "has_throat_color::white",
+      "source_index": 977,
+      "proposal_box": [
+        248,
+        139,
+        302,
+        172
+      ],
+      "clip_visible_window": [
+        258.4754098360656,
+        139.0,
+        291.5245901639344,
+        172.0
+      ]
+    },
+    {
+      "prototype": 326,
+      "attribute": 133,
+      "name": "has_throat_color::red",
+      "source_index": 1307,
+      "proposal_box": [
+        170,
+        166,
+        202,
+        182
+      ],
+      "clip_visible_window": [
+        178.0,
+        166.0,
+        194.0,
+        182.0
+      ]
+    },
+    {
+      "prototype": 555,
+      "attribute": 134,
+      "name": "has_throat_color::buff",
+      "source_index": 3603,
+      "proposal_box": [
+        121,
+        80,
+        160,
+        101
+      ],
+      "clip_visible_window": [
+        130.0,
+        80.0,
+        151.0,
+        101.0
+      ]
+    },
+    {
+      "prototype": 439,
+      "attribute": 145,
+      "name": "has_eye_color::black",
+      "source_index": 3987,
+      "proposal_box": [
+        387,
+        77,
+        435,
+        108
+      ],
+      "clip_visible_window": [
+        395.46242774566474,
+        77.0,
+        426.53757225433526,
+        108.0
+      ]
+    },
+    {
+      "prototype": 1953,
+      "attribute": 152,
+      "name": "has_forehead_color::blue",
+      "source_index": 1607,
+      "proposal_box": [
+        171,
+        102,
+        213,
+        125
+      ],
+      "clip_visible_window": [
+        180.44743276283617,
+        102.0,
+        203.44987775061125,
+        125.0
+      ]
+    },
+    {
+      "prototype": 273,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 2219,
+      "proposal_box": [
+        174,
+        57,
+        219,
+        73
+      ],
+      "clip_visible_window": [
+        188.5,
+        57.0,
+        204.5,
+        73.0
+      ]
+    },
+    {
+      "prototype": 370,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 4533,
+      "proposal_box": [
+        294,
+        240,
+        341,
+        256
+      ],
+      "clip_visible_window": [
+        309.5,
+        240.0,
+        325.5,
+        256.0
+      ]
+    },
+    {
+      "prototype": 500,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 5909,
+      "proposal_box": [
+        231,
+        129,
+        273,
+        147
+      ],
+      "clip_visible_window": [
+        242.98850574712642,
+        129.0,
+        261.01149425287355,
+        147.0
+      ]
+    },
+    {
+      "prototype": 662,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 963,
+      "proposal_box": [
+        193,
+        96,
+        240,
+        112
+      ],
+      "clip_visible_window": [
+        208.5,
+        96.0,
+        224.5,
+        112.0
+      ]
+    },
+    {
+      "prototype": 702,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 2207,
+      "proposal_box": [
+        208,
+        74,
+        270,
+        94
+      ],
+      "clip_visible_window": [
+        228.9942363112392,
+        74.0,
+        249.0057636887608,
+        94.0
+      ]
+    },
+    {
+      "prototype": 1276,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 3501,
+      "proposal_box": [
+        206,
+        99,
+        244,
+        120
+      ],
+      "clip_visible_window": [
+        214.44444444444446,
+        99.0,
+        235.46172839506173,
+        120.0
+      ]
+    },
+    {
+      "prototype": 1473,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 2927,
+      "proposal_box": [
+        245,
+        85,
+        280,
+        107
+      ],
+      "clip_visible_window": [
+        251.48876404494382,
+        85.0,
+        273.5112359550562,
+        107.0
+      ]
+    },
+    {
+      "prototype": 1594,
+      "attribute": 153,
+      "name": "has_forehead_color::brown",
+      "source_index": 5922,
+      "proposal_box": [
+        299,
+        68,
+        333,
+        80
+      ],
+      "clip_visible_window": [
+        309.99369085173504,
+        68.0,
+        322.00630914826496,
+        80.0
+      ]
+    },
+    {
+      "prototype": 128,
+      "attribute": 157,
+      "name": "has_forehead_color::grey",
+      "source_index": 3969,
+      "proposal_box": [
+        202,
+        108,
+        263,
+        126
+      ],
+      "clip_visible_window": [
+        223.53886693017128,
+        108.0,
+        241.5415019762846,
+        126.0
+      ]
+    },
+    {
+      "prototype": 455,
+      "attribute": 157,
+      "name": "has_forehead_color::grey",
+      "source_index": 5073,
+      "proposal_box": [
+        302,
+        85,
+        362,
+        112
+      ],
+      "clip_visible_window": [
+        318.41851106639837,
+        85.0,
+        345.46076458752515,
+        112.0
+      ]
+    },
+    {
+      "prototype": 735,
+      "attribute": 157,
+      "name": "has_forehead_color::grey",
+      "source_index": 2322,
+      "proposal_box": [
+        145,
+        16,
+        204,
+        35
+      ],
+      "clip_visible_window": [
+        165.0345323741007,
+        16.0,
+        184.0503597122302,
+        35.0
+      ]
+    },
+    {
+      "prototype": 434,
+      "attribute": 158,
+      "name": "has_forehead_color::yellow",
+      "source_index": 2922,
+      "proposal_box": [
+        205,
+        120,
+        257,
+        143
+      ],
+      "clip_visible_window": [
+        219.4901185770751,
+        120.0,
+        242.5098814229249,
+        143.0
+      ]
+    },
+    {
+      "prototype": 1160,
+      "attribute": 158,
+      "name": "has_forehead_color::yellow",
+      "source_index": 2851,
+      "proposal_box": [
+        70,
+        29,
+        142,
+        57
+      ],
+      "clip_visible_window": [
+        92.0,
+        29.0,
+        120.0,
+        57.0
+      ]
+    },
+    {
+      "prototype": 1177,
+      "attribute": 158,
+      "name": "has_forehead_color::yellow",
+      "source_index": 3786,
+      "proposal_box": [
+        221,
+        121,
+        242,
+        139
+      ],
+      "clip_visible_window": [
+        222.44827586206895,
+        121.0,
+        240.4712643678161,
+        139.0
+      ]
+    },
+    {
+      "prototype": 1888,
+      "attribute": 162,
+      "name": "has_forehead_color::orange",
+      "source_index": 2857,
+      "proposal_box": [
+        294,
+        119,
+        350,
+        143
+      ],
+      "clip_visible_window": [
+        309.9846743295019,
+        119.0,
+        334.0153256704981,
+        143.0
+      ]
+    },
+    {
+      "prototype": 20,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 3638,
+      "proposal_box": [
+        176,
+        69,
+        241,
+        101
+      ],
+      "clip_visible_window": [
+        192.57142857142858,
+        69.0,
+        224.57142857142856,
+        101.0
+      ]
+    },
+    {
+      "prototype": 25,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 591,
+      "proposal_box": [
+        159,
+        96,
+        194,
+        108
+      ],
+      "clip_visible_window": [
+        170.47013782542115,
+        96.0,
+        182.47626339969372,
+        108.0
+      ]
+    },
+    {
+      "prototype": 170,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 242,
+      "proposal_box": [
+        177,
+        90,
+        193,
+        105
+      ],
+      "clip_visible_window": [
+        177.47058823529412,
+        90.0,
+        192.52941176470588,
+        105.0
+      ]
+    },
+    {
+      "prototype": 187,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 2125,
+      "proposal_box": [
+        255,
+        144,
+        284,
+        160
+      ],
+      "clip_visible_window": [
+        261.5,
+        144.0,
+        277.5,
+        160.0
+      ]
+    },
+    {
+      "prototype": 453,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 4397,
+      "proposal_box": [
+        167,
+        87,
+        263,
+        134
+      ],
+      "clip_visible_window": [
+        191.3676148796499,
+        87.0,
+        238.4223194748359,
+        134.0
+      ]
+    },
+    {
+      "prototype": 958,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 5976,
+      "proposal_box": [
+        270,
+        78,
+        317,
+        105
+      ],
+      "clip_visible_window": [
+        279.90745501285346,
+        78.0,
+        306.97172236503854,
+        105.0
+      ]
+    },
+    {
+      "prototype": 987,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 2678,
+      "proposal_box": [
+        196,
+        58,
+        289,
+        98
+      ],
+      "clip_visible_window": [
+        222.46923076923076,
+        58.0,
+        262.53076923076924,
+        98.0
+      ]
+    },
+    {
+      "prototype": 1806,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 374,
+      "proposal_box": [
+        275,
+        46,
+        304,
+        69
+      ],
+      "clip_visible_window": [
+        277.9822695035461,
+        46.0,
+        301.0177304964539,
+        69.0
+      ]
+    },
+    {
+      "prototype": 1865,
+      "attribute": 163,
+      "name": "has_forehead_color::black",
+      "source_index": 2645,
+      "proposal_box": [
+        226,
+        43,
+        312,
+        116
+      ],
+      "clip_visible_window": [
+        232.53992395437263,
+        43.0,
+        305.787072243346,
+        116.0
+      ]
+    },
+    {
+      "prototype": 100,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 1885,
+      "proposal_box": [
+        246,
+        120,
+        280,
+        136
+      ],
+      "clip_visible_window": [
+        255.0,
+        120.0,
+        271.0,
+        136.0
+      ]
+    },
+    {
+      "prototype": 356,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 1226,
+      "proposal_box": [
+        352,
+        92,
+        393,
+        111
+      ],
+      "clip_visible_window": [
+        363.0351966873706,
+        92.0,
+        382.0496894409938,
+        111.0
+      ]
+    },
+    {
+      "prototype": 764,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 2502,
+      "proposal_box": [
+        227,
+        138,
+        244,
+        153
+      ],
+      "clip_visible_window": [
+        227.9407114624506,
+        138.0,
+        242.99209486166006,
+        153.0
+      ]
+    },
+    {
+      "prototype": 1507,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 2193,
+      "proposal_box": [
+        285,
+        63,
+        349,
+        85
+      ],
+      "clip_visible_window": [
+        306.0384024577573,
+        63.0,
+        328.0599078341014,
+        85.0
+      ]
+    },
+    {
+      "prototype": 1621,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 2539,
+      "proposal_box": [
+        161,
+        79,
+        208,
+        91
+      ],
+      "clip_visible_window": [
+        178.47092360319272,
+        79.0,
+        190.47548460661346,
+        91.0
+      ]
+    },
+    {
+      "prototype": 1705,
+      "attribute": 164,
+      "name": "has_forehead_color::white",
+      "source_index": 21,
+      "proposal_box": [
+        143,
+        91,
+        184,
+        108
+      ],
+      "clip_visible_window": [
+        154.9962962962963,
+        91.0,
+        172.0037037037037,
+        108.0
+      ]
+    },
+    {
+      "prototype": 899,
+      "attribute": 165,
+      "name": "has_forehead_color::red",
+      "source_index": 5706,
+      "proposal_box": [
+        193,
+        77,
+        223,
+        92
+      ],
+      "clip_visible_window": [
+        200.5,
+        77.0,
+        215.5,
+        92.0
+      ]
+    },
+    {
+      "prototype": 1684,
+      "attribute": 165,
+      "name": "has_forehead_color::red",
+      "source_index": 5611,
+      "proposal_box": [
+        157,
+        64,
+        257,
+        119
+      ],
+      "clip_visible_window": [
+        179.6044226044226,
+        64.0,
+        234.64127764127764,
+        119.0
+      ]
+    },
+    {
+      "prototype": 1883,
+      "attribute": 165,
+      "name": "has_forehead_color::red",
+      "source_index": 503,
+      "proposal_box": [
+        227,
+        160,
+        279,
+        199
+      ],
+      "clip_visible_window": [
+        233.45637583892616,
+        160.0,
+        272.5436241610738,
+        199.0
+      ]
+    },
+    {
+      "prototype": 5,
+      "attribute": 166,
+      "name": "has_forehead_color::buff",
+      "source_index": 4619,
+      "proposal_box": [
+        222,
+        129,
+        267,
+        149
+      ],
+      "clip_visible_window": [
+        234.5,
+        129.0,
+        254.5,
+        149.0
+      ]
+    },
+    {
+      "prototype": 705,
+      "attribute": 166,
+      "name": "has_forehead_color::buff",
+      "source_index": 2523,
+      "proposal_box": [
+        272,
+        96,
+        314,
+        111
+      ],
+      "clip_visible_window": [
+        285.5311004784689,
+        96.0,
+        300.53588516746413,
+        111.0
+      ]
+    },
+    {
+      "prototype": 982,
+      "attribute": 166,
+      "name": "has_forehead_color::buff",
+      "source_index": 3541,
+      "proposal_box": [
+        249,
+        93,
+        273,
+        111
+      ],
+      "clip_visible_window": [
+        251.9798657718121,
+        93.0,
+        270.02013422818794,
+        111.0
+      ]
+    },
+    {
+      "prototype": 1287,
+      "attribute": 183,
+      "name": "has_nape_color::brown",
+      "source_index": 646,
+      "proposal_box": [
+        63,
+        64,
+        280,
+        160
+      ],
+      "clip_visible_window": [
+        123.46837944664031,
+        64.0,
+        219.5316205533597,
+        160.0
+      ]
+    },
+    {
+      "prototype": 118,
+      "attribute": 187,
+      "name": "has_nape_color::grey",
+      "source_index": 5985,
+      "proposal_box": [
+        181,
+        166,
+        298,
+        258
+      ],
+      "clip_visible_window": [
+        193.35915492957747,
+        166.0,
+        285.64084507042253,
+        258.0
+      ]
+    },
+    {
+      "prototype": 712,
+      "attribute": 187,
+      "name": "has_nape_color::grey",
+      "source_index": 3078,
+      "proposal_box": [
+        212,
+        70,
+        279,
+        106
+      ],
+      "clip_visible_window": [
+        227.46153846153845,
+        70.0,
+        263.53846153846155,
+        106.0
+      ]
+    },
+    {
+      "prototype": 1076,
+      "attribute": 187,
+      "name": "has_nape_color::grey",
+      "source_index": 1935,
+      "proposal_box": [
+        155,
+        109,
+        216,
+        148
+      ],
+      "clip_visible_window": [
+        165.98,
+        109.0,
+        205.02,
+        148.0
+      ]
+    },
+    {
+      "prototype": 614,
+      "attribute": 188,
+      "name": "has_nape_color::yellow",
+      "source_index": 5002,
+      "proposal_box": [
+        282,
+        65,
+        392,
+        136
+      ],
+      "clip_visible_window": [
+        301.65417867435156,
+        65.0,
+        372.6628242074928,
+        136.0
+      ]
+    },
+    {
+      "prototype": 345,
+      "attribute": 193,
+      "name": "has_nape_color::black",
+      "source_index": 4509,
+      "proposal_box": [
+        312,
+        125,
+        408,
+        165
+      ],
+      "clip_visible_window": [
+        339.8882681564246,
+        125.0,
+        379.9329608938548,
+        165.0
+      ]
+    },
+    {
+      "prototype": 527,
+      "attribute": 193,
+      "name": "has_nape_color::black",
+      "source_index": 714,
+      "proposal_box": [
+        122,
+        185,
+        164,
+        239
+      ],
+      "clip_visible_window": [
+        122.0,
+        191.0,
+        164.0,
+        233.0
+      ]
+    },
+    {
+      "prototype": 1568,
+      "attribute": 193,
+      "name": "has_nape_color::black",
+      "source_index": 884,
+      "proposal_box": [
+        218,
+        116,
+        230,
+        130
+      ],
+      "clip_visible_window": [
+        218.0,
+        116.96551724137932,
+        230.0,
+        128.9808429118774
+      ]
+    },
+    {
+      "prototype": 863,
+      "attribute": 194,
+      "name": "has_nape_color::white",
+      "source_index": 1766,
+      "proposal_box": [
+        240,
+        111,
+        306,
+        138
+      ],
+      "clip_visible_window": [
+        259.54661791590496,
+        111.0,
+        286.57404021937845,
+        138.0
+      ]
+    },
+    {
+      "prototype": 1004,
+      "attribute": 194,
+      "name": "has_nape_color::white",
+      "source_index": 3010,
+      "proposal_box": [
+        35,
+        80,
+        308,
+        193
+      ],
+      "clip_visible_window": [
+        114.73012939001849,
+        80.0,
+        227.7652495378928,
+        193.0
+      ]
+    },
+    {
+      "prototype": 103,
+      "attribute": 196,
+      "name": "has_nape_color::buff",
+      "source_index": 2945,
+      "proposal_box": [
+        237,
+        150,
+        278,
+        175
+      ],
+      "clip_visible_window": [
+        245.04359673024524,
+        150.0,
+        270.06811989100817,
+        175.0
+      ]
+    },
+    {
+      "prototype": 186,
+      "attribute": 196,
+      "name": "has_nape_color::buff",
+      "source_index": 5176,
+      "proposal_box": [
+        202,
+        83,
+        393,
+        157
+      ],
+      "clip_visible_window": [
+        260.4896193771626,
+        83.0,
+        334.5103806228374,
+        157.0
+      ]
+    },
+    {
+      "prototype": 1078,
+      "attribute": 196,
+      "name": "has_nape_color::buff",
+      "source_index": 1364,
+      "proposal_box": [
+        139,
+        139,
+        184,
+        163
+      ],
+      "clip_visible_window": [
+        149.5,
+        139.0,
+        173.5,
+        163.0
+      ]
+    },
+    {
+      "prototype": 516,
+      "attribute": 212,
+      "name": "has_wing_shape::rounded-wings",
+      "source_index": 4248,
+      "proposal_box": [
+        244,
+        9,
+        330,
+        219
+      ],
+      "clip_visible_window": [
+        244.0,
+        70.92307692307692,
+        330.0,
+        157.07692307692307
+      ]
+    },
+    {
+      "prototype": 355,
+      "attribute": 213,
+      "name": "has_wing_shape::pointed-wings",
+      "source_index": 2006,
+      "proposal_box": [
+        272,
+        153,
+        436,
+        204
+      ],
+      "clip_visible_window": [
+        328.4888888888889,
+        153.0,
+        379.5111111111111,
+        204.0
+      ]
+    },
+    {
+      "prototype": 1813,
+      "attribute": 213,
+      "name": "has_wing_shape::pointed-wings",
+      "source_index": 21,
+      "proposal_box": [
+        226,
+        25,
+        492,
+        155
+      ],
+      "clip_visible_window": [
+        293.9519650655022,
+        25.0,
+        424.0480349344978,
+        155.0
+      ]
+    },
+    {
+      "prototype": 1449,
+      "attribute": 215,
+      "name": "has_wing_shape::tapered-wings",
+      "source_index": 305,
+      "proposal_box": [
+        133,
+        57,
+        337,
+        130
+      ],
+      "clip_visible_window": [
+        198.28,
+        57.0,
+        271.3936,
+        130.0
+      ]
+    },
+    {
+      "prototype": 917,
+      "attribute": 216,
+      "name": "has_wing_shape::long-wings",
+      "source_index": 70,
+      "proposal_box": [
+        110,
+        72,
+        214,
+        122
+      ],
+      "clip_visible_window": [
+        136.83870967741936,
+        72.0,
+        186.93763440860215,
+        122.0
+      ]
+    },
+    {
+      "prototype": 977,
+      "attribute": 216,
+      "name": "has_wing_shape::long-wings",
+      "source_index": 4318,
+      "proposal_box": [
+        133,
+        174,
+        209,
+        421
+      ],
+      "clip_visible_window": [
+        133.0,
+        259.5,
+        209.0,
+        335.5
+      ]
+    },
+    {
+      "prototype": 1249,
+      "attribute": 216,
+      "name": "has_wing_shape::long-wings",
+      "source_index": 1753,
+      "proposal_box": [
+        10,
+        107,
+        240,
+        175
+      ],
+      "clip_visible_window": [
+        90.81902245706738,
+        107.0,
+        158.8771466314399,
+        175.0
+      ]
+    },
+    {
+      "prototype": 1702,
+      "attribute": 216,
+      "name": "has_wing_shape::long-wings",
+      "source_index": 82,
+      "proposal_box": [
+        191,
+        161,
+        235,
+        272
+      ],
+      "clip_visible_window": [
+        191.0,
+        194.39823008849558,
+        235.0,
+        238.40530973451328
+      ]
+    },
+    {
+      "prototype": 15,
+      "attribute": 236,
+      "name": "has_back_pattern::solid",
+      "source_index": 2529,
+      "proposal_box": [
+        185,
+        194,
+        264,
+        262
+      ],
+      "clip_visible_window": [
+        190.46923076923076,
+        194.0,
+        258.53076923076924,
+        262.0
+      ]
+    },
+    {
+      "prototype": 1965,
+      "attribute": 236,
+      "name": "has_back_pattern::solid",
+      "source_index": 4262,
+      "proposal_box": [
+        27,
+        62,
+        212,
+        323
+      ],
+      "clip_visible_window": [
+        27.0,
+        99.99367088607595,
+        212.0,
+        285.00632911392404
+      ]
+    },
+    {
+      "prototype": 1013,
+      "attribute": 237,
+      "name": "has_back_pattern::spotted",
+      "source_index": 5647,
+      "proposal_box": [
+        152,
+        239,
+        276,
+        462
+      ],
+      "clip_visible_window": [
+        152.0,
+        288.37064676616916,
+        276.0,
+        412.62935323383084
+      ]
+    },
+    {
+      "prototype": 1985,
+      "attribute": 237,
+      "name": "has_back_pattern::spotted",
+      "source_index": 5692,
+      "proposal_box": [
+        57,
+        157,
+        143,
+        386
+      ],
+      "clip_visible_window": [
+        57.0,
+        228.46644295302013,
+        143.0,
+        314.53355704697987
+      ]
+    },
+    {
+      "prototype": 812,
+      "attribute": 238,
+      "name": "has_back_pattern::striped",
+      "source_index": 1849,
+      "proposal_box": [
+        160,
+        114,
+        328,
+        211
+      ],
+      "clip_visible_window": [
+        195.5968992248062,
+        114.0,
+        292.8372093023256,
+        211.0
+      ]
+    },
+    {
+      "prototype": 862,
+      "attribute": 238,
+      "name": "has_back_pattern::striped",
+      "source_index": 1032,
+      "proposal_box": [
+        168,
+        128,
+        274,
+        206
+      ],
+      "clip_visible_window": [
+        181.94736842105263,
+        128.0,
+        260.0526315789474,
+        206.0
+      ]
+    },
+    {
+      "prototype": 229,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 3081,
+      "proposal_box": [
+        137,
+        303,
+        185,
+        371
+      ],
+      "clip_visible_window": [
+        137.0,
+        312.8675078864353,
+        185.0,
+        360.9179810725552
+      ]
+    },
+    {
+      "prototype": 656,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 852,
+      "proposal_box": [
+        302,
+        143,
+        475,
+        185
+      ],
+      "clip_visible_window": [
+        367.48481561822126,
+        143.0,
+        409.51518438177874,
+        185.0
+      ]
+    },
+    {
+      "prototype": 1054,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 1758,
+      "proposal_box": [
+        381,
+        167,
+        454,
+        197
+      ],
+      "clip_visible_window": [
+        402.43119266055044,
+        167.0,
+        432.4348623853211,
+        197.0
+      ]
+    },
+    {
+      "prototype": 1250,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 5092,
+      "proposal_box": [
+        278,
+        220,
+        359,
+        265
+      ],
+      "clip_visible_window": [
+        296.0893300248139,
+        220.0,
+        341.1116625310174,
+        265.0
+      ]
+    },
+    {
+      "prototype": 1414,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 4291,
+      "proposal_box": [
+        72,
+        381,
+        214,
+        428
+      ],
+      "clip_visible_window": [
+        119.47337278106508,
+        381.0,
+        166.5266272189349,
+        428.0
+      ]
+    },
+    {
+      "prototype": 1915,
+      "attribute": 240,
+      "name": "has_tail_pattern::solid",
+      "source_index": 4392,
+      "proposal_box": [
+        62,
+        222,
+        159,
+        245
+      ],
+      "clip_visible_window": [
+        98.99152542372882,
+        222.0,
+        122.00847457627118,
+        245.0
+      ]
+    },
+    {
+      "prototype": 880,
+      "attribute": 242,
+      "name": "has_tail_pattern::striped",
+      "source_index": 4120,
+      "proposal_box": [
+        13,
+        400,
+        252,
+        492
+      ],
+      "clip_visible_window": [
+        86.22203098106712,
+        400.0,
+        178.36660929432014,
+        492.0
+      ]
+    },
+    {
+      "prototype": 147,
+      "attribute": 243,
+      "name": "has_tail_pattern::multi-colored",
+      "source_index": 4398,
+      "proposal_box": [
+        294,
+        137,
+        375,
+        184
+      ],
+      "clip_visible_window": [
+        310.9974093264249,
+        137.0,
+        358.0025906735751,
+        184.0
+      ]
+    },
+    {
+      "prototype": 1788,
+      "attribute": 243,
+      "name": "has_tail_pattern::multi-colored",
+      "source_index": 1775,
+      "proposal_box": [
+        269,
+        209,
+        394,
+        253
+      ],
+      "clip_visible_window": [
+        309.4874213836478,
+        209.0,
+        353.5125786163522,
+        253.0
+      ]
+    },
+    {
+      "prototype": 790,
+      "attribute": 264,
+      "name": "has_leg_color::brown",
+      "source_index": 5252,
+      "proposal_box": [
+        236,
+        179,
+        279,
+        248
+      ],
+      "clip_visible_window": [
+        236.0,
+        192.06963788300837,
+        279.0,
+        235.1225626740947
+      ]
+    },
+    {
+      "prototype": 1649,
+      "attribute": 264,
+      "name": "has_leg_color::brown",
+      "source_index": 2207,
+      "proposal_box": [
+        124,
+        142,
+        197,
+        287
+      ],
+      "clip_visible_window": [
+        124.0,
+        177.92342342342343,
+        197.0,
+        251.07657657657657
+      ]
+    },
+    {
+      "prototype": 522,
+      "attribute": 268,
+      "name": "has_leg_color::grey",
+      "source_index": 2185,
+      "proposal_box": [
+        281,
+        323,
+        317,
+        391
+      ],
+      "clip_visible_window": [
+        281.0,
+        339.0756501182033,
+        317.0,
+        375.0851063829787
+      ]
+    },
+    {
+      "prototype": 1653,
+      "attribute": 268,
+      "name": "has_leg_color::grey",
+      "source_index": 163,
+      "proposal_box": [
+        115,
+        376,
+        220,
+        405
+      ],
+      "clip_visible_window": [
+        153.06411837237977,
+        376.0,
+        182.06535141800248,
+        405.0
+      ]
+    },
+    {
+      "prototype": 1878,
+      "attribute": 268,
+      "name": "has_leg_color::grey",
+      "source_index": 2222,
+      "proposal_box": [
+        117,
+        106,
+        223,
+        322
+      ],
+      "clip_visible_window": [
+        117.0,
+        160.94736842105263,
+        223.0,
+        267.0526315789474
+      ]
+    },
+    {
+      "prototype": 2026,
+      "attribute": 268,
+      "name": "has_leg_color::grey",
+      "source_index": 4469,
+      "proposal_box": [
+        166,
+        102,
+        303,
+        301
+      ],
+      "clip_visible_window": [
+        166.0,
+        132.6153846153846,
+        303.0,
+        269.77230769230766
+      ]
+    },
+    {
+      "prototype": 1479,
+      "attribute": 273,
+      "name": "has_leg_color::orange",
+      "source_index": 5010,
+      "proposal_box": [
+        0,
+        329,
+        375,
+        499
+      ],
+      "clip_visible_window": [
+        102.47975708502024,
+        329.0,
+        272.52024291497975,
+        499.0
+      ]
+    },
+    {
+      "prototype": 566,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 423,
+      "proposal_box": [
+        188,
+        157,
+        260,
+        286
+      ],
+      "clip_visible_window": [
+        188.0,
+        185.30922693266834,
+        260.0,
+        257.3690773067332
+      ]
+    },
+    {
+      "prototype": 625,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 4617,
+      "proposal_box": [
+        241,
+        225,
+        262,
+        283
+      ],
+      "clip_visible_window": [
+        241.0,
+        243.48867313915858,
+        262.0,
+        264.51132686084145
+      ]
+    },
+    {
+      "prototype": 755,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 3336,
+      "proposal_box": [
+        136,
+        165,
+        186,
+        282
+      ],
+      "clip_visible_window": [
+        136.0,
+        198.49236641221376,
+        186.0,
+        248.50763358778624
+      ]
+    },
+    {
+      "prototype": 1270,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 3210,
+      "proposal_box": [
+        138,
+        250,
+        326,
+        326
+      ],
+      "clip_visible_window": [
+        193.9927797833935,
+        250.0,
+        270.00722021660647,
+        326.0
+      ]
+    },
+    {
+      "prototype": 1608,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 554,
+      "proposal_box": [
+        173,
+        146,
+        275,
+        307
+      ],
+      "clip_visible_window": [
+        173.0,
+        175.18980169971672,
+        275.0,
+        277.3541076487252
+      ]
+    },
+    {
+      "prototype": 1794,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 5794,
+      "proposal_box": [
+        334,
+        154,
+        385,
+        196
+      ],
+      "clip_visible_window": [
+        338.5,
+        154.0,
+        380.5,
+        196.0
+      ]
+    },
+    {
+      "prototype": 1825,
+      "attribute": 274,
+      "name": "has_leg_color::black",
+      "source_index": 4054,
+      "proposal_box": [
+        317,
+        172,
+        362,
+        296
+      ],
+      "clip_visible_window": [
+        317.0,
+        211.3905996758509,
+        362.0,
+        256.40842787682334
+      ]
+    },
+    {
+      "prototype": 75,
+      "attribute": 277,
+      "name": "has_leg_color::buff",
+      "source_index": 3838,
+      "proposal_box": [
+        230,
+        291,
+        251,
+        347
+      ],
+      "clip_visible_window": [
+        230.0,
+        308.4472361809045,
+        251.0,
+        329.45896147403687
+      ]
+    },
+    {
+      "prototype": 1260,
+      "attribute": 277,
+      "name": "has_leg_color::buff",
+      "source_index": 3438,
+      "proposal_box": [
+        172,
+        280,
+        242,
+        400
+      ],
+      "clip_visible_window": [
+        172.0,
+        305.0,
+        242.0,
+        375.0
+      ]
+    },
+    {
+      "prototype": 578,
+      "attribute": 283,
+      "name": "has_bill_color::grey",
+      "source_index": 437,
+      "proposal_box": [
+        364,
+        114,
+        403,
+        131
+      ],
+      "clip_visible_window": [
+        374.94736842105266,
+        114.0,
+        391.9766081871345,
+        131.0
+      ]
+    },
+    {
+      "prototype": 1297,
+      "attribute": 291,
+      "name": "has_bill_color::red",
+      "source_index": 144,
+      "proposal_box": [
+        294,
+        181,
+        435,
+        244
+      ],
+      "clip_visible_window": [
+        332.8383233532934,
+        181.0,
+        395.88023952095807,
+        244.0
+      ]
+    },
+    {
+      "prototype": 405,
+      "attribute": 308,
+      "name": "has_wing_pattern::solid",
+      "source_index": 5406,
+      "proposal_box": [
+        159,
+        146,
+        382,
+        205
+      ],
+      "clip_visible_window": [
+        240.9775413711584,
+        146.0,
+        300.0224586288416,
+        205.0
+      ]
+    },
+    {
+      "prototype": 766,
+      "attribute": 308,
+      "name": "has_wing_pattern::solid",
+      "source_index": 5543,
+      "proposal_box": [
+        140,
+        39,
+        425,
+        101
+      ],
+      "clip_visible_window": [
+        251.3411078717201,
+        39.0,
+        313.3819241982507,
+        101.0
+      ]
+    },
+    {
+      "prototype": 274,
+      "attribute": 310,
+      "name": "has_wing_pattern::striped",
+      "source_index": 3755,
+      "proposal_box": [
+        44,
+        195,
+        82,
+        261
+      ],
+      "clip_visible_window": [
+        44.0,
+        208.91259640102828,
+        82.0,
+        246.9177377892031
+      ]
+    },
+    {
+      "prototype": 1238,
+      "attribute": 310,
+      "name": "has_wing_pattern::striped",
+      "source_index": 5363,
+      "proposal_box": [
+        73,
+        126,
+        186,
+        172
+      ],
+      "clip_visible_window": [
+        106.48909090909092,
+        126.0,
+        152.51090909090908,
+        172.0
+      ]
+    },
+    {
+      "prototype": 1784,
+      "attribute": 310,
+      "name": "has_wing_pattern::striped",
+      "source_index": 4596,
+      "proposal_box": [
+        140,
+        148,
+        310,
+        185
+      ],
+      "clip_visible_window": [
+        206.4139941690962,
+        148.0,
+        243.42079689018465,
+        185.0
+      ]
+    },
+    {
+      "prototype": 495,
+      "attribute": 311,
+      "name": "has_wing_pattern::multi-colored",
+      "source_index": 2051,
+      "proposal_box": [
+        250,
+        131,
+        424,
+        194
+      ],
+      "clip_visible_window": [
+        305.4660194174757,
+        131.0,
+        368.53398058252424,
+        194.0
+      ]
+    }
+  ],
+  "interpretation": "The original mapping checks the full proposed rectangle; CLIP center-cropping can remove its annotated supporting part. This is a mapping-support audit, not a test-performance comparison."
+}

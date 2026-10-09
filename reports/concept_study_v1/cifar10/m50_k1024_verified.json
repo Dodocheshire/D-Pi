@@ -1,0 +1,451 @@
+{
+  "case": {
+    "name": "m50_k1024",
+    "directory": "artifacts/concept_ablation_v1/cifar10/m50_k1024",
+    "images_per_class": 50,
+    "clusters": 1024,
+    "source_images": 500,
+    "regions": 1095
+  },
+  "groups": {
+    "clean": {
+      "accuracy": {
+        "mean": 0.8575999736785889,
+        "std": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.8576412714171033,
+        "std": 0.0
+      },
+      "nll": {
+        "mean": 0.40764886140823364,
+        "std": 0.0
+      },
+      "ece_15_bins": {
+        "mean": 0.01864440112591734,
+        "std": 0.0
+      },
+      "brier": {
+        "mean": 0.20613932609558105,
+        "std": 0.0
+      },
+      "standardized_concept_mse": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "top5_clean_agreement": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "noise_energy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "sampling_top5_stability": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "fixed": {
+      "accuracy": {
+        "mean": 0.8577199935913086,
+        "std": 0.0003492704189163781
+      },
+      "macro_f1": {
+        "mean": 0.8577531477646169,
+        "std": 0.00035824145419338676
+      },
+      "nll": {
+        "mean": 0.4076600790023804,
+        "std": 4.6835307791306136e-05
+      },
+      "ece_15_bins": {
+        "mean": 0.01850638497313358,
+        "std": 0.0002725405999047471
+      },
+      "brier": {
+        "mean": 0.2061321258544922,
+        "std": 1.9103516467219333e-05
+      },
+      "standardized_concept_mse": {
+        "mean": 7.359698938671499e-05,
+        "std": 1.387606100709216e-06
+      },
+      "top5_clean_agreement": {
+        "mean": 0.9867600083351136,
+        "std": 0.0005283787119533227
+      },
+      "noise_energy": {
+        "mean": 9.999996109399945e-05,
+        "std": 0.0
+      },
+      "sampling_top5_stability": {
+        "mean": 0.9666409850120544,
+        "std": 0.00023172766441652046
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0005130127654410898,
+        "std": 2.4211590146642085e-06
+      }
+    },
+    "mean_only": {
+      "accuracy": {
+        "mean": 0.8821599960327149,
+        "std": 0.0011991553622014007
+      },
+      "macro_f1": {
+        "mean": 0.881743129079743,
+        "std": 0.001276844105947149
+      },
+      "nll": {
+        "mean": 0.3384378969669342,
+        "std": 0.0016593970974660677
+      },
+      "ece_15_bins": {
+        "mean": 0.010826431765420533,
+        "std": 0.0015177422377753897
+      },
+      "brier": {
+        "mean": 0.17194173932075502,
+        "std": 0.0009283021067789799
+      },
+      "standardized_concept_mse": {
+        "mean": 0.0015958131523802876,
+        "std": 0.00018564793257635196
+      },
+      "top5_clean_agreement": {
+        "mean": 0.9152120351791382,
+        "std": 0.004720633418897774
+      },
+      "noise_energy": {
+        "mean": 0.00963863879442215,
+        "std": 0.0011616021350897387
+      },
+      "sampling_top5_stability": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mu_rms": {
+        "mean": 0.09357400685548782,
+        "std": 0.00585205746059557
+      },
+      "sigma_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "attention_entropy_normalized": {
+        "mean": 0.7822080969810485,
+        "std": 0.02712512925493523
+      }
+    },
+    "adapter_matched": {
+      "accuracy": {
+        "mean": 0.8822399973869324,
+        "std": 0.0011393018817656428
+      },
+      "macro_f1": {
+        "mean": 0.8818232459703983,
+        "std": 0.001214811088031321
+      },
+      "nll": {
+        "mean": 0.3383998990058899,
+        "std": 0.0016610496445854431
+      },
+      "ece_15_bins": {
+        "mean": 0.010741700434327648,
+        "std": 0.0015955972361388169
+      },
+      "brier": {
+        "mean": 0.17192641496658326,
+        "std": 0.000930565859253068
+      },
+      "standardized_concept_mse": {
+        "mean": 0.0015966996317729354,
+        "std": 0.0001856897183948899
+      },
+      "top5_clean_agreement": {
+        "mean": 0.9152240514755249,
+        "std": 0.004740858419623687
+      },
+      "noise_energy": {
+        "mean": 0.009660252369940281,
+        "std": 0.0011620211152016087
+      },
+      "sampling_top5_stability": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mu_rms": {
+        "mean": 0.09368551075458527,
+        "std": 0.005848486374713437
+      },
+      "sigma_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "attention_entropy_normalized": {
+        "mean": 0.7824639678001404,
+        "std": 0.026276091925799914
+      }
+    },
+    "pi": {
+      "accuracy": {
+        "mean": 0.8822800040245056,
+        "std": 0.0008136402716072378
+      },
+      "macro_f1": {
+        "mean": 0.8818727485532687,
+        "std": 0.000983344572755023
+      },
+      "nll": {
+        "mean": 0.33836036920547485,
+        "std": 0.0018055275159075893
+      },
+      "ece_15_bins": {
+        "mean": 0.0105514800569813,
+        "std": 0.0013852547108905002
+      },
+      "brier": {
+        "mean": 0.17188628613948823,
+        "std": 0.0009730231367133225
+      },
+      "standardized_concept_mse": {
+        "mean": 0.0015950297005474568,
+        "std": 0.00017521902443270635
+      },
+      "top5_clean_agreement": {
+        "mean": 0.9154640555381774,
+        "std": 0.004495260638680273
+      },
+      "noise_energy": {
+        "mean": 0.009639840759336948,
+        "std": 0.001136075732083577
+      },
+      "sampling_top5_stability": {
+        "mean": 0.9896690368652343,
+        "std": 0.0001839859950991504
+      },
+      "concept_sampling_variance": {
+        "mean": 3.509470916469581e-05,
+        "std": 1.5777675945406956e-06
+      },
+      "mu_rms": {
+        "mean": 0.09314567297697067,
+        "std": 0.00576665939825727
+      },
+      "sigma_rms": {
+        "mean": 0.009342387691140175,
+        "std": 3.5212157612617816e-05
+      },
+      "attention_entropy_normalized": {
+        "mean": 0.7846386075019837,
+        "std": 0.027612763283410634
+      }
+    }
+  },
+  "contrasts": {
+    "clean": {
+      "dataset": "m50_k1024",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.02468,
+      "ci95": [
+        0.020019,
+        0.029280499999999994
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    "fixed": {
+      "dataset": "m50_k1024",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.02456,
+      "ci95": [
+        0.01986,
+        0.029200999999999994
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    "mean_only": {
+      "dataset": "m50_k1024",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.00012,
+      "ci95": [
+        -0.00048000000000000007,
+        0.0008204999999999973
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    "adapter_matched": {
+      "dataset": "m50_k1024",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 4e-05,
+      "ci95": [
+        -0.0005800000000000001,
+        0.0007
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    "same_checkpoint_mean": {
+      "dataset": "m50_k1024",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 2e-05,
+      "ci95": [
+        -0.0001805,
+        0.00024000000000000003
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    }
+  },
+  "verified_models": 25,
+  "verified_inference_arrays": 50,
+  "reproduced_paired_intervals": 5,
+  "source_sha256": {
+    "artifacts/concept_ablation_v1/cifar10/m50_k1024/baseline_k1024_seed0.pt": "5c956aad3cac96bc416bc21584c25e07effab29efc1c52510315fc7a469b773b",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed0/model.pt": "52987d34a5f0e0bbbb56be6e83c23657a93406521e2aecb8b14c9fe0a7f30fe6",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed0/predictions.pt": "de30cfc13f32b46dd807c4bc1474e3c0ad5870290fbe61589e39101ea5e5cb5c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed0/analysis.json": "bcccec1bdce33a5670723e683b09d7a67f824b69772f6930c8a39ed93a046144",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed1/model.pt": "0e6605c63f9cf70afe932d94ffd6972fd887ea7996e38cceed2e7bb4f4031644",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed1/predictions.pt": "de30cfc13f32b46dd807c4bc1474e3c0ad5870290fbe61589e39101ea5e5cb5c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed1/analysis.json": "bcccec1bdce33a5670723e683b09d7a67f824b69772f6930c8a39ed93a046144",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed2/model.pt": "e9b86022002ecd5f838f7e1fbfa28151cdf5c24f95a96312d27d2d3accbe6da2",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed2/predictions.pt": "de30cfc13f32b46dd807c4bc1474e3c0ad5870290fbe61589e39101ea5e5cb5c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed2/analysis.json": "bcccec1bdce33a5670723e683b09d7a67f824b69772f6930c8a39ed93a046144",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed3/model.pt": "bb837e17c5ee9fd744e4bf4f174bfe30aee7835e832918724fd867b6ba4ea27a",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed3/predictions.pt": "de30cfc13f32b46dd807c4bc1474e3c0ad5870290fbe61589e39101ea5e5cb5c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed3/analysis.json": "bcccec1bdce33a5670723e683b09d7a67f824b69772f6930c8a39ed93a046144",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed4/model.pt": "9608ec7b4f9a5346c6de464b83554ce4765d3b05d6ff14b4ba16723859915784",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed4/predictions.pt": "de30cfc13f32b46dd807c4bc1474e3c0ad5870290fbe61589e39101ea5e5cb5c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/clean_seed4/analysis.json": "bcccec1bdce33a5670723e683b09d7a67f824b69772f6930c8a39ed93a046144",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed0/model.pt": "f11e13789e3bc51f7fff04ffa362fb71a96616fb4c4807d36dac7de15d1bef2b",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed0/predictions.pt": "995ce1a195f0bf48db47dc625775022f17e5e1b2b848e7389011e7fbb2e7d3c4",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed0/analysis.json": "2cffae5706fd3d3e7c0eacd61e933391a3e413a2e906738c0c0037f8423641e4",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed1/model.pt": "97759a0f38776c83c3af867bb96ef7b54c6b5f8836f9043b0691313def64c644",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed1/predictions.pt": "13ae44a7d4f64407edfbe938d56848224a0619b7d3214806a9236b2e6069543e",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed1/analysis.json": "229626ee4e365eb1bb67acfe13a82b239dd004fd71d4e2b793380b1f6571deb2",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed2/model.pt": "762e32c2dc641f6fb039358b2d04b62c2f2705fad3bc03c71e233c1ae5ad0784",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed2/predictions.pt": "06320b997315ed70e6fc42347e329eaaf58f6bdab27266ed77b364705630057e",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed2/analysis.json": "b605252c29ef17492fc2eb2712d24de470601c77d342534e59fe65f75cabba58",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed3/model.pt": "fa8eee42c42d02a1c8cb173f76c24cef9d3c1d28ca1e1e5cefaeee1f0bd84bfc",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed3/predictions.pt": "f76b01a5a79f062e7089b58e49f4a18dc9b40417448f0f5fcd8b5b33c759d3fd",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed3/analysis.json": "ecea358188bfaf2a61e1acfed0282012465a8d154d09ddee507bf8fecd56a03e",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed4/model.pt": "135fe183360fb1267396581fc3651c74eb91ba596011c98918204d769e77b49a",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed4/predictions.pt": "e8a41c3d31bf3383cab6652835d2f8e3fd15894b9f9e18368139e3af2e730872",
+    "outputs/concept_study_v1/cifar10/m50_k1024/fixed_seed4/analysis.json": "ed69e1411a826966b6d956bbe22a95ce8f862d587df5d0c1f7125baf7876bfaf",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed0/model.pt": "2592c7b778376b85e7cd4ef85375252f497f896368682ee521265346dae4da8f",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed0/predictions.pt": "0ab3e0847979eaa5d11072080c205bf4c7ace18f540e6d470bf2764ff6aa18f3",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed0/analysis.json": "56b236a57e75854bcd48be59196abd976b9654d3308fb1c70c81f6f147917de6",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed1/model.pt": "de5d902405e6ade7de99b1c8d0c0f07223e8570ae10dbeaceb86c7f7f967d3a5",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed1/predictions.pt": "cb27b62e778d0cbf7ce356a1afdb079620711ee4c178d9c404e544c18be68c23",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed1/analysis.json": "ca5b513ebc5987769598303208b02d623888dd2963e65a1ceba34814455569fe",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed2/model.pt": "8993df3e65ac22d131393c80632cbed23f81970000bc5e838c86f0cf2e5e147f",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed2/predictions.pt": "8bce614a468f29787bd82c3d76c0cbcee9415abc8080d19e859abd18519cbf79",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed2/analysis.json": "83287a1e8960471484ead1cf37d1d8691aa8ee81c17743e666eb75ba05c8f3df",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed3/model.pt": "466ae3b861c52bdcd681866a3983c20bfb3bbc552c81f870ceffde017b93f319",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed3/predictions.pt": "f506abb33b1bbeaab5e24de4fe210bcf1f8ff56861c730e18755dbbdc8fd7332",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed3/analysis.json": "f985e659a70b289477879a151ff286c105a0e7188a5b6ceb1ed478d960b7c2d7",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed4/model.pt": "061b31b86c5c1856e330d0cb2475290c2c4c84194084e5c13bca6ac5a189fa0b",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed4/predictions.pt": "52a62da951df8b17fad2a5d6cb4fff71720d811bbfb3f782a066eb44e5df514f",
+    "outputs/concept_study_v1/cifar10/m50_k1024/mean_only_seed4/analysis.json": "b0ae21b2c87e4eb4ca8c5fb80030cd9bb2832e0d92cbfbe69f99fa24fcb819db",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed0/model.pt": "a6669f455883a63b1d4b16e870268d70d6265492361180f412379a6f2a7c4ee1",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed0/predictions.pt": "3cc401b7e2aab55e7ee8e684d4967653beee413bbfd3ec46bf9ca02ee172fc3b",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed0/analysis.json": "2fa6e1c5c07243d411af969ca48358bdd5cc9f735bf63c4961dd3d13c5c407d6",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed1/model.pt": "19a2886dc54fdb30f499675c1d5b6cb5aa027d775f8d9740a3853ad34d645c0d",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed1/predictions.pt": "20daa7c7a7b405d9a1362676cd32a24f47cf1cf1722a4defcbe890888f2978f8",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed1/analysis.json": "1872a1a6a2c027a85eaadd7b481bac741d7851ca14904919e01fd4a5f1ae9a24",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed2/model.pt": "a15b9360c5144028b2aaa72eefb82d4a8c6f9d2b6b8320a4897b4cdf83a63263",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed2/predictions.pt": "c56bd29b581a2581053ec4af1ac4641142ce283ec11efbe743471598ccf0ecdc",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed2/analysis.json": "9e434eadfc6fedbc66477e5f18d0b0998f57e878db3df90e6ebe7430f656749a",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed3/model.pt": "39cfa60adc87e0c69b158595f20f7b214e0e7605c1e229196d86373bea83a520",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed3/predictions.pt": "6030dccf7b1d54a3d15b217dffb063658934c862543bf46bbdc5d8bc8142ef05",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed3/analysis.json": "c8a0e4f5cc6216c7f848e6c0c6f35d8c2af7217d23ccb00500002f5eddff8a14",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed4/model.pt": "5b2e327409873d5e7b70e043a189c8dfcd1e87bbdfd4b73bc9e9ea8fd90c22d1",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed4/predictions.pt": "e321464226159b09b7cf34b1127a7319102b57ed4e1207f39c2163a3c1cb07a8",
+    "outputs/concept_study_v1/cifar10/m50_k1024/adapter_matched_seed4/analysis.json": "0e2fadb79a3bbecb4ac150205e43a2f4e606e72e3bb11650e0017d2ae53cf6b0",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed0/model.pt": "7141884fc8635b49347dd8e38c8ce3698e2c84766e80ed9aca895f0020a36669",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed0/predictions.pt": "e60c9d80ffb68d0978a8f491d057c196c95b5c60b6a11945730be35d1504613e",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed0/analysis.json": "f753a39a7428d87f0064a18c01ee7a519f10eeadc09a492b3121b8c43ada4045",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed1/model.pt": "d0a40861f22aadb3368da92b37e61429e754216438effae2bcfb2740c3cbfb94",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed1/predictions.pt": "6e09d4534541e48b45603fe82f8d7268f3c27fa43b191dea65f82d3bdfc43619",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed1/analysis.json": "7634784884661a5e42c80507b713c00eb270957e9be86a87d7fe9b74b585ebcb",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed2/model.pt": "c7312c5eb41b8abc2083320b0ef6d45b82cb315411d90c011a8b84f8cb1e3643",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed2/predictions.pt": "9c35f903069ac1c631b542effe3d0b379ae83b1224073ac21089a1ba638f89be",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed2/analysis.json": "36bd6e84e5e66572b788872766b8dce734a3389d3ccf6da55cd5d505ab92a051",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed3/model.pt": "013f57f5ac3c0e4d59bf3c550e99b26ff76bf54d7d9c1b43a93f2e329b639406",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed3/predictions.pt": "f3617d806e8b2e77cf4d0162c4541f861469b0c199838ea1b6b62bcd0c3fe07c",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed3/analysis.json": "5871039495c5e435ec0b1295a05f8802ae04b43f2090cc42d77a0f591b66a552",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed4/model.pt": "f1b8ba5d908576ad5ff780a7f55b53134fd6d8e8dbb7b014ee0bd7153c140997",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed4/predictions.pt": "3fa9356d2fb18c56b156e95304444aa3ef814f69fcad8862e8edeb4edfe18463",
+    "outputs/concept_study_v1/cifar10/m50_k1024/pi_seed4/analysis.json": "c82bfc0be82d38bbb2dd403d4134145e7de6dbd2c8cc31786ba09935d1196b7a",
+    "reports/concept_study_v1/cifar10/results.json": "b1dc96de52e1d017a80537fd8f7e1d7dec06fb01700b1ed2120b72c0d46f9565"
+  },
+  "code_sha256": "9e00d312c3d2b3d9dcd43364865020bac21c707657e9af448364c91aa4291d55",
+  "verification_helper_sha256": "002312af3a1351470879d06d5cbe6f46bf41cb75acea59d8cc99151371148062",
+  "checked_at": 1791200026.6411645,
+  "limits": "Native saved labels, classification probabilities/metrics, frozen prototypes/scalers/initial heads and five preset paired intervals independently checked. Fixed reference validation regularization; not individually optimal hyperparameters or prototype-building uncertainty."
+}

@@ -1,0 +1,28 @@
+{
+  "finished_at": "2026-10-05 12:19:57 UTC",
+  "main_figures": 6,
+  "core_cases": [
+    "RN50 / CIFAR-10",
+    "RN50 / CIFAR-100",
+    "RN50 / CUB-GDINO",
+    "ViT-B/16 / CIFAR-10",
+    "ViT-L/14 / CIFAR-10",
+    "RN50 / CUB-SAM2",
+    "ViT-B/16 / CIFAR-100",
+    "ViT-B/16 / CUB-SAM2"
+  ],
+  "main_verification": "/home/pengcheng/Pi-CBM/Essay/D/report/交付核验.json",
+  "detailed_verification": "/home/pengcheng/Pi-CBM/Essay/D/report/详细结果/交付核验.json",
+  "main_visual_check": [
+    "01_task_and_randomness",
+    "02_attributes_and_localization",
+    "03_mean_and_scale",
+    "04_matched_nec",
+    "05_generalization",
+    "06_concepts_and_preservation"
+  ],
+  "scientific_managers_alive": 0,
+  "original_matrix_completed": false,
+  "documentation_recorded_at": "2026-10-05 12:26:40 UTC",
+  "delivery_within_user_deadline": true
+}

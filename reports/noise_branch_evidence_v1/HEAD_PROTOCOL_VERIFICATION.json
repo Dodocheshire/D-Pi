@@ -1,0 +1,48 @@
+{
+  "terminal_manager_pid": 782905,
+  "groups": [
+    {
+      "dataset": "cifar10",
+      "variant": "pi",
+      "previous_report_sha256": "6b2fc784b96c65dfb45cc50e5907e5c90b5bc467869e7d4fe0bda79681da296c",
+      "report_sha256": "9600d1d256cbf27b378bc72a4e7af9cbe0864639ec5e1f747a64346dcc5872b9",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    },
+    {
+      "dataset": "cifar10",
+      "variant": "pi_refit",
+      "previous_report_sha256": "e09f32533fbade32884f4bd0551adf884386e49c6eb026c1813f434d475c19b8",
+      "report_sha256": "84f25992324dbdb23b8cd52e2c48e2904c86876ecead77c0b3f79071eb7f3545",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    },
+    {
+      "dataset": "cifar100",
+      "variant": "pi",
+      "previous_report_sha256": "e1cee26c408d19c8352f09a7433b45cfb84ac44008224b67e46b116e11cd6dd9",
+      "report_sha256": "4af0e5203c4b52a6713d96091f8cbb73ccdd41ff0701cb42684334eadc94ee09",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    },
+    {
+      "dataset": "cifar100",
+      "variant": "pi_refit",
+      "previous_report_sha256": "12d3565146bb3604d0847cab74a0a2b9481c92a7a71beda95a115d6b1647f2c1",
+      "report_sha256": "dbfd47eab82112938ea73b5230a9048849b78878d76b33cf18b75ec0a847016c",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    },
+    {
+      "dataset": "cub",
+      "variant": "pi",
+      "previous_report_sha256": "b69ce26d9b016318fc935aa88d6d6a45fbb483e5e98d0467e5515e716d9d4708",
+      "report_sha256": "0fb984e9ee44792a4eb951bf54e3f678696bfef98aefcd17400ef8dc6cfca9d6",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    },
+    {
+      "dataset": "cub",
+      "variant": "pi_refit",
+      "previous_report_sha256": "090b810d933f140ad87ef407d5f3c40eefd9aa979406f439fec2493b00176fce",
+      "report_sha256": "ce88e69695e3190e2b412ca4f689d9e8460cbbd738a6f4357f62f1f6f5d5b6ce",
+      "all_numerical_results_and_source_prediction_hashes_unchanged": true
+    }
+  ],
+  "limits": "Summary provenance correction only; no checkpoint, prediction, inference condition or numerical result changed."
+}

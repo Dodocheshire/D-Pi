@@ -1,0 +1,279 @@
+{
+  "dataset": "cifar10",
+  "groups": [
+    {
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8808399915695191,
+          "std": 0.0014587755649500718
+        },
+        "nll": {
+          "mean": 0.33957180976867674,
+          "std": 0.0029277763650530936
+        },
+        "standardized_concept_mse": {
+          "mean": 0.003214931907132268,
+          "std": 0.00021645915918094122
+        },
+        "top5_clean_agreement": {
+          "mean": 0.9183600306510925,
+          "std": 0.003011500964090249
+        },
+        "sigma_rms": {
+          "mean": 0.009266817942261696,
+          "std": 5.203542764864709e-05
+        }
+      }
+    },
+    {
+      "variant": "pi_mlp",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8828599929809571,
+          "std": 0.0004980068078084184
+        },
+        "nll": {
+          "mean": 0.3341953277587891,
+          "std": 0.0007168482519698113
+        },
+        "standardized_concept_mse": {
+          "mean": 0.003488977439701557,
+          "std": 5.788933173590327e-05
+        },
+        "top5_clean_agreement": {
+          "mean": 0.9152600407600403,
+          "std": 0.0009641703370976306
+        },
+        "sigma_rms": {
+          "mean": 0.009061243198812009,
+          "std": 3.219370963736839e-05
+        }
+      }
+    },
+    {
+      "variant": "pi_random_concepts",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8859600067138672,
+          "std": 0.0009864160127331942
+        },
+        "nll": {
+          "mean": 0.32858927845954894,
+          "std": 0.002650525526213592
+        },
+        "standardized_concept_mse": {
+          "mean": 0.0037232648581266405,
+          "std": 8.719755794021496e-05
+        },
+        "top5_clean_agreement": {
+          "mean": 0.9121519684791565,
+          "std": 0.0011576637528401667
+        },
+        "sigma_rms": {
+          "mean": 0.0091710789129138,
+          "std": 2.3515146868482183e-05
+        }
+      }
+    },
+    {
+      "variant": "pi_concept_scores",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8757400035858154,
+          "std": 0.0025628024750313514
+        },
+        "nll": {
+          "mean": 0.35331582427024844,
+          "std": 0.005998967450730088
+        },
+        "standardized_concept_mse": {
+          "mean": 0.004939824156463146,
+          "std": 0.00042604647245520383
+        },
+        "top5_clean_agreement": {
+          "mean": 0.8972800135612488,
+          "std": 0.003917226790644671
+        },
+        "sigma_rms": {
+          "mean": 0.0012248330283910036,
+          "std": 8.853314656431438e-05
+        }
+      }
+    },
+    {
+      "variant": "pi_no_preservation",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8813800096511841,
+          "std": 0.0013349122042780358
+        },
+        "nll": {
+          "mean": 0.3399459958076477,
+          "std": 0.002750818859203078
+        },
+        "standardized_concept_mse": {
+          "mean": 0.1075247883796692,
+          "std": 0.021273484470885555
+        },
+        "top5_clean_agreement": {
+          "mean": 0.7360920548439026,
+          "std": 0.018373257974572375
+        },
+        "sigma_rms": {
+          "mean": 0.009578331746160984,
+          "std": 4.353823163579682e-05
+        }
+      }
+    },
+    {
+      "variant": "pi_no_energy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8809599995613098,
+          "std": 0.0016257288859789871
+        },
+        "nll": {
+          "mean": 0.33951842188835146,
+          "std": 0.002876417984011334
+        },
+        "standardized_concept_mse": {
+          "mean": 0.0033194097690284253,
+          "std": 0.00023048414242973626
+        },
+        "top5_clean_agreement": {
+          "mean": 0.9170080184936523,
+          "std": 0.0030651408744423896
+        },
+        "sigma_rms": {
+          "mean": 0.009667875245213509,
+          "std": 3.3169231528340405e-05
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "variant": "pi_mlp",
+      "reference": "pi",
+      "accuracy_delta": 0.00202,
+      "ci95": [
+        -0.0004799999999999999,
+        0.004320499999999997
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "variant": "pi_random_concepts",
+      "reference": "pi",
+      "accuracy_delta": 0.00512,
+      "ci95": [
+        0.0022395,
+        0.007840499999999997
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "variant": "pi_concept_scores",
+      "reference": "pi",
+      "accuracy_delta": -0.0051,
+      "ci95": [
+        -0.009020499999999999,
+        -0.00158
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "variant": "pi_no_preservation",
+      "reference": "pi",
+      "accuracy_delta": 0.00054,
+      "ci95": [
+        -0.0012205000000000004,
+        0.0024604999999999974
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "variant": "pi_no_energy",
+      "reference": "pi",
+      "accuracy_delta": 0.00012,
+      "ci95": [
+        -0.0003,
+        0.0005800000000000001
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    }
+  ],
+  "parameter_counts": {
+    "concept": 1575040,
+    "mlp": 395392,
+    "random_concept": 1575040
+  },
+  "limits": [
+    "Fixed prototype bank, initial head, and common regularization selected for Pi.",
+    "MLP has fewer parameters; random-bank initialization advances the RNG before parameter initialization.",
+    "Concept response drift and top-5 agreement do not measure true concept accuracy."
+  ]
+}

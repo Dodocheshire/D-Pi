@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "dataset": "cub",
+      "variant": "adapter_matched",
+      "seed": 0,
+      "noise_energy": 0.021716345101594925,
+      "grid_attribution": 0.42370071036346235,
+      "grid_max_point": 0.7195288229202623,
+      "foreground_attribution": 0.26938458599711174,
+      "part_hit_rate": 0.19061043044562506,
+      "grid_valid_coverage": 0.9831895063859165,
+      "foreground_valid_concepts": 28535,
+      "part_localizable_concepts": 9223
+    },
+    {
+      "dataset": "cub",
+      "variant": "adapter_matched",
+      "seed": 3,
+      "noise_energy": 0.0220078956335783,
+      "grid_attribution": 0.42288082928579934,
+      "grid_max_point": 0.7188211943389714,
+      "foreground_attribution": 0.2691795979301249,
+      "part_hit_rate": 0.1923452238967798,
+      "grid_valid_coverage": 0.982878840179496,
+      "foreground_valid_concepts": 28539,
+      "part_localizable_concepts": 9223
+    },
+    {
+      "dataset": "cub",
+      "variant": "adapter_matched",
+      "seed": 1,
+      "noise_energy": 0.01947171241044998,
+      "grid_attribution": 0.4226831165153793,
+      "grid_max_point": 0.7191922678633069,
+      "foreground_attribution": 0.26897193523197654,
+      "part_hit_rate": 0.19256207307817413,
+      "grid_valid_coverage": 0.982878840179496,
+      "foreground_valid_concepts": 28538,
+      "part_localizable_concepts": 9223
+    },
+    {
+      "dataset": "cub",
+      "variant": "adapter_matched",
+      "seed": 2,
+      "noise_energy": 0.021882053464651108,
+      "grid_attribution": 0.42288199565657036,
+      "grid_max_point": 0.7191577493959268,
+      "foreground_attribution": 0.2694233214728667,
+      "part_hit_rate": 0.1926704976688713,
+      "grid_valid_coverage": 0.9826372109078357,
+      "foreground_valid_concepts": 28532,
+      "part_localizable_concepts": 9223
+    }
+  ],
+  "noise_energy": "Expected coordinate-mean relative energy mu^2 + sigma^2, averaged over test images",
+  "localization": "Full-test evaluation only; grid and foreground include zero maps as zero; parts use all localizable concepts."
+}

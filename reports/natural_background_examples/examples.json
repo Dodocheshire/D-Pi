@@ -1,0 +1,226 @@
+[
+  {
+    "test_index": 0,
+    "source_path": "/home/pengcheng/VLG-CBM/datasets/CUB/test/001.Black_footed_Albatross/Black_Footed_Albatross_0001_796111.jpg",
+    "foreground_pixels": 6183,
+    "cases": [
+      {
+        "case": "identity",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "gray",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "train_background_17",
+        "foreground_exact": true,
+        "donor": {
+          "index": 2594,
+          "box": [
+            343,
+            0,
+            500,
+            291
+          ]
+        }
+      },
+      {
+        "case": "train_background_29",
+        "foreground_exact": true,
+        "donor": {
+          "index": 1902,
+          "box": [
+            328,
+            0,
+            500,
+            344
+          ]
+        }
+      },
+      {
+        "case": "train_background_43",
+        "foreground_exact": true,
+        "donor": {
+          "index": 1519,
+          "box": [
+            0,
+            122,
+            171,
+            357
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "test_index": 1931,
+    "source_path": "/home/pengcheng/VLG-CBM/datasets/CUB/test/069.Rufous_Hummingbird/Rufous_Hummingbird_0071_59505.jpg",
+    "foreground_pixels": 34399,
+    "cases": [
+      {
+        "case": "identity",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "gray",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "train_background_17",
+        "foreground_exact": true,
+        "donor": {
+          "index": 1012,
+          "box": [
+            343,
+            0,
+            500,
+            228
+          ]
+        }
+      },
+      {
+        "case": "train_background_29",
+        "foreground_exact": true,
+        "donor": {
+          "index": 5592,
+          "box": [
+            215,
+            243,
+            345,
+            432
+          ]
+        }
+      },
+      {
+        "case": "train_background_43",
+        "foreground_exact": true,
+        "donor": {
+          "index": 4362,
+          "box": [
+            296,
+            0,
+            500,
+            267
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "test_index": 3862,
+    "source_path": "/home/pengcheng/VLG-CBM/datasets/CUB/test/135.Bank_Swallow/Bank_Swallow_0029_129751.jpg",
+    "foreground_pixels": 20989,
+    "cases": [
+      {
+        "case": "identity",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "gray",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "train_background_17",
+        "foreground_exact": true,
+        "donor": {
+          "index": 3492,
+          "box": [
+            343,
+            3,
+            500,
+            317
+          ]
+        }
+      },
+      {
+        "case": "train_background_29",
+        "foreground_exact": true,
+        "donor": {
+          "index": 2809,
+          "box": [
+            343,
+            0,
+            500,
+            314
+          ]
+        }
+      },
+      {
+        "case": "train_background_43",
+        "foreground_exact": true,
+        "donor": {
+          "index": 4267,
+          "box": [
+            0,
+            0,
+            171,
+            334
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "test_index": 5793,
+    "source_path": "/home/pengcheng/VLG-CBM/datasets/CUB/test/200.Common_Yellowthroat/Common_Yellowthroat_0125_190902.jpg",
+    "foreground_pixels": 29941,
+    "cases": [
+      {
+        "case": "identity",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "gray",
+        "foreground_exact": true,
+        "donor": null
+      },
+      {
+        "case": "train_background_17",
+        "foreground_exact": true,
+        "donor": {
+          "index": 167,
+          "box": [
+            0,
+            125,
+            125,
+            375
+          ]
+        }
+      },
+      {
+        "case": "train_background_29",
+        "foreground_exact": true,
+        "donor": {
+          "index": 1854,
+          "box": [
+            0,
+            0,
+            296,
+            232
+          ]
+        }
+      },
+      {
+        "case": "train_background_43",
+        "foreground_exact": true,
+        "donor": {
+          "index": 2393,
+          "box": [
+            281,
+            0,
+            500,
+            113
+          ]
+        }
+      }
+    ]
+  }
+]

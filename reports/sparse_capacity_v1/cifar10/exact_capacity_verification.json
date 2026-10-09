@@ -1,0 +1,549 @@
+{
+  "targets": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    87
+  ],
+  "checkpoints": [
+    {
+      "variant": "clean",
+      "seed": 0,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "clean",
+      "seed": 1,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "clean",
+      "seed": 2,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "clean",
+      "seed": 3,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "clean",
+      "seed": 4,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "mean_only",
+      "seed": 0,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "mean_only",
+      "seed": 1,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "mean_only",
+      "seed": 2,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "mean_only",
+      "seed": 3,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "mean_only",
+      "seed": 4,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "adapter_matched",
+      "seed": 0,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "adapter_matched",
+      "seed": 1,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "adapter_matched",
+      "seed": 2,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "adapter_matched",
+      "seed": 3,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "adapter_matched",
+      "seed": 4,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "pi",
+      "seed": 0,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "pi",
+      "seed": 1,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "pi",
+      "seed": 2,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "pi",
+      "seed": 3,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    },
+    {
+      "variant": "pi",
+      "seed": 4,
+      "frozen_source_invariants_exact": true,
+      "validation_selection_verified": true,
+      "strict_nonzeros_verified_in_every_class": true,
+      "prediction_metrics_reproduced": true,
+      "budget_points": 7
+    }
+  ],
+  "verified_models": 20,
+  "verified_exact_budget_points": 140,
+  "verified_probability_arrays": 280,
+  "reproduced_paired_intervals": [
+    {
+      "control": "clean",
+      "nec_per_class": 1,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 5,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 10,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 20,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 40,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 80,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "clean",
+      "nec_per_class": 87,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 1,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 5,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 10,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 20,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 40,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 80,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "mean_only",
+      "nec_per_class": 87,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 1,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 5,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 10,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 20,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 40,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 80,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "adapter_matched",
+      "nec_per_class": 87,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 1,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 5,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 10,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 20,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 40,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 80,
+      "paired_interval_reproduced": true
+    },
+    {
+      "control": "same_checkpoint_mean",
+      "nec_per_class": 87,
+      "paired_interval_reproduced": true
+    }
+  ],
+  "curves": {
+    "clean": {
+      "mean": [
+        0.1468999981880188,
+        0.1542000025510788,
+        0.155799999833107,
+        0.18400000035762787,
+        0.2827000021934509,
+        0.33570000529289246,
+        0.39890000224113464
+      ],
+      "std": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "mean_only": {
+      "mean": [
+        0.40889999866485593,
+        0.5393400073051453,
+        0.6101400017738342,
+        0.7439600110054017,
+        0.8537999987602234,
+        0.8836999893188476,
+        0.884499990940094
+      ],
+      "std": [
+        0.012671032173457029,
+        0.021468314173629162,
+        0.021274599269391892,
+        0.02598898824954981,
+        0.021033899751364774,
+        0.002899130083236541,
+        0.0019659644230427087
+      ]
+    },
+    "adapter_matched": {
+      "mean": [
+        0.4088599979877472,
+        0.5498199939727784,
+        0.6288599848747254,
+        0.7299000024795532,
+        0.8399199843406677,
+        0.8832000017166137,
+        0.8841400027275086
+      ],
+      "std": [
+        0.012178790247791551,
+        0.023131513678974515,
+        0.021472366707734385,
+        0.013319525394946588,
+        0.017917496780847315,
+        0.002034690961386406,
+        0.00152741182918574
+      ]
+    },
+    "pi": {
+      "mean": [
+        0.4083999991416931,
+        0.5418200016021728,
+        0.6174399971961975,
+        0.7441799998283386,
+        0.8455199956893921,
+        0.8838000059127807,
+        0.8840999960899353
+      ],
+      "std": [
+        0.012700589472692099,
+        0.013090337413043211,
+        0.01535554865701048,
+        0.0342784410205763,
+        0.022354663522957445,
+        0.002309769702368669,
+        0.002076060381625296
+      ]
+    }
+  },
+  "source_sha256": {
+    "artifacts/datasets/cifar10/baseline_k256_seed0.pt": "5a64e47906461e2a0ca2a7571a5380b7434ec9852a187c6c4412171951fcab0e",
+    "outputs/sparse_capacity_v1/cifar10/protocol.json": "53d5e4679d9af184df2c5bee539dc378de31fb7c4e76cca71145af865b268195",
+    "outputs/sparse_capacity_v1/cifar10/exact_protocol.json": "767738f5ddbaed858a8b260f6a565da8fa9404d3b9b6325da393587102f4c8c6",
+    "reports/sparse_capacity_v1/cifar10/results.json": "084d99da73e3c59af3213b043483b5cf0bd3f7db52a8df1ac2dfed86e5eb5100",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed0/heads.pt": "8f9c94df37e9d0c039358a3240fb0734b0d6ab5604b31dccdcb78b3bb7d1300e",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed0/head_grid.json": "7b883b49835ba7c2f44b182bf7832f2816b3d6ac91e5854ea0a25b1a66e56907",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed0/selection.json": "b3dbebc815b485e35b3181894ab06d2a1f2eca6447b947620ead94ca22dc970f",
+    "outputs/study_v1/cifar10/clean_seed0/model.pt": "cdefa4bea45367d51110ad04959de017ec8f16d27abb93537f1a1b49dfbb1b5f",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed0/exact_predictions.pt": "c36dbd9bce1a22d275540c1f13f1948ba6e5664d3cd20ed5d14abc8abd7946a7",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed0/exact_metrics.json": "43d4bc1f7e2cc8e1b53b8bd7242149e3ba4e08c51e84d0886f7dbf3ed8743044",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed1/heads.pt": "d3b880cf4a9e4cf41e14bd3b0edaf8f1bf82cde7ee652e0f3f1df9b8f5f01a52",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed1/head_grid.json": "6e1ead20ee03012841ca76a2fb63ec42d95538c2e98e1e74e4cdcda8f3a8af9b",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed1/selection.json": "605d9f73e2adc62da0299c2a3a4d6ff3c94d688230a8811b2a72bad253ea8ce9",
+    "outputs/study_v1/cifar10/clean_seed1/model.pt": "54d9c2f837372eba2326fc5b17f9a65642016211d49e4527ac49df385c40c89e",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed1/exact_predictions.pt": "c36dbd9bce1a22d275540c1f13f1948ba6e5664d3cd20ed5d14abc8abd7946a7",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed1/exact_metrics.json": "fc5815006849c1a184531848388c61a56642eec83b50ec7cd428c0af7c6b0bec",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed2/heads.pt": "06be3aefe6dce978b165326358c874a7749f33a6acc84284e2c063848ec94235",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed2/head_grid.json": "3c6f596a5e1121ff5b4d30581307e4e8ef23dfedd9609481495b489bd8f55d28",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed2/selection.json": "2e046b040cbdb9f0ddf6fc36b3302b5057a3cba21ad9d7f3bb95af17aef8adc8",
+    "outputs/study_v1/cifar10/clean_seed2/model.pt": "44df956a1d5743f9086a2fcc6f1b9e7220aa3806f066ae1b035f6a8e2504441f",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed2/exact_predictions.pt": "c36dbd9bce1a22d275540c1f13f1948ba6e5664d3cd20ed5d14abc8abd7946a7",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed2/exact_metrics.json": "cef863f9f391f718a8af9fdf74c3646eb782fe75dbc4e035e79d4f9c4018f5f5",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed3/heads.pt": "02bfdb91a39f5643613b81abd014a4905aaf6acfefef86a1533e3678d97adf67",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed3/head_grid.json": "94f3a4427deb031180a27adc83697aec69375b10a1767a21cbde38efaef6aa53",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed3/selection.json": "8ee21ca275279210c53f56820ae659b856a0f6f37da175d745336279a9160a89",
+    "outputs/study_v1/cifar10/clean_seed3/model.pt": "e2f448c4fe57378dc9040949a4e84f2526145226b74d0ee8add3770f644ae706",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed3/exact_predictions.pt": "c36dbd9bce1a22d275540c1f13f1948ba6e5664d3cd20ed5d14abc8abd7946a7",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed3/exact_metrics.json": "a6e0f9645ea94b01bacf31e90032ddf878560cdb00cf83f04d8a58b17363979c",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed4/heads.pt": "ce2cdf216cdef7f134bd52ac6037afc10aae03ffdc1011d6753f71b32fe0529a",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed4/head_grid.json": "09a33595013bf4808a809d08f6d26ec9824671be3357eb98d04ba97deb512da6",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed4/selection.json": "cf531be681c1fa5f43a5199f433f422f93df49cf59d0377c6cb761a0a33b6861",
+    "outputs/study_v1/cifar10/clean_seed4/model.pt": "64a1ca7b88e8dd85ac73fb8034eb9b477ea58ad901411997b2e49ad258404f41",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed4/exact_predictions.pt": "c36dbd9bce1a22d275540c1f13f1948ba6e5664d3cd20ed5d14abc8abd7946a7",
+    "outputs/sparse_capacity_v1/cifar10/clean_seed4/exact_metrics.json": "d62c0e05131c49d59b90fd3822f656080be81dbd7587d1739e6d60d877fbe095",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed0/heads.pt": "89e2929648b304f84515499af4919093f23a7ddec6c03c8233c070856a5876f6",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed0/head_grid.json": "e9e3a7b64593455583a65018799b9b79f3e4fdc5bbe46cd500fb3d1760d6bc7a",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed0/selection.json": "ac6cdd50ddf7bb6d41e98b35979ad1a065b046de735501c120fdcda651d65ab6",
+    "outputs/study_v1/cifar10/mean_only_seed0/model.pt": "5f69303bf346717a50070b8c0e0a9ba320745a530596c6ce77940cda47f20e75",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed0/exact_predictions.pt": "5cd1ee494d87e45208559c9ccdafd7277044c96c3c3b2eb046900b16a52efe60",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed0/exact_metrics.json": "c5c6cc9b0c10c6e46fb54c2ab59a92ab761aedb0cafc2142bd867826183c6bb7",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed1/heads.pt": "c203e27397722c1d63dd892e795d9d58ec64ae09a6b6b1b8fd883bac395d27db",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed1/head_grid.json": "290d3587960ec2d265f8ac748168accaf52750dea353c32e8c4fe522642a9971",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed1/selection.json": "48a7462b30bb2a3f6ab04072a7fbf2728d143f59d5b38110c56a1d12fbff1ed2",
+    "outputs/study_v1/cifar10/mean_only_seed1/model.pt": "aa9b9d76e5b509c926bddef9e2ab97b2d0ae362aab7c84bfba4cd90728004484",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed1/exact_predictions.pt": "e5aced894d6b0b9ad22e67a689e09fe91012e659ca5a8961a3195ba069907e13",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed1/exact_metrics.json": "f60992b401b86586dcb119123a7c85bc0530b5f22529da8e2a6476b7b31b835b",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed2/heads.pt": "9d0541cca0a631b74a2a10036ea6ea06cf0e1c7a86f32ec5a9cddfa93adf0aa3",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed2/head_grid.json": "5d37aff4e6631ccc45683e86d70f3e1dca47434b80010c7051ac42cb3ab9158c",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed2/selection.json": "10073841ee3df2acf8d0236faf9996cf59275d860222f169c1b81a537f76d8fe",
+    "outputs/study_v1/cifar10/mean_only_seed2/model.pt": "14d0feda15ab80dee65fa55d13f3a39ab29508b709749890b43c4dd720ec253a",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed2/exact_predictions.pt": "01482be59571ad9f86f9603246e656357696d01a6bd2ace3146e2a17ad3a57ae",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed2/exact_metrics.json": "f5ba5ad709e3b4f24c22461cfd1cb50ea02ba2d8445e058f2329444f75060b19",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed3/heads.pt": "d1909a35203029fd27f430d66e0eb12d0c903a8491a15cb70dd6660831103386",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed3/head_grid.json": "e746f426ccba21a2e195fdd7906f63e9132940ccc653faca85923aff8a272e22",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed3/selection.json": "3f173d4ad7e0e6903a0876d1b0f034f732e7f753a0050d5dd4fdbc850d8053cc",
+    "outputs/study_v1/cifar10/mean_only_seed3/model.pt": "fb9a1389d557f29ccde36cc15245a0c927b6ba3ea840d4672b697def49853fa4",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed3/exact_predictions.pt": "a3d6d167aa379c6b9e5d7d985c9f27c81fb7671e3479f329c87fad56c78bb20e",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed3/exact_metrics.json": "2b10823dae0c810b9a065c3ea6ad96c7936eb1de7a0f337b17dc1482fb0b3463",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed4/heads.pt": "fa29e69e37091b3a3da040f2258632a823ab90de8cb5766410dcfdc8804fc044",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed4/head_grid.json": "4e070270696850c14bb6b435ec90237da541b106b281985b0fcc359dd7c19698",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed4/selection.json": "ed046991ce5d8ecf50dfffd40b05a6fb94e28b21d2ae87f42ac8e39ff3541669",
+    "outputs/study_v1/cifar10/mean_only_seed4/model.pt": "dc3be0336e3cdd0d708bae610feb0cb3afdd3d280369429512af8381e82aabcb",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed4/exact_predictions.pt": "5bea978f7d002cf58a664d928ab3649b7b954793d530f3696b4667a7492046ea",
+    "outputs/sparse_capacity_v1/cifar10/mean_only_seed4/exact_metrics.json": "0158f945b2d076322cb194978e72a5544bbb6b926b146f6221c838cce4e7ed4c",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed0/heads.pt": "a98cf756e0fbc7e1ff7b8d6df922949a2e57f777b53ed2568e958ed5b24ddf68",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed0/head_grid.json": "f38a78a68c608e01c9a22b05e264c932e3e0625c5eae08dbf2169d1d9deff901",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed0/selection.json": "4bf73a0627844aaa79b9022e4009428b45314221f6bebaf7c53d7ed9896ee623",
+    "outputs/study_v1/cifar10/adapter_matched_seed0/model.pt": "740fa82ad72c17de0732e678baad628a56b9dedc6c4ab0fdb0729ba3cd0ba726",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed0/exact_predictions.pt": "89ebf2a50b5c787aa51dd2e6446fee6addb875f11f6b7aa262093fba7fb03723",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed0/exact_metrics.json": "c37a7874e4895340968b88047e0432528b9a355db06cf760151f37d9ebd57b66",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed1/heads.pt": "a73dfc580e0b80e3fb54a8107293b4ea663b5fd729f518df847b616232c77caa",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed1/head_grid.json": "3216ee46a6d6a61ac22dd7932543c370ce6ae390fc24e74b96ab9805c0bfb7cf",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed1/selection.json": "5bc503424cf6691d721f188e229050c01a3cc1166469ccd3ca82e01044250fb4",
+    "outputs/study_v1/cifar10/adapter_matched_seed1/model.pt": "1f4b3d6f36878a5b0920fd0190fa7bdd44f485706ba28527cb393fb4a677c5a0",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed1/exact_predictions.pt": "86a861a6bd68399de5863831a9ab8b48026990ee5ce6b3dccc4719dc8f0c6cd6",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed1/exact_metrics.json": "6028453e1dfb65dd93681fb2bbac14b0f824531cb773b1982d549883770027f5",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed2/heads.pt": "60ef1c8806ea8bc9a96cdbeb0a24a2438feac55a9c68c612a5fb6d0cb429a5c2",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed2/head_grid.json": "43ddeca19655a40e2dc146904711a6e4d63293ce519c5246eb6262c61592ed1c",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed2/selection.json": "f29b51214aaac261f6981fccda454780a98a2523571739afefa19090d9f57d2e",
+    "outputs/study_v1/cifar10/adapter_matched_seed2/model.pt": "ed39516efc4eba412db2db03cade86c29a4c68d4074505ac7b1844e7283ce466",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed2/exact_predictions.pt": "3fd2606fd68e585d34bb81c63ad436c22d6b9dbc78fcb7fcd3cca84b0666bbd8",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed2/exact_metrics.json": "6a526defff03ab16d7166a0ab60df98dfa9f17d5205e5d0efcb00612e1177da8",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed3/heads.pt": "731127ac0bbd59dc1cdcf02872bbdb1f20cebf593e3af4c37a91ad6507ec4159",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed3/head_grid.json": "9680892877b035ddc34e515c13dc84a85b634c8470b735a2576bcce75959433b",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed3/selection.json": "339696936a5cd797fa8cbbeb384dd7109432a8e6764daee29e305b6eb9636577",
+    "outputs/study_v1/cifar10/adapter_matched_seed3/model.pt": "40655655d4114abc1bbf6f60d571db2a221bfd97587575fbf3ae615c2d8568ff",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed3/exact_predictions.pt": "9af6d635f249b01299a5b2f4d6cb2fef8537241212bf7258dc92c5f4fe5b0b00",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed3/exact_metrics.json": "b40437f8f28ef08c3b573059c88d74ca057ba8b1544cfb8893693b2b40373865",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed4/heads.pt": "534f4b7149cda70dc5ef4068f18e07e630cd7cf4ea885900d9bba0149f4a7f95",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed4/head_grid.json": "fd1738b72fdd9c63ce31afd99c88b58d6da5909ee46ffab04ec36b2542c1b9b0",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed4/selection.json": "b6a2dfcece7936847dce1f21c9887df225433dd519445935bd152dd29a46f06a",
+    "outputs/study_v1/cifar10/adapter_matched_seed4/model.pt": "b8e9a7c9bff212d5edca592f9a34b65d89409a706c42ccb5a9eb61f28a68f806",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed4/exact_predictions.pt": "754a3b6961839c463bdcd82007402400916ae063894b681613c25859bb558859",
+    "outputs/sparse_capacity_v1/cifar10/adapter_matched_seed4/exact_metrics.json": "d6e55bc5427f91ef3ec9c30dddc8b04c057c1efcf47ffc8c81b402aa656427aa",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed0/heads.pt": "826eb3d1d206e9230e7a99e20ca7fa3a3438d5d32b9ab5be1774a29317f77532",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed0/head_grid.json": "5dee382f97206e33213c0e91bdff38ca27aa8eeb603c07033df83ab18e709bbb",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed0/selection.json": "fbda52f73b5ee234ae74e257adb03c689ed49a27c1f4a219249e5326ec648dfd",
+    "outputs/study_v1/cifar10/pi_seed0/model.pt": "f10a925c49f1c628e3c52cc6d9c3283f34e7ff4b639d1adecad1bc6016f3bdfd",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed0/exact_predictions.pt": "e794455838169be1056a6d6fe34a2bf91a03947ebc2b13e4685c79cf648223eb",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed0/exact_metrics.json": "93773c48d9fdab2af2fc7b72ccfa9a10c998b489e3b62e5d078a00cae6309724",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed1/heads.pt": "64b1d67c274f280fd1f1e6c478a9b82c89cf99532c386869e35e8717c7b863eb",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed1/head_grid.json": "da010e59736fd15f968178d3510dd2c8d39be020835f668f1537b01618a07aa6",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed1/selection.json": "bd435c76d18eaf0385559f66b5e8c80dcdcb399dd5e4f5315a2c4ac7c245fad0",
+    "outputs/study_v1/cifar10/pi_seed1/model.pt": "146b0c58c1f4675058dabdc3f407870f90a4a767fffa52b4395a00ab8fe56865",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed1/exact_predictions.pt": "76215cc7dc7b7c5d8d936a7acc3c5ad34c3db879a75d1c91301733f77b33fbd8",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed1/exact_metrics.json": "a76162e68034f64e760d3bf586c0ebc0643a8657dc259fe761333cad64ad60df",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed2/heads.pt": "554e55921ef012750a2e0dd9a9b3b23e593f790b2c753ed52a811947b5b15a05",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed2/head_grid.json": "dba7b84b836689b2e8057119c8e8330ef3396da0c84ce0aa72c922b382de516d",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed2/selection.json": "08d8b12ad7636f9db1a5f11baeff3e27857538714a70f22c45f302a2e4159694",
+    "outputs/study_v1/cifar10/pi_seed2/model.pt": "e5e9e33283e3a6d59c9396fac6ed88a31a7ae9f85c7150d04e567a13f73d3dba",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed2/exact_predictions.pt": "74c49878baaee3e6b2bb757d39760238f6ee0eee9cc8cb20eb8f42b24a1c0b4c",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed2/exact_metrics.json": "247ad06a8321417c0a1a524e9a352ff1069e665df37d3840bacfe3577002b0c0",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed3/heads.pt": "72644be28f4f58fa75f0a192f34ad9a0b201d0c482026f6ec13a80c56d173d1c",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed3/head_grid.json": "6a2c7e47c92c7686c5f8832a392b35c79aecb05ecc5dc8ad73c1ab4681d86868",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed3/selection.json": "68269640eb87bcdc3bed7c444a99d9ebb67c01656f58a526a919c511135adf84",
+    "outputs/study_v1/cifar10/pi_seed3/model.pt": "fce5f9a0b322b6ba7a9672418e9911a15a3acf6dd1f480180753d4089c105671",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed3/exact_predictions.pt": "a621f44a723dd266b51ae6396ce0bf32f7a9191303de8057009b539e68631f1f",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed3/exact_metrics.json": "a31dfab112afad7f5cf22f64ce83b5dd35fc2eab7c5802f5acbfd42a7ec73d8f",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed4/heads.pt": "a11101cf61ac0a7cf5efeb78c365d87539f0febe76db68926a46c3de2196a34b",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed4/head_grid.json": "4bbd5f8b30a57c67715a9e74c17940dc1bea85859572508afbd7b264e6b72ab7",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed4/selection.json": "f7c41741fc84291d46fdff53a51d9b4de699eac5e3125d96bb51b24d10b3abd4",
+    "outputs/study_v1/cifar10/pi_seed4/model.pt": "808c6c6639ed74c11152e9bfac80db8cb435c524f10a995313b65b87c822048d",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed4/exact_predictions.pt": "a72ef25c22a0ff162bb023066770ec08f496d94dcc301d4561b27801739e9fa7",
+    "outputs/sparse_capacity_v1/cifar10/pi_seed4/exact_metrics.json": "33f32bc9a07d1126964fb7dab551749461a9257f0d13398d7aec7dd59ea4b360"
+  },
+  "code_sha256": "96719ebcc6fb2f5cadd211bf7cc9ab0986e2935252393d244dd0a5d28592910a",
+  "checked_at": 1791192803.3654718,
+  "limits": "Audits frozen source models, validation-selected heads, exact per-class support, saved probabilities and all paired intervals. Does not re-run GPU sampling or optimize each NEC; biases remain validation-selected. Intervals are descriptive, unadjusted and conditional on one fixed bank, selected generators/heads and MC8 realization."
+}

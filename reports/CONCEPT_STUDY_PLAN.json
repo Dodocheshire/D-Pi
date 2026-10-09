@@ -1,0 +1,106 @@
+{
+  "dataset": "cifar10",
+  "cases": [
+    {
+      "name": "m5_k64",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m5_k64",
+      "images_per_class": 5,
+      "clusters": 64,
+      "source_images": 50,
+      "regions": 116
+    },
+    {
+      "name": "m10_k64",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m10_k64",
+      "images_per_class": 10,
+      "clusters": 64,
+      "source_images": 100,
+      "regions": 239
+    },
+    {
+      "name": "m20_k64",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m20_k64",
+      "images_per_class": 20,
+      "clusters": 64,
+      "source_images": 200,
+      "regions": 447
+    },
+    {
+      "name": "m50_k64",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m50_k64",
+      "images_per_class": 50,
+      "clusters": 64,
+      "source_images": 500,
+      "regions": 1095
+    },
+    {
+      "name": "m50_k128",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m50_k128",
+      "images_per_class": 50,
+      "clusters": 128,
+      "source_images": 500,
+      "regions": 1095
+    },
+    {
+      "name": "m50_k256",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m50_k256",
+      "images_per_class": 50,
+      "clusters": 256,
+      "source_images": 500,
+      "regions": 1095
+    },
+    {
+      "name": "m50_k512",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m50_k512",
+      "images_per_class": 50,
+      "clusters": 512,
+      "source_images": 500,
+      "regions": 1095
+    },
+    {
+      "name": "m50_k1024",
+      "directory": "artifacts/concept_ablation_v1/cifar10/m50_k1024",
+      "images_per_class": 50,
+      "clusters": 1024,
+      "source_images": 500,
+      "regions": 1095
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "controls": [
+    [
+      "clean",
+      "none"
+    ],
+    [
+      "fixed",
+      "fixed"
+    ],
+    [
+      "mean_only",
+      "mean_only"
+    ],
+    [
+      "adapter_matched",
+      "adapter"
+    ],
+    [
+      "pi",
+      "mean_scale"
+    ]
+  ],
+  "regularization": {
+    "concept_weight": 3.0,
+    "energy_weight": 0.1,
+    "val_nll": 0.329431783246994,
+    "run": "outputs/study_v1/cifar10/validation_search/c3.0_e0.1"
+  },
+  "selection_sha256": "1e0a317928446dfe01ab333a561b38aa946225b524e8f1a63130d90bc433316b",
+  "interpretation": "Fixed reference validation-selected regularization; no per-case retuning. Effects are conditional on each case prototype bank and initial head."
+}

@@ -1,0 +1,74 @@
+{
+  "checked_at": 1791129381.5234122,
+  "banks": [
+    {
+      "bank": "RN50_GDINO",
+      "mapping_sha256": "2788d806bf9007d9385675a2f9ca91d0f8217ffedc1843b75541202003fe8ceb",
+      "original_mapping_sha256": "a98b0da53815391664b3ebdac9554d9f621b4f1d8540898932403d542043154b",
+      "kept_prototypes": 1647,
+      "removed_prototypes": 177,
+      "all_kept_names_have_training_part_inside_effective_crop": true,
+      "original_names_unchanged": true,
+      "no_test_annotations_used_to_filter": true
+    }
+  ],
+  "reports": [
+    {
+      "bank": "RN50_GDINO",
+      "run": "fixed_seed1",
+      "checkpoint_sha256": "de3c3b8fd354014cce88a29ab3b6dae10a25c0bf63e68ef2d1af0db0967c7c58",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "d58fe70cb1a19ac94393f6f0b5da724302811bc9d9012c18ecc14afc50c97f76"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "clean_seed2",
+      "checkpoint_sha256": "c78416a4130d683c36c6d3fb8d6bd4d4b7ca6685b6835652649aa0ef2609206c",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "2a8cff6e243f47c2426e54b3571dab0f5f2fde9d2927bb442939d28dc7f514a5"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "fixed_seed0",
+      "checkpoint_sha256": "17f65e075d8a8701f7a74a839de52f7be5c938487e22e9e04ed39b94274cc14a",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "de76ac5024efdd7d251d3625ad867acfd17e0b21739af2b38914ca667f70cd3e"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "clean_seed0",
+      "checkpoint_sha256": "8d9a5df92bf7b58b6dadb8990e4f61b03f43abb9c165ff80246397a675a34ecb",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "3f417c3a47006d5e3eb07dff4692ccf3a43b972c3c81a20ef2ebdf7ea71f79ac"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "clean_seed3",
+      "checkpoint_sha256": "9da141454f9cb479f324c6c4abcc16b96be42e0a3d70c736c46a131accb6a4a9",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "94b74eb198f84bfa1c75111b57a63d81da5ad5be25c08cfa216b916c4ba0956f"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "clean_seed4",
+      "checkpoint_sha256": "d99d8cd2ee2b6575cfe08e8d85ac272b27b371360cf3524a3db0104afaec2cb0",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "b0d3ffe2f6808ce096c33ce02e627c3198acc9bfcabb570a3067f5c1ee99b33a"
+    },
+    {
+      "bank": "RN50_GDINO",
+      "run": "clean_seed1",
+      "checkpoint_sha256": "0623aee3d3a6812084515c07f72c9d8c83c1d3211403e96102444ef986e9f6d6",
+      "original_aliases_exact": true,
+      "mapping_lineage_exact": true,
+      "attribute_report_sha256": "76f64fadab3f111e7c875fdcad85e25a88c75fa7afc135b73adabc8db10cdaa4"
+    }
+  ],
+  "limits": "Only the listed completed banks and reports are verified. This does not establish completion of queued CUB model, background, retrieval or localization comparisons."
+}

@@ -1,0 +1,1141 @@
+{
+  "groups": [
+    {
+      "variant": "clean",
+      "completed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cases": {
+        "identity": {
+          "accuracy": {
+            "mean": 0.5944080352783203,
+            "std": 0.0
+          },
+          "nll": {
+            "mean": 1.5069959163665771,
+            "std": 0.0
+          },
+          "ece_15_bins": {
+            "mean": 0.014978634252403205,
+            "std": 1.939479807224432e-18
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.578192810027354,
+            "std": 0.0
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6084886825578988,
+            "std": 0.0
+          }
+        },
+        "gray": {
+          "accuracy": {
+            "mean": 0.22437003254890442,
+            "std": 0.0
+          },
+          "nll": {
+            "mean": 3.9611332416534424,
+            "std": 0.0
+          },
+          "ece_15_bins": {
+            "mean": 0.24913823175116293,
+            "std": 0.0
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5238276260653301,
+            "std": 0.0
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6087992799916723,
+            "std": 0.0
+          }
+        },
+        "train_background_17": {
+          "accuracy": {
+            "mean": 0.3127373158931732,
+            "std": 0.0
+          },
+          "nll": {
+            "mean": 3.1826727390289307,
+            "std": 0.0
+          },
+          "ece_15_bins": {
+            "mean": 0.1492238300377058,
+            "std": 0.0
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5534619424664724,
+            "std": 0.0
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.591629655126198,
+            "std": 0.0
+          }
+        },
+        "train_background_29": {
+          "accuracy": {
+            "mean": 0.31377285718917847,
+            "std": 0.0
+          },
+          "nll": {
+            "mean": 3.1694886684417725,
+            "std": 0.0
+          },
+          "ece_15_bins": {
+            "mean": 0.14517038663951587,
+            "std": 0.0
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5530390552275238,
+            "std": 0.0
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.5894961965285628,
+            "std": 0.0
+          }
+        },
+        "train_background_43": {
+          "accuracy": {
+            "mean": 0.32395580410957336,
+            "std": 0.0
+          },
+          "nll": {
+            "mean": 3.137343645095825,
+            "std": 0.0
+          },
+          "ece_15_bins": {
+            "mean": 0.1358484290136597,
+            "std": 0.0
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5545473553923317,
+            "std": 0.0
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.5937893375062041,
+            "std": 0.0
+          }
+        }
+      }
+    },
+    {
+      "variant": "fixed",
+      "completed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cases": {
+        "identity": {
+          "accuracy": {
+            "mean": 0.5946496248245239,
+            "std": 0.0004972339689607172
+          },
+          "nll": {
+            "mean": 1.5070601940155028,
+            "std": 7.637061982448258e-05
+          },
+          "ece_15_bins": {
+            "mean": 0.015299950203421384,
+            "std": 0.0007737657714242365
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5784915962238502,
+            "std": 0.00019046541085304637
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6084809880823256,
+            "std": 7.3473891974146606e-06
+          }
+        },
+        "gray": {
+          "accuracy": {
+            "mean": 0.22464618384838103,
+            "std": 9.452883394099525e-05
+          },
+          "nll": {
+            "mean": 3.9609095573425295,
+            "std": 0.0001502988907285262
+          },
+          "ece_15_bins": {
+            "mean": 0.248781308059809,
+            "std": 0.00010113695519361592
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5239002930434005,
+            "std": 6.92213439168768e-05
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6087904564715177,
+            "std": 1.0318695804146071e-05
+          }
+        },
+        "train_background_17": {
+          "accuracy": {
+            "mean": 0.31284086108207704,
+            "std": 0.0002617512624721646
+          },
+          "nll": {
+            "mean": 3.182461977005005,
+            "std": 0.00012630324084277384
+          },
+          "ece_15_bins": {
+            "mean": 0.14903444504625168,
+            "std": 0.0002645875419018974
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.553667345574174,
+            "std": 6.85963572080621e-05
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.5916277807633005,
+            "std": 5.937299040069119e-06
+          }
+        },
+        "train_background_29": {
+          "accuracy": {
+            "mean": 0.3129789471626282,
+            "std": 0.00045006212533588147
+          },
+          "nll": {
+            "mean": 3.169289255142212,
+            "std": 0.0001234235438913333
+          },
+          "ece_15_bins": {
+            "mean": 0.14584745730738288,
+            "std": 0.0004631059448672026
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5530178902202972,
+            "std": 6.716317757250261e-05
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.5894842729633588,
+            "std": 8.969442829325011e-06
+          }
+        },
+        "train_background_43": {
+          "accuracy": {
+            "mean": 0.32350707054138184,
+            "std": 0.000433211658687849
+          },
+          "nll": {
+            "mean": 3.137243890762329,
+            "std": 9.26167343916755e-05
+          },
+          "ece_15_bins": {
+            "mean": 0.13620845889739766,
+            "std": 0.00042702239612122593
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5545699954060288,
+            "std": 9.036982177916956e-05
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.5937812437144103,
+            "std": 4.021488380263167e-06
+          }
+        }
+      }
+    },
+    {
+      "variant": "mean_only",
+      "completed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cases": {
+        "identity": {
+          "accuracy": {
+            "mean": 0.6401449680328369,
+            "std": 0.00024408293657517151
+          },
+          "nll": {
+            "mean": 1.3287335634231567,
+            "std": 0.0040183356316974
+          },
+          "ece_15_bins": {
+            "mean": 0.04319299641562232,
+            "std": 0.002034955538188936
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5863113856995795,
+            "std": 0.0006558345787188309
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.618641286608486,
+            "std": 0.00036749513970641567
+          }
+        },
+        "gray": {
+          "accuracy": {
+            "mean": 0.3161201298236847,
+            "std": 0.005830706999988328
+          },
+          "nll": {
+            "mean": 3.3398405075073243,
+            "std": 0.043689050684114945
+          },
+          "ece_15_bins": {
+            "mean": 0.2537589621129753,
+            "std": 0.0069473416107789015
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5320609894198434,
+            "std": 0.0008654857124503261
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6188352605219501,
+            "std": 0.0004609436589751111
+          }
+        },
+        "train_background_17": {
+          "accuracy": {
+            "mean": 0.38467379808425906,
+            "std": 0.004959434028704032
+          },
+          "nll": {
+            "mean": 2.786606788635254,
+            "std": 0.016614926109735383
+          },
+          "ece_15_bins": {
+            "mean": 0.18230204433066455,
+            "std": 0.005448413901253025
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5633420214389935,
+            "std": 0.0009033395706480833
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6039721543288986,
+            "std": 0.0004189988566998089
+          }
+        },
+        "train_background_29": {
+          "accuracy": {
+            "mean": 0.37918536067008973,
+            "std": 0.0009531669176337832
+          },
+          "nll": {
+            "mean": 2.7845314502716065,
+            "std": 0.0179126370532422
+          },
+          "ece_15_bins": {
+            "mean": 0.1861462550451399,
+            "std": 0.0018168267218322143
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5625278942323954,
+            "std": 0.0009417853988446385
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6024048889121328,
+            "std": 0.00045743118065057057
+          }
+        },
+        "train_background_43": {
+          "accuracy": {
+            "mean": 0.396617192029953,
+            "std": 0.0046950257386373
+          },
+          "nll": {
+            "mean": 2.7507596015930176,
+            "std": 0.016124622976628453
+          },
+          "ece_15_bins": {
+            "mean": 0.1683815430219907,
+            "std": 0.004975371686344376
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5650886357693283,
+            "std": 0.0010341569515334506
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6058385855229104,
+            "std": 0.0003951056240104622
+          }
+        }
+      }
+    },
+    {
+      "variant": "adapter_matched",
+      "completed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cases": {
+        "identity": {
+          "accuracy": {
+            "mean": 0.6404556393623352,
+            "std": 0.0002250373485845816
+          },
+          "nll": {
+            "mean": 1.3284475326538085,
+            "std": 0.004079448909410519
+          },
+          "ece_15_bins": {
+            "mean": 0.043288489785734505,
+            "std": 0.0018302164262622193
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5864200037891117,
+            "std": 0.0006646323432358052
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6186811686367469,
+            "std": 0.0003673654275319006
+          }
+        },
+        "gray": {
+          "accuracy": {
+            "mean": 0.31646531224250796,
+            "std": 0.005556026907136032
+          },
+          "nll": {
+            "mean": 3.337922286987305,
+            "std": 0.044039272632069956
+          },
+          "ece_15_bins": {
+            "mean": 0.253826208397905,
+            "std": 0.006679308943251621
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5319567460527567,
+            "std": 0.0007245999835864066
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6188771776187797,
+            "std": 0.0004596735783695888
+          }
+        },
+        "train_background_17": {
+          "accuracy": {
+            "mean": 0.38470831513404846,
+            "std": 0.004747076235117805
+          },
+          "nll": {
+            "mean": 2.785778284072876,
+            "std": 0.016846218240582345
+          },
+          "ece_15_bins": {
+            "mean": 0.1827130363824226,
+            "std": 0.005245243483907118
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5633813454301855,
+            "std": 0.0008045336661539451
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6040186225720209,
+            "std": 0.0004176670759330813
+          }
+        },
+        "train_background_29": {
+          "accuracy": {
+            "mean": 0.3793924808502197,
+            "std": 0.0009405910363026883
+          },
+          "nll": {
+            "mean": 2.783704948425293,
+            "std": 0.018141543655862253
+          },
+          "ece_15_bins": {
+            "mean": 0.18633167190994068,
+            "std": 0.0018891841476076237
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5625802242521987,
+            "std": 0.0008486611620486033
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6024536372347017,
+            "std": 0.00045690650824530964
+          }
+        },
+        "train_background_43": {
+          "accuracy": {
+            "mean": 0.3968242943286896,
+            "std": 0.004466442535926236
+          },
+          "nll": {
+            "mean": 2.749915075302124,
+            "std": 0.016356136212197298
+          },
+          "ece_15_bins": {
+            "mean": 0.16855729330128322,
+            "std": 0.004821067945378683
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.565046281963477,
+            "std": 0.000924129946333255
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6058846424360882,
+            "std": 0.0003939417201112757
+          }
+        }
+      }
+    },
+    {
+      "variant": "pi",
+      "completed_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cases": {
+        "identity": {
+          "accuracy": {
+            "mean": 0.640110456943512,
+            "std": 0.0007562714801119576
+          },
+          "nll": {
+            "mean": 1.3288832187652588,
+            "std": 0.0039709273328626905
+          },
+          "ece_15_bins": {
+            "mean": 0.04313050562825768,
+            "std": 0.0020767890166166806
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.586307892994828,
+            "std": 0.000932285450167747
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6186393745899817,
+            "std": 0.00038018550315550175
+          }
+        },
+        "gray": {
+          "accuracy": {
+            "mean": 0.31615464091300965,
+            "std": 0.006026416607912751
+          },
+          "nll": {
+            "mean": 3.3409468650817873,
+            "std": 0.043871668911255976
+          },
+          "ece_15_bins": {
+            "mean": 0.2536141837646935,
+            "std": 0.007368156980003252
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5318618907217205,
+            "std": 0.000931900961535852
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6188347486479987,
+            "std": 0.0004751565336803783
+          }
+        },
+        "train_background_17": {
+          "accuracy": {
+            "mean": 0.3843631327152252,
+            "std": 0.004803216923131991
+          },
+          "nll": {
+            "mean": 2.7874595642089846,
+            "std": 0.016482394997449357
+          },
+          "ece_15_bins": {
+            "mean": 0.1825571219518099,
+            "std": 0.005321251406188022
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5632931751553871,
+            "std": 0.000850020268785223
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6039767918342605,
+            "std": 0.00043492133628253443
+          }
+        },
+        "train_background_29": {
+          "accuracy": {
+            "mean": 0.3788401782512665,
+            "std": 0.0016236525677048473
+          },
+          "nll": {
+            "mean": 2.785369300842285,
+            "std": 0.01786349914102913
+          },
+          "ece_15_bins": {
+            "mean": 0.18618746860622987,
+            "std": 0.002532010411254297
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5624565300869743,
+            "std": 0.0009318776173579222
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6023999983048356,
+            "std": 0.00047951231239439613
+          }
+        },
+        "train_background_43": {
+          "accuracy": {
+            "mean": 0.3963065266609192,
+            "std": 0.00441614105158937
+          },
+          "nll": {
+            "mean": 2.751653957366943,
+            "std": 0.015955662390317517
+          },
+          "ece_15_bins": {
+            "mean": 0.1684344786202962,
+            "std": 0.004980637284470915
+          },
+          "attribute_macro_balanced_accuracy": {
+            "mean": 0.5651640217298135,
+            "std": 0.0009415312580611348
+          },
+          "attribute_macro_auroc": {
+            "mean": 0.6058366716450369,
+            "std": 0.000413074566539813
+          }
+        }
+      }
+    }
+  ],
+  "pi_comparisons": [
+    {
+      "case": "identity",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.04570245081118399,
+      "ci95": [
+        0.038554539178460474,
+        0.05281498101484293
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "gray",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0917846047635485,
+      "ci95": [
+        0.08284432171211598,
+        0.10051863997238523
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_17",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.07162581981360028,
+      "ci95": [
+        0.0629271660338281,
+        0.08011995167414566
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_29",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0650673110113911,
+      "ci95": [
+        0.057127200552295476,
+        0.07259319986192614
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_43",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.07235070762858128,
+      "ci95": [
+        0.06416983085950984,
+        0.08105022437003798
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "identity",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.045460821539523646,
+      "ci95": [
+        0.03828098032447359,
+        0.052607870210562645
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "gray",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0915084570245081,
+      "ci95": [
+        0.08256558508802209,
+        0.10031670693821192
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_17",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.07152226441146013,
+      "ci95": [
+        0.0629953400069037,
+        0.08015188125647221
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_29",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0658612357611322,
+      "ci95": [
+        0.05802468070417675,
+        0.07342250604073178
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_43",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.07279944770452192,
+      "ci95": [
+        0.06472212633759061,
+        0.08160165688643424
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "identity",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -3.451846738004832e-05,
+      "ci95": [
+        -0.0008974801518812565,
+        0.0008284432171211599
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "gray",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 3.451846738004832e-05,
+      "ci95": [
+        -0.0006213324128408698,
+        0.0006903693476009665
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_17",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0003106662064204349,
+      "ci95": [
+        -0.0012081463583016915,
+        0.0006213324128408699
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_29",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00034518467380048324,
+      "ci95": [
+        -0.0014497756299620297,
+        0.0007594062823610633
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_43",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0003106662064204349,
+      "ci95": [
+        -0.001484294097342078,
+        0.0008629616845012082
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "identity",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00034518467380048324,
+      "ci95": [
+        -0.0013462202278218846,
+        0.000484121505005173
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "gray",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0003106662064204349,
+      "ci95": [
+        -0.0011045909561615466,
+        0.0004832585433206765
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_17",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00034518467380048324,
+      "ci95": [
+        -0.0012426648256817397,
+        0.0005522954780807733
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_29",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0005522954780807732,
+      "ci95": [
+        -0.001691404901622368,
+        0.0005186399723852215
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_43",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.0005177770107007249,
+      "ci95": [
+        -0.0015533310321021747,
+        0.00044960303762512483
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "identity",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0006213324128408698,
+        0.0005868139454608216
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "gray",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.00024162927166033828,
+      "ci95": [
+        -0.00024162927166033825,
+        0.0007947877114256081
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_17",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 3.451846738004832e-05,
+      "ci95": [
+        -0.0005868139454608216,
+        0.0006558508802209182
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_29",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -0.00010355540214014498,
+      "ci95": [
+        -0.0007939247497411116,
+        0.0005522954780807733
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "case": "train_background_43",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0006213324128408698,
+        0.0006213324128408698
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    }
+  ]
+}

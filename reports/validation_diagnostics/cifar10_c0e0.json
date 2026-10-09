@@ -1,0 +1,86 @@
+{
+  "evaluation_split": "val",
+  "seed": 0,
+  "concept_weight": 0,
+  "energy_weight": 0,
+  "selection_status": "first candidate, hyperparameter search still running",
+  "source": "outputs/study_v1/cifar10/validation_search/c0.0_e0.0/analysis_validation.json",
+  "source_sha256": "d241075bbd068bac0d94415a75e33881c78714806cb32c6957690ea467086033",
+  "baseline": {
+    "accuracy": 0.8518000245094299,
+    "macro_f1": 0.8515462641882964,
+    "nll": 0.43545782566070557,
+    "ece_15_bins": 0.025685097337504865,
+    "brier": 0.21481448411941528
+  },
+  "inference": {
+    "mc1": {
+      "accuracy": 0.8812000155448914,
+      "macro_f1": 0.8808785241202493,
+      "nll": 0.3344874978065491,
+      "ece_15_bins": 0.015430403411684852,
+      "brier": 0.16761896014213562,
+      "standardized_concept_mse": 0.0999932587146759,
+      "top5_clean_agreement": 0.7404400110244751,
+      "noise_energy": 0.021606385707855225,
+      "sampling_top5_stability": 1.0,
+      "concept_sampling_variance": 0.0,
+      "mu_rms": 0.1393403559923172,
+      "sigma_rms": 0.010101205669343472,
+      "attention_entropy_normalized": 0.8627152442932129
+    },
+    "mc4": {
+      "accuracy": 0.8809999823570251,
+      "macro_f1": 0.8806753084979286,
+      "nll": 0.334402859210968,
+      "ece_15_bins": 0.015470989209899085,
+      "brier": 0.16759324073791504,
+      "standardized_concept_mse": 0.09987892955541611,
+      "top5_clean_agreement": 0.7404000759124756,
+      "noise_energy": 0.021606385707855225,
+      "sampling_top5_stability": 0.9856299757957458,
+      "concept_sampling_variance": 0.00017004951951093972,
+      "mu_rms": 0.1393403559923172,
+      "sigma_rms": 0.010101205669343472,
+      "attention_entropy_normalized": 0.8627152442932129
+    },
+    "mc8": {
+      "accuracy": 0.8808000087738037,
+      "macro_f1": 0.8804728778617907,
+      "nll": 0.3343745172023773,
+      "ece_15_bins": 0.015205491982613655,
+      "brier": 0.1676017791032791,
+      "standardized_concept_mse": 0.09975041449069977,
+      "top5_clean_agreement": 0.7408000826835632,
+      "noise_energy": 0.021606385707855225,
+      "sampling_top5_stability": 0.9851650595664978,
+      "concept_sampling_variance": 0.00019858271116390824,
+      "mu_rms": 0.1393403559923172,
+      "sigma_rms": 0.010101205669343472,
+      "attention_entropy_normalized": 0.8627152442932129
+    },
+    "mc16": {
+      "accuracy": 0.8809999823570251,
+      "macro_f1": 0.8806691106242084,
+      "nll": 0.33437415957450867,
+      "ece_15_bins": 0.014958802605518648,
+      "brier": 0.1675780713558197,
+      "standardized_concept_mse": 0.09972203522920609,
+      "top5_clean_agreement": 0.7408000230789185,
+      "noise_energy": 0.021606385707855225,
+      "sampling_top5_stability": 0.9845701456069946,
+      "concept_sampling_variance": 0.0002116518298862502,
+      "mu_rms": 0.1393403559923172,
+      "sigma_rms": 0.010101205669343472,
+      "attention_entropy_normalized": 0.8627152442932129
+    },
+    "mean": {
+      "accuracy": 0.8808000087738037,
+      "macro_f1": 0.8804728778617907,
+      "nll": 0.33434993028640747,
+      "ece_15_bins": 0.014880434136295646,
+      "brier": 0.16758249700069427
+    }
+  },
+  "observation": "Learned mean RMS is much greater than learned scale RMS; MC8 and deterministic mean have identical validation accuracy in this fixed-draw diagnostic. This does not establish stochastic benefit or test generalization."
+}

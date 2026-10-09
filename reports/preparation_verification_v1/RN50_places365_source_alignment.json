@@ -1,0 +1,34 @@
+{
+  "dataset": "places365",
+  "images": 1839960,
+  "splits": {
+    "train": {
+      "images": 1623114,
+      "indices_across_backbones_exact": true,
+      "labels_across_backbones_exact": true,
+      "source_labels_exact_via_verified_reference": true,
+      "RN50_feature_sha256": "abb71c4e17b232b67043b56fa0fbf23c931b6e51d970a5999cf4fe1aeaa06641",
+      "ViT_B16_feature_sha256": "23ff9de0af2eb6bbeffd82c3de4901433c73382f2d011f94f9744d1119141bd1"
+    },
+    "val": {
+      "images": 180346,
+      "indices_across_backbones_exact": true,
+      "labels_across_backbones_exact": true,
+      "source_labels_exact_via_verified_reference": true,
+      "RN50_feature_sha256": "a518cc6157e981cb0b770c95fe605900019cfab336b60f8ca1b6c3d73886074f",
+      "ViT_B16_feature_sha256": "7c51d42ace6a76614116eeaeb8d35a2870ec8c3ffb5738ab144e4a19db34b1d6"
+    },
+    "test": {
+      "images": 36500,
+      "indices_across_backbones_exact": true,
+      "labels_across_backbones_exact": true,
+      "source_labels_exact_via_verified_reference": true,
+      "RN50_feature_sha256": "267d96774156bd478a08aaa5d96a981e6cedcfb5acdb1473f5733e195f1f11a2",
+      "ViT_B16_feature_sha256": "a859aef0af04a9aed08d6792965d23a403f9f6ea4cf7399b33a71a058af37256"
+    }
+  },
+  "reference_verification_sha256": "8892b25b71ad89556dd892ef8b455376f41d303973cb998fff1ebae655bac5bf",
+  "rn50_verification_sha256": "968a31ff6743bf2635f87aa6c57a79df8c2c5ed64bdf41cdba51197e04d520ef",
+  "scope": "Full-image cache alignment only; region/model and Pi performance evaluations remain incomplete.",
+  "checked_at": 1791181852.298025
+}

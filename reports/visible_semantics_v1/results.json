@@ -1,0 +1,640 @@
+{
+  "groups": [
+    {
+      "bank": "RN50_SAM2",
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6058678151421102,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.642052465899928,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6063342623250351,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6420511612264213,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6113732992122771,
+          "std": 0.000529012602995197
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6479477176349014,
+          "std": 0.0004703484519193002
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6114469152985448,
+          "std": 0.0004614756644312459
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6479703798612667,
+          "std": 0.0004701190246307305
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6114401262127553,
+          "std": 0.0004602065230862635
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.647957876961826,
+          "std": 0.00047333983362017845
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_mlp",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6116528844053276,
+          "std": 0.00017681033905712296
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6487028317639734,
+          "std": 0.00015044513744229924
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_random_concepts",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6117096340196756,
+          "std": 0.00028886063248686827
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6484013279177346,
+          "std": 0.00017955602271593166
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_concept_scores",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6114254136047481,
+          "std": 0.0011612432328573744
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6482111702223236,
+          "std": 0.0008807382455666835
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_no_preservation",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6121575630269087,
+          "std": 0.0008413726861484637
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6498470622185504,
+          "std": 0.0007444541515999023
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_no_energy",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6114401262127553,
+          "std": 0.0004602065230862635
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.647957876961826,
+          "std": 0.00047333983362017845
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "clean_refit",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6058678151421102,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.642052465899928,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_SAM2",
+      "variant": "pi_refit",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6114401262127553,
+          "std": 0.0004602065230862635
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.647957876961826,
+          "std": 0.00047333983362017845
+        },
+        "mapped_attributes": {
+          "mean": 166.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 161.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_GDINO",
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5773785795680745,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6057340134704687,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 139.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_GDINO",
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5777588723818887,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6057240666800041,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 139.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_GDINO",
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5849860697556339,
+          "std": 0.0006735169392913118
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6160772478777543,
+          "std": 0.00033137086737477215
+        },
+        "mapped_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 139.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_GDINO",
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5850787726869742,
+          "std": 0.0005747618744751296
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.616118623957784,
+          "std": 0.0003313883109669242
+        },
+        "mapped_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 139.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "RN50_GDINO",
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.5850085718194977,
+          "std": 0.0007075935579673237
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6160737036029507,
+          "std": 0.0003368913817817977
+        },
+        "mapped_attributes": {
+          "mean": 148.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 139.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "ViT-B16_SAM2",
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6339996178968217,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6748699959927112,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 158.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 152.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "ViT-B16_SAM2",
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6344187646893364,
+          "std": 0.0
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6748718318312391,
+          "std": 0.0
+        },
+        "mapped_attributes": {
+          "mean": 158.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 152.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "ViT-B16_SAM2",
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6366762345125756,
+          "std": 0.000485470038260488
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6772705329745883,
+          "std": 0.00018263565125786887
+        },
+        "mapped_attributes": {
+          "mean": 158.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 152.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "ViT-B16_SAM2",
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6367137394306456,
+          "std": 0.00043978757620300374
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6772802078502014,
+          "std": 0.00018316789188649286
+        },
+        "mapped_attributes": {
+          "mean": 158.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 152.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "bank": "ViT-B16_SAM2",
+      "variant": "pi",
+      "seeds": [
+        0,
+        1
+      ],
+      "metrics": {
+        "attribute_macro_balanced_accuracy": {
+          "mean": 0.6366591897924324,
+          "std": 0.000262158646824551
+        },
+        "attribute_macro_auroc": {
+          "mean": 0.6773286902791124,
+          "std": 9.552868100561606e-05
+        },
+        "mapped_attributes": {
+          "mean": 158.0,
+          "std": 0.0
+        },
+        "evaluated_attributes": {
+          "mean": 152.0,
+          "std": 0.0
+        }
+      }
+    }
+  ],
+  "limits": "Original task checkpoints and names fixed. Training support filtered, validation thresholds recalibrated. Partial seed groups explicitly identified. Coverage must accompany semantic macro averages."
+}

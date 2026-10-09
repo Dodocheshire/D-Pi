@@ -1,0 +1,1183 @@
+{
+  "checked_at": 1791197337.5324695,
+  "groups": [
+    {
+      "case": "RN50/cifar10",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 10000,
+      "checkpoint_sha256": [
+        "f10a925c49f1c628e3c52cc6d9c3283f34e7ff4b639d1adecad1bc6016f3bdfd",
+        "146b0c58c1f4675058dabdc3f407870f90a4a767fffa52b4395a00ab8fe56865",
+        "e5e9e33283e3a6d59c9396fac6ed88a31a7ae9f85c7150d04e567a13f73d3dba",
+        "fce5f9a0b322b6ba7a9672418e9911a15a3acf6dd1f480180753d4089c105671",
+        "808c6c6639ed74c11152e9bfac80db8cb435c524f10a995313b65b87c822048d"
+      ],
+      "predictions_sha256": [
+        "50e0a45ed7a19af2c7f78ed9cf6c7f1e3124a19633672bdba1299914b6dded3b",
+        "dfa2f812461f5c4e4d3dce8ccf3454e904360581fb76cfc72364b1d000e14bd7",
+        "d1cd4a54168d3f56f06ef728d32b11d36fdb7c52ed7f99f0d5e97bc3d1794b39",
+        "3e050e2e67aa9032fe0d1444ab9bff3925094894d0ab03cf3313b79c0c32e870",
+        "1afe0b5a5af1be5f47e13949f87aede6dc91ab063db3d1cc2fbdb2b7156fc393"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.00028,
+          "ci95": [
+            -0.00012000000000000002,
+            0.0006600000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": 0.00016,
+          "ci95": [
+            -0.00011999999999999999,
+            0.00047999999999999996
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": 4e-05,
+          "ci95": [
+            -0.00015999999999999999,
+            0.00024000000000000003
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0002,
+            0.00022
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": -0.00012,
+          "ci95": [
+            -0.00042,
+            0.00018
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": -0.00024,
+          "ci95": [
+            -0.00062,
+            0.00014000000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": -0.00028,
+          "ci95": [
+            -0.00068,
+            0.00011999999999999998
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": -0.00012,
+          "ci95": [
+            -0.00037999999999999997,
+            0.00012000000000000002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": -0.00016,
+          "ci95": [
+            -0.00042,
+            8e-05
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": -4e-05,
+          "ci95": [
+            -0.00022,
+            0.00014000000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "RN50/cifar100",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 10000,
+      "checkpoint_sha256": [
+        "6353637214bff0e65032ff84a5b18594581970de677d6ff1ec9f89add18d82b4",
+        "2ce6016667d91316f92b717394a6905ed057c2ef3e29a850ac1cd52874524529",
+        "5fcd0f5e36a346390019f335a4a13145f6ee63ea7e7aea66cfa5d8e398a869c2",
+        "7aa0d158027c96dcd77674e79f8026d100b0b982bfa65783f8dc73e43a8991fe",
+        "16a33d91766b2b2a8057468be0952cb9b45770ca37dc3a689f214bddae94e652"
+      ],
+      "predictions_sha256": [
+        "0cf4ad91f519f7339c62e8c0d0110286cbe4fadf7fc96e9e176b5b36ceeb6b35",
+        "bf1fbff75e95b8060a7d5ea42d93c93b9b1ef6ca8b98ae353b6d5d66b3e18dda",
+        "a8c262609df7b33d57678cc4a1b63bb30fe8781bcfcba82a25225a322eb60721",
+        "99f007f29a241954858766633e389be79d85bb21588bda990eb35a943d3240ed",
+        "8fc156f69d255190fae1d082069c3090540415db4c7bd6fd23184903857cd9ab"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.00012,
+          "ci95": [
+            -0.0007205,
+            0.0009400000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": -2e-05,
+          "ci95": [
+            -0.0005000000000000001,
+            0.00045999999999999996
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": 4e-05,
+          "ci95": [
+            -0.0003999999999999999,
+            0.00047999999999999996
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 8e-05,
+          "ci95": [
+            -0.0002405,
+            0.00044
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": -0.00014,
+          "ci95": [
+            -0.0008600000000000002,
+            0.00064
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": -8e-05,
+          "ci95": [
+            -0.0009199999999999999,
+            0.0007
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": -4e-05,
+          "ci95": [
+            -0.0009599999999999999,
+            0.00082
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": 6e-05,
+          "ci95": [
+            -0.00033999999999999997,
+            0.00046000000000000007
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": 0.0001,
+          "ci95": [
+            -0.00034,
+            0.0005800000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": 4e-05,
+          "ci95": [
+            -0.00026000000000000003,
+            0.0003600000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "RN50/cub",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 5794,
+      "checkpoint_sha256": [
+        "24530187db5d0b2d229eeb8c1816462faa74e62cc18838ec302353b5a5f7e196",
+        "eaa2a0fcf515d7ba3abd6ecc4685ab1e894db02cc083667106b3e0a97970a387",
+        "bba52fac121d8a6727c6ec9efa0955fbcbc9291e5f56fa2cadfc20e01f6dd466",
+        "252f8b919da5358402e82717c2134024e1a9ba43c2f76050577dba62e625ef51",
+        "fa6b1c5f77ff60b71bfcc480f1d16b2f9f69b21f93394163053f535d120aa560"
+      ],
+      "predictions_sha256": [
+        "71bf334859a29d7752136315d7c064c6764abe24ef7d4fcf4b0656dd7c5cdc0d",
+        "821ad1b69d076613435bfc717ad427103cabb191ec91013d9480c2c8d232c9b1",
+        "b0786a433b1d65b95ecdb1479563dd057cbc3e61f91805112d2a29b97612c3af",
+        "03eaafaff30f386a57974b49346b443620b529b4b39493f4fe7c5440267840cb",
+        "e2268057e344489dc819506d964a34cc221940470880611d0b34315f78ef8b8b"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.00034518467380048324,
+          "ci95": [
+            -0.00044874007594062823,
+            0.0011391094235415947
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": 0.0002761477390403866,
+          "ci95": [
+            -0.00024162927166033825,
+            0.0007939247497411114
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": 0.00010355540214014498,
+          "ci95": [
+            -0.0003805661028650328,
+            0.0006213324128408699
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 0.00010355540214014498,
+          "ci95": [
+            -0.00044874007594062823,
+            0.0005868139454608216
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": -6.903693476009665e-05,
+          "ci95": [
+            -0.0009319986192613048,
+            0.0007248878149810149
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": -0.00024162927166033828,
+          "ci95": [
+            -0.001173627890921643,
+            0.0006567138419054148
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": -0.00024162927166033828,
+          "ci95": [
+            -0.0012426648256817397,
+            0.0006903693476009665
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": -0.00017259233690024162,
+          "ci95": [
+            -0.0007248878149810149,
+            0.00037970314118053163
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": -0.00017259233690024162,
+          "ci95": [
+            -0.0007594062823610633,
+            0.00037970314118053163
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0005177770107007249,
+            0.0004832585433206765
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "RN50/cub_gdino",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 5794,
+      "checkpoint_sha256": [
+        "a711d0d7a180ac0a68d6110b77154ba0fea46e90d61d50c0098c84b401a08b6f",
+        "5e902e50cfaeb15b4dbd52e03efb5ab191a8f3528e32d9d88452fcf9da49f568",
+        "284d1631d1fecc2cf3b11c2d032072b5035591998c3dee921542966fee421925",
+        "43386f07dc6967d80a68079b0528def641622cff36c5bc509e56d9d5ae43497a",
+        "b5bea571f254964591f7e1d5a997658163e3c33659b9d93cb1f308aa76a983e7"
+      ],
+      "predictions_sha256": [
+        "2232bc1d9dfde6accf2d8df48a4e81bc268c36214f773ea848dddb5160bee9f7",
+        "2d3464c9a555b623739816208c9711163a80b3c8bb262eaafcd16000a1c7b7fb",
+        "53b000aa66fc591d677786d6abfe263f7920e198f2f4cd183899b76c61585429",
+        "4fec21ed457d868cd9bf504a351a6248a976908301b076386c333ccab15466b4",
+        "638de5613c19888a9d4cbfd45d48b299db55d70da6126fb0b95f2b6109414860"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.00010355540214014498,
+          "ci95": [
+            -0.0010355540214014498,
+            0.0012081463583016915
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": -0.0002761477390403866,
+          "ci95": [
+            -0.0010355540214014498,
+            0.00041422160856057996
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": -3.451846738004832e-05,
+          "ci95": [
+            -0.0007939247497411114,
+            0.0006903693476009665
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0004832585433206766,
+            0.0004832585433206766
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": -0.0003797031411805316,
+          "ci95": [
+            -0.0013117017604418364,
+            0.0006213324128408698
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": -0.0001380738695201933,
+          "ci95": [
+            -0.0012426648256817399,
+            0.0010010355540214014
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": -0.00010355540214014498,
+          "ci95": [
+            -0.001139109423541595,
+            0.0009665170866413532
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": 0.00024162927166033828,
+          "ci95": [
+            -0.00037970314118053163,
+            0.000966517086641353
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": 0.0002761477390403866,
+          "ci95": [
+            -0.00034518467380048324,
+            0.001001898515705898
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": 3.451846738004832e-05,
+          "ci95": [
+            -0.0006558508802209182,
+            0.0007939247497411114
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 5794,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "ViT-B16/cifar10",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 10000,
+      "checkpoint_sha256": [
+        "ddd1a94e19d90a5c6b6b34ef3a7b5796c9586103cde11ebad3e0bb7cb85c861f",
+        "4e925c37f9b89bac160203d76586d984a71e3c47b245b5d78c77b0a17c5cfc11",
+        "45222b615edb4213629b37351341c62c00740e7f7bccabd76245e60fa443da20",
+        "684396ffde537a6ab3dea2982ae846a473bb0b1041b71404d66d00b2884d700c",
+        "037ece5d11d9ffa72afbae7c4324a4f636021bc18973ad336ab77d46fc518b6e"
+      ],
+      "predictions_sha256": [
+        "55b3963ac41e9ee29dd8b9a87e761330ec9fbc8868f23df80404d6ab381fc409",
+        "ad6d1f95f506e7c18c528c8f72002dc4eee9253ba525500af71aabde5bf8e12f",
+        "7f1134fb26140d0a6c53d79accba1e26855a1f4b85dc1d5e017d5afa4516c682",
+        "b4bd48fe3098701a769b3f8f9cbe7cb89c2721a92ba31352465495feeb3e8475",
+        "34086ff38c9ff54703d3233982ad0196243460b94d957c386406d557b0196a12"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.0001,
+          "ci95": [
+            -0.00016,
+            0.0004
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": -6e-05,
+          "ci95": [
+            -0.00028,
+            0.00015999999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": -8e-05,
+          "ci95": [
+            -0.0003,
+            0.0001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.00012000000000000002,
+            0.00016
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": -0.00016,
+          "ci95": [
+            -0.0004405,
+            0.00010000000000000002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": -0.00018,
+          "ci95": [
+            -0.00052,
+            9.999999999999999e-05
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": -0.0001,
+          "ci95": [
+            -0.00037999999999999997,
+            0.00015999999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": -2e-05,
+          "ci95": [
+            -0.0002,
+            0.00015999999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": 6e-05,
+          "ci95": [
+            -0.00012000000000000002,
+            0.0002404999999999973
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": 8e-05,
+          "ci95": [
+            0.0,
+            0.00023999999999999998
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "ViT-B16/cifar100",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 10000,
+      "checkpoint_sha256": [
+        "d8fac76171be7f8792b2a6f677aea1ae4c003dce6c1b84236b101743e97f9249",
+        "49909da60716ad2dd2a48c602b2c756a94d1de7aac43e9e259cefecb4d35252a",
+        "600466fb041ad355df3e3f6b8e61a2bc70161ac6e17e9c47bc6e495d702d1113",
+        "ba5d69d61b5bbb551b0cb8a557a20f9fa8d29bae851a2a5c981d31be5b0e44c8",
+        "d8789509685939e58fbff56ad9b8c7dca0c23de5d30b1bfe975707e0b4b719d7"
+      ],
+      "predictions_sha256": [
+        "4e478ca872c28432c7a498ae3cba1456e2155d6be66a5c6d100dd0989e66d597",
+        "0fcbe6d2d54788cc039a2fcff60fff752005b72bebd164ba94a5db19efbf2098",
+        "2419deb932bf3ea08ddc061bfdddc99b2f6af30d098cae2a2d151412ed00079e",
+        "5564aab6d3b786028e04610d3beb1eb7de8c219cd842a076a651c863d4b44847",
+        "f33c19b589ed32d65fae42834bc8adc58fe67641ea4e8bdb7587ae0a771500ff"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": -0.0003,
+          "ci95": [
+            -0.0009805,
+            0.0003
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": 0.00012,
+          "ci95": [
+            -0.00037999999999999997,
+            0.0006999999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": -2e-05,
+          "ci95": [
+            -0.00036,
+            0.00033999999999999997
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": -0.00014,
+          "ci95": [
+            -0.0004,
+            8e-05
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": 0.00042,
+          "ci95": [
+            -0.00016000000000000004,
+            0.0010199999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": 0.00028,
+          "ci95": [
+            -0.0002,
+            0.0008799999999999999
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": 0.00016,
+          "ci95": [
+            -0.00042,
+            0.00084
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": -0.00014,
+          "ci95": [
+            -0.00054,
+            0.00022
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": -0.00026,
+          "ci95": [
+            -0.00074,
+            0.00014000000000000001
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": -0.00012,
+          "ci95": [
+            -0.0004,
+            0.00016000000000000004
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    },
+    {
+      "case": "ViT-L14/cifar10",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sampling_seed": 3310,
+      "test_images": 10000,
+      "checkpoint_sha256": [
+        "289b638c7eb5dcb34131bd62e2234582497842dd2728cfd8df90bbede0b6d67e",
+        "af6faa4372efdbd92b01ad632b03b647fcdd3286de2744fcb27d000611b3e21a",
+        "8fc353045bf8183f95cd2f5eb71bae482b77690eba0d36d24d49c6a5cbd6c57e",
+        "5144c479a7d6bb36871a243b080067591b74bdbdec9416e47d0b408d191d3159",
+        "1d35722dcf1b2e9129fd8cb55b7bb8400eea87e553d4a1a593c339f80c7aea73"
+      ],
+      "predictions_sha256": [
+        "41741839477e68c59e1f92da0f085acb60dc6f5e10e149527d0e7dfbcc32e337",
+        "bd18feaf9f099d7479f33ebc76b9a6d2cfb4bf35f4cc9626814e2e526c6c9d9f",
+        "d43bd2634a5789df540ec92ad9ae55a5a4e81e3bee58e2e520df47d06c125c91",
+        "8efe121dfa3de8bc29aa811b8d09cd5772225052f7476a9e6a732ee86150d916",
+        "3845bc3231cd4103d81426af11b32152711d3990c7befb780f6ff1647983f5ad"
+      ],
+      "comparisons": [
+        {
+          "control": "mean",
+          "adapted": "1",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0002,
+            0.0002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "4",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.00014000000000000001,
+            0.00014
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "8",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.00014000000000000001,
+            0.00014
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "mean",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.00014000000000000001,
+            0.00014
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "4",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0002,
+            0.0002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "8",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0002,
+            0.0002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "1",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            -0.0002,
+            0.0002
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "8",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "4",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        },
+        {
+          "control": "8",
+          "adapted": "16",
+          "accuracy_delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "adaptation_seeds": 5,
+          "test_images": 10000,
+          "draws": 2000,
+          "seed": 731,
+          "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+        }
+      ]
+    }
+  ],
+  "code_sha256": "44cd6035219272387f8f28ad1b4de3359a5b7e7c238762c8a61be252db57bdcf",
+  "limits": "All preset contrasts are descriptive, with unadjusted 95% intervals. No test-based budget selection. Only complete five-seed groups are included. Conditional on fixed prototypes, initial classifier, selected checkpoints and one sampling realization."
+}

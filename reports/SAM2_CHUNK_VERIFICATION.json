@@ -1,0 +1,27 @@
+{
+  "checked_at": 1791121053.3494768,
+  "protocol": "Same SAM2 parameters, isolated chunk size 2; compared to pre-chunk formal cache",
+  "records": [
+    {
+      "source_index": 83,
+      "regions": 0,
+      "boxes_exact": true,
+      "features_exact": true
+    },
+    {
+      "source_index": 115,
+      "regions": 1,
+      "boxes_exact": true,
+      "features_exact": true
+    },
+    {
+      "source_index": 267,
+      "regions": 2,
+      "boxes_exact": true,
+      "features_exact": true
+    }
+  ],
+  "planned_sources": 3,
+  "completed_sources": 3,
+  "limit": "Includes nonempty numerical pilots; not proof for every dataset/source"
+}

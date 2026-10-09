@@ -1,0 +1,36 @@
+{
+  "dataset": "imagenet",
+  "backbone": "RN50",
+  "images": 260000,
+  "splits": {
+    "train": {
+      "images": 189000,
+      "dimensions": 1024,
+      "indices_exact": true,
+      "native_source_labels_exact": true,
+      "finite": true,
+      "feature_sha256": "d035b315767ced07c48722aa9c0689211bdd062f859177dabdd4868575cbe23a"
+    },
+    "val": {
+      "images": 21000,
+      "dimensions": 1024,
+      "indices_exact": true,
+      "native_source_labels_exact": true,
+      "finite": true,
+      "feature_sha256": "d22e7f9c5fc4dd7d1259d107f4cc11d088d2c0a092ab5082de2b68d776ace84d"
+    },
+    "test": {
+      "images": 50000,
+      "dimensions": 1024,
+      "indices_exact": true,
+      "native_source_labels_exact": true,
+      "finite": true,
+      "feature_sha256": "a35b0dff1b3a0334faaf739cc6879ff66f319ffcebd015c75bafc9244c882ada"
+    }
+  },
+  "manifest_sha256": "5f0fa52d86d3a7ef36fcca66550d33b32a486023dd829f7317c1c0440ee78779",
+  "prewarm_verification_sha256": "04fd73a5881b3df102eb89449717680ad3a5cab577744e1881fc45027c3616cd",
+  "verification_code_sha256": "98644572b819fff7230b02c944a38c9157090957c87ae4868ec507e44649de2b",
+  "checked_at": 1791182630.1501858,
+  "scope": "Clean 200+10/class subset; not full ImageNet training; source alignment of global caches only, not Pi performance."
+}

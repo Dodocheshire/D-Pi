@@ -1,0 +1,18 @@
+{
+  "train": {
+    "images": 5994,
+    "empty_masks": [],
+    "full_masks": [],
+    "size_mismatches": [],
+    "min_fraction": 0.010053333333333333,
+    "max_fraction": 0.670804
+  },
+  "test": {
+    "images": 5794,
+    "empty_masks": [],
+    "full_masks": [],
+    "size_mismatches": [],
+    "min_fraction": 0.012317919075144509,
+    "max_fraction": 0.7346006006006006
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "imagenet",
+  "backbone": "ViT-B/16",
+  "image_count": 260000,
+  "splits": {
+    "train": {
+      "images": 189000,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "785e32a6dafbf2e3684b6126c304f7c626fafaaf4e408b1346eb61145be7c122"
+    },
+    "val": {
+      "images": 21000,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "b1a57192a984fe8f924526c463d620cb0ad97b3034d253c7402d6c6fcaf21822"
+    },
+    "test": {
+      "images": 50000,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "88b76456440ea53fd0de8f2036ef4256f9227d612cd33a95fec9e2a92f2df4a6"
+    }
+  },
+  "manifest_sha256": "5f575df516d1368d85063ea0f1bb5fe17e1b490b0e5154a2e10add9ad19e5abc",
+  "parent_manifest_sha256": "5f0fa52d86d3a7ef36fcca66550d33b32a486023dd829f7317c1c0440ee78779",
+  "scope": "Clean 200+10/class subset; not full ImageNet training; global features only. Region banks and model evaluations remain incomplete.",
+  "protocol": "Original backbone_prepare feature entry, verified original weights/transforms and global GPU lease. Only preparation starts earlier; later studies reuse these atomic caches.",
+  "code_sha256": "cb1a9076fbd142496633a583d56cb3427c69e512d058c3f44befa06003e047ee",
+  "checked_at": 1791182216.3337264
+}

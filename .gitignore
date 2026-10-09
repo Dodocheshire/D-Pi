@@ -1,0 +1,22 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+# Reproducible features, trained weights and generated runs remain local
+/artifacts/
+/outputs/
+/runs/
+*.partial
+.env
+.env.*
+!.env.example
+/data/Datasets/**/*.torch
+/data/Embeddings/**/*.torch
+/data/Segments/**/*.torch
+/clusters/
+/processed_data/

@@ -1,0 +1,35 @@
+{
+  "dataset": "places365",
+  "backbone": "ViT-B/16",
+  "image_count": 1839960,
+  "splits": {
+    "train": {
+      "images": 1623114,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "23ff9de0af2eb6bbeffd82c3de4901433c73382f2d011f94f9744d1119141bd1"
+    },
+    "val": {
+      "images": 180346,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "7c51d42ace6a76614116eeaeb8d35a2870ec8c3ffb5738ab144e4a19db34b1d6"
+    },
+    "test": {
+      "images": 36500,
+      "feature_dimension": 512,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "a859aef0af04a9aed08d6792965d23a403f9f6ea4cf7399b33a71a058af37256"
+    }
+  },
+  "manifest_sha256": "9e0b77e3ef52fb2477f1700059388f09d69de17de241bf7624d7e1f5e3407af9",
+  "parent_manifest_sha256": "a0462fc57eed4ec92abd1031c36824265213e7135a14fff5df78f9b912095e6a",
+  "scope": "Full train-standard 90/10 plus official validation as held-out test. Global features only; region bank/model evaluations remain incomplete.",
+  "checked_at": 1791180725.1640413
+}

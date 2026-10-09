@@ -1,0 +1,22 @@
+{
+  "accuracy_delta": 6e-05,
+  "ci95": [
+    -0.00032,
+    0.00045999999999999996
+  ],
+  "adaptation_seeds": 5,
+  "test_images": 10000,
+  "draws": 2000,
+  "seed": 731,
+  "protocol": "Resample paired adaptation seeds and a common image sample; condition on the fixed prototype bank, selected frozen Pi checkpoints and validation-selected refitted heads.",
+  "comparison": "MC8 minus mean inference under the same validation-selected sparse head and frozen Pi checkpoint",
+  "predictions_sha256": [
+    "6b38d64081204fb2a1994e67027246ebc84be00b945c409af909e13452d85f8a",
+    "a6967378e4fd8997db1d210296cb6c928fd8fe111be717f300f41aeff656f1af",
+    "68045448bfc105e9133bae988668baad16c0d755042fb814f09f01530dd8a647",
+    "b0e6a95139c39d7990d13563a461cbfd547cebec2b29ced1a1a87b7710dcf7fe",
+    "8e757dcc4ba2995a2c09be81282427c195494bb45df1971283b88ca97acecb25"
+  ],
+  "statistics_code_sha256": "a1bb29f652c16ca00ea3615b47b1998f689759dd703cfb40f6ef38d56e683469",
+  "limits": "Conditional on validation-selected heads and original fixed prototypes; this addresses inference randomness, not a separate deterministic-generator head training control."
+}

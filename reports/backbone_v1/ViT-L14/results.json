@@ -1,0 +1,751 @@
+{
+  "groups": [
+    {
+      "dataset": "cifar10",
+      "variant": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9790000081062317,
+          "std": 0.0005099193500095289
+        },
+        "macro_f1": {
+          "mean": 0.9789995729962777,
+          "std": 0.0005219411549829307
+        },
+        "nll": {
+          "mean": 0.06951829195022582,
+          "std": 0.001727759365160864
+        },
+        "ece_15_bins": {
+          "mean": 0.004770144327411746,
+          "std": 0.0016964249789090246
+        },
+        "brier": {
+          "mean": 0.03262838497757912,
+          "std": 0.0008836820770918005
+        },
+        "standardized_concept_mse": {
+          "mean": 0.050194500014185905,
+          "std": 0.033585681727401846
+        },
+        "top5_clean_agreement": {
+          "mean": 0.836776053905487,
+          "std": 0.039985376523145294
+        },
+        "noise_energy": {
+          "mean": 0.009189514815807343,
+          "std": 0.004486925718860747
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mu_rms": {
+          "mean": 0.08883247971534729,
+          "std": 0.02111231427242354
+        },
+        "sigma_rms": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.8332462787628174,
+          "std": 0.04862083800177612
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "variant": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9757000207901001,
+          "std": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.9757091695308804,
+          "std": 0.0
+        },
+        "nll": {
+          "mean": 0.07732433080673218,
+          "std": 0.0
+        },
+        "ece_15_bins": {
+          "mean": 0.005522678653060808,
+          "std": 0.0
+        },
+        "brier": {
+          "mean": 0.036285120993852615,
+          "std": 0.0
+        },
+        "standardized_concept_mse": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "top5_clean_agreement": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "noise_energy": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "variant": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9757000207901001,
+          "std": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.9757091695308804,
+          "std": 0.0
+        },
+        "nll": {
+          "mean": 0.07732666730880737,
+          "std": 3.447625250245961e-06
+        },
+        "ece_15_bins": {
+          "mean": 0.005370915159099018,
+          "std": 0.0001706339485598996
+        },
+        "brier": {
+          "mean": 0.03628496751189232,
+          "std": 1.5677639798170424e-06
+        },
+        "standardized_concept_mse": {
+          "mean": 1.1536426791280974e-05,
+          "std": 8.930565752795113e-08
+        },
+        "top5_clean_agreement": {
+          "mean": 0.9962000131607056,
+          "std": 0.0002315196302463638
+        },
+        "noise_energy": {
+          "mean": 9.999996109399945e-05,
+          "std": 0.0
+        },
+        "sampling_top5_stability": {
+          "mean": 0.9901379823684693,
+          "std": 0.00017928975297126212
+        },
+        "concept_sampling_variance": {
+          "mean": 8.0992239236366e-05,
+          "std": 1.7818500170965999e-07
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "variant": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9790000081062317,
+          "std": 0.0005099193500095289
+        },
+        "macro_f1": {
+          "mean": 0.9789996619559881,
+          "std": 0.0005218099525690846
+        },
+        "nll": {
+          "mean": 0.0695144072175026,
+          "std": 0.0017203049531069258
+        },
+        "ece_15_bins": {
+          "mean": 0.004763349009203459,
+          "std": 0.001723164113275805
+        },
+        "brier": {
+          "mean": 0.03262883573770523,
+          "std": 0.0008837734984354277
+        },
+        "standardized_concept_mse": {
+          "mean": 0.04996877685189247,
+          "std": 0.03342073056585313
+        },
+        "top5_clean_agreement": {
+          "mean": 0.8370760321617127,
+          "std": 0.039831808561324296
+        },
+        "noise_energy": {
+          "mean": 0.009164653439074754,
+          "std": 0.004474894060547853
+        },
+        "sampling_top5_stability": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "concept_sampling_variance": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "mu_rms": {
+          "mean": 0.08871064484119415,
+          "std": 0.021079915918627876
+        },
+        "sigma_rms": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.8340264678001403,
+          "std": 0.048478841444994404
+        }
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "variant": "pi",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9790000081062317,
+          "std": 0.0005338531803603074
+        },
+        "macro_f1": {
+          "mean": 0.9789993257601622,
+          "std": 0.000542382565675928
+        },
+        "nll": {
+          "mean": 0.06953236162662506,
+          "std": 0.001717239247989872
+        },
+        "ece_15_bins": {
+          "mean": 0.004653720514034952,
+          "std": 0.0016143410425306431
+        },
+        "brier": {
+          "mean": 0.032639238983392715,
+          "std": 0.0008825636419972736
+        },
+        "standardized_concept_mse": {
+          "mean": 0.05000468790531158,
+          "std": 0.03331992297128715
+        },
+        "top5_clean_agreement": {
+          "mean": 0.8367440462112427,
+          "std": 0.039853167746809116
+        },
+        "noise_energy": {
+          "mean": 0.009268334787338971,
+          "std": 0.004469094839904444
+        },
+        "sampling_top5_stability": {
+          "mean": 0.9913140416145325,
+          "std": 0.0003291954936773826
+        },
+        "concept_sampling_variance": {
+          "mean": 7.892217545304447e-05,
+          "std": 1.3709339311759474e-06
+        },
+        "mu_rms": {
+          "mean": 0.08874669671058655,
+          "std": 0.02106797814029997
+        },
+        "sigma_rms": {
+          "mean": 0.00985170528292656,
+          "std": 0.00011704240888264441
+        },
+        "attention_entropy_normalized": {
+          "mean": 0.8341070652008057,
+          "std": 0.04883160886805648
+        }
+      }
+    }
+  ],
+  "pi_paired_comparisons": [
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.0032,
+      "ci95": [
+        0.0015,
+        0.005
+      ],
+      "draws": 2000,
+      "wins": 55,
+      "losses": 23
+    },
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.0027,
+      "ci95": [
+        0.0007,
+        0.0048
+      ],
+      "draws": 2000,
+      "wins": 68,
+      "losses": 41
+    },
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.0039,
+      "ci95": [
+        0.0023,
+        0.005602499999999986
+      ],
+      "draws": 2000,
+      "wins": 57,
+      "losses": 18
+    },
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.0029,
+      "ci95": [
+        0.0012,
+        0.0047
+      ],
+      "draws": 2000,
+      "wins": 56,
+      "losses": 27
+    },
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seed": 31,
+      "accuracy_delta": 0.0038,
+      "ci95": [
+        0.0016,
+        0.006
+      ],
+      "draws": 2000,
+      "wins": 82,
+      "losses": 44
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0032,
+      "ci95": [
+        0.0015,
+        0.005
+      ],
+      "draws": 2000,
+      "wins": 55,
+      "losses": 23
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0027,
+      "ci95": [
+        0.0007,
+        0.0048
+      ],
+      "draws": 2000,
+      "wins": 68,
+      "losses": 41
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0039,
+      "ci95": [
+        0.0023,
+        0.005602499999999986
+      ],
+      "draws": 2000,
+      "wins": 57,
+      "losses": 18
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0029,
+      "ci95": [
+        0.0012,
+        0.0047
+      ],
+      "draws": 2000,
+      "wins": 56,
+      "losses": 27
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seed": 31,
+      "accuracy_delta": 0.0038,
+      "ci95": [
+        0.0016,
+        0.006
+      ],
+      "draws": 2000,
+      "wins": 82,
+      "losses": 44
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seed": 31,
+      "accuracy_delta": 0.0002,
+      "ci95": [
+        0.0,
+        0.0005
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seed": 31,
+      "accuracy_delta": 0.0002,
+      "ci95": [
+        0.0,
+        0.0005
+      ],
+      "draws": 2000,
+      "wins": 2,
+      "losses": 0
+    }
+  ],
+  "pi_stochastic_vs_mean": [
+    {
+      "dataset": "cifar10",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": 3.516674041748047e-06,
+      "ece_delta": 0.00015385934942254917,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": 6.571412086486816e-06,
+      "ece_delta": 2.6433436063948157e-05,
+      "accuracy_delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -1.4975666999816895e-06,
+      "ece_delta": 8.132069462851374e-05,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -3.866851329803467e-06,
+      "ece_delta": 0.00038556158452066145,
+      "accuracy_delta": -0.0001,
+      "ci95": [
+        -0.0003,
+        0.0
+      ],
+      "draws": 2000,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "dataset": "cifar10",
+      "seed": 31,
+      "comparison": "MC8 minus deterministic mean",
+      "nll_delta": -1.6689300537109375e-06,
+      "ece_delta": -0.00032212538668094544,
+      "accuracy_delta": 0.0001,
+      "ci95": [
+        0.0,
+        0.0003
+      ],
+      "draws": 2000,
+      "wins": 1,
+      "losses": 0
+    }
+  ],
+  "pi_hierarchical_comparisons": [
+    {
+      "dataset": "cifar10",
+      "control": "clean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0033,
+      "ci95": [
+        0.0016395000000000001,
+        0.004939999999999999
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cifar10",
+      "control": "fixed",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0033,
+      "ci95": [
+        0.0016395000000000001,
+        0.004939999999999999
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cifar10",
+      "control": "mean_only",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.00016,
+        0.00016
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cifar10",
+      "control": "adapter_matched",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.00016,
+        0.00016
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    },
+    {
+      "dataset": "cifar10",
+      "control": "same_checkpoint_mean",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "accuracy_delta": -2e-05,
+      "ci95": [
+        -0.00016,
+        8e-05
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 10000,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "resample paired adaptation seeds and a common image sample; fixed prototypes and initial classifier head"
+    }
+  ]
+}

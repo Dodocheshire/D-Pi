@@ -1,0 +1,874 @@
+{
+  "user_request": "一小时内完成能完成的实验，精简主要结果，进入下一阶段",
+  "started_at": 1791199405,
+  "deadline_utc": "2026-10-05 12:23:25 UTC",
+  "deadline_timestamp": 1791203005,
+  "deferred_processes": [
+    {
+      "root": 772068,
+      "pid": 772068,
+      "start_ticks": "466516515",
+      "state_before": "S"
+    },
+    {
+      "root": 772068,
+      "pid": 772208,
+      "start_ticks": "466516963",
+      "state_before": "S"
+    },
+    {
+      "root": 507871,
+      "pid": 507871,
+      "start_ticks": "459653879",
+      "state_before": "S"
+    },
+    {
+      "root": 507871,
+      "pid": 853372,
+      "start_ticks": "467739587",
+      "state_before": "S"
+    },
+    {
+      "root": 547102,
+      "pid": 547102,
+      "start_ticks": "460207505",
+      "state_before": "S"
+    },
+    {
+      "root": 547102,
+      "pid": 758248,
+      "start_ticks": "466310195",
+      "state_before": "S"
+    },
+    {
+      "root": 525558,
+      "pid": 525558,
+      "start_ticks": "459876233",
+      "state_before": "S"
+    },
+    {
+      "root": 467806,
+      "pid": 467806,
+      "start_ticks": "459127287",
+      "state_before": "S"
+    }
+  ],
+  "allowed_current_gpu_owner": 881004,
+  "scientific_scope": "Do not shorten epochs, seeds, validation grids or replace missing results. Prioritize nearly complete K1024 and CUB evaluation groups. Long preparation/ViT grid processes suspended reversibly; current GPU owner allowed to finish its natural atomic boundary.",
+  "localization_deferred_reason": "Each full 5794-image localization run has taken roughly 16 wall minutes including shared GPU waits; core SAM2 Pi/clean localization cannot reach all five paired seeds within this final hour. Preserve existing shards and prioritize complete K1024 and background/retrieval groups. GDINO full localization remains available.",
+  "interrupted_atomic_shard_run": {
+    "pid": 890179,
+    "start_ticks": "468191517",
+    "saved_full_image_shards": 86,
+    "cache_directories": [
+      "outputs/study_v1/cub/adapter_matched_seed4/localization_cache/ae3427df5b86a5ac"
+    ],
+    "reason": "User imposed final one-hour closeout; defer long full CAM and retain all completed atomic image shards rather than occupy the remaining GPU window."
+  },
+  "deferred_process_closeout": [
+    {
+      "root": 772068,
+      "pid": 772068,
+      "start_ticks": "466516515",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.large_proposal_prewarm ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1898158
+    },
+    {
+      "root": 772068,
+      "pid": 772208,
+      "start_ticks": "466516963",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.prepare --dataset places365 --root /home/pengcheng/VLG-CBM/datasets/places365_torch --output artifacts/datasets/places365 --stage proposals ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1909702
+    },
+    {
+      "root": 507871,
+      "pid": 507871,
+      "start_ticks": "459653879",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.large_suite --wait-pid 467383 ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1919596
+    },
+    {
+      "root": 507871,
+      "pid": 853372,
+      "start_ticks": "467739587",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.prepare --dataset places365 --root /home/pengcheng/VLG-CBM/datasets/places365_torch --output artifacts/datasets/places365 --stage proposals ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1921062
+    },
+    {
+      "root": 547102,
+      "pid": 547102,
+      "start_ticks": "460207505",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.backbone_study --wait-weights-pid 524990 --proposal-pid 507871 --datasets places365 imagenet --logs artifacts/logs/backbone_large_v1 ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1942363
+    },
+    {
+      "root": 547102,
+      "pid": 758248,
+      "start_ticks": "466310195",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.backbone_prepare --dataset places365 --backbone ViT-B/16 --output artifacts/backbone_ablation_v1/ViT-B16/places365 --wait-pid 507871 --stage crops ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1943753
+    },
+    {
+      "root": 525558,
+      "pid": 525558,
+      "start_ticks": "459876233",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.backbone_study --wait-weights-pid 524990 --proposal-pid 467383 ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.195716
+    },
+    {
+      "root": 467806,
+      "pid": 467806,
+      "start_ticks": "459127287",
+      "state_before": "S",
+      "command_before_closeout": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.postprocess --wait-pid 467383 ",
+      "state_at_closeout": "T",
+      "termination": "SIGTERM then SIGCONT to deferred stopped process",
+      "closed_at": 1791201436.1958022
+    }
+  ],
+  "deferred_restart_policy": "Manual next-stage decision only. Original launch commands recorded; saved source/model/crop/CAM shards retained. No automatic resumption.",
+  "new_scientific_reports_sha256": {
+    "reports/background_semantic_uncertainty_v1/RN50_GDINO/background.json": "1cc39f8124e4f59a769aa0022e603e1295dd0103df2081b595365d6377428e14",
+    "reports/background_semantic_uncertainty_v1/RN50_GDINO/natural_background.json": "fa676f29d7914a67682474f045ad8e4e364f4d8a356ad3be06db5813d122a683",
+    "reports/background_semantic_uncertainty_v1/RN50_SAM2/background.json": "151b5c921aa40fb2fec7616445c5a3915b2a1c1accc1e6e21e1c28d57b58e304",
+    "reports/background_semantic_uncertainty_v1/RN50_SAM2/natural_background.json": "64cc1954ccb8f32718d2321919a9e23e2ad5c50af1bd990d705255967f818eaa",
+    "reports/background_calibration_diagnostics_v1/RN50_GDINO/background.json": "f07689f5d8cba56c01ab90204d519c18f14b25d44a83f28ed7d981208d0d8601",
+    "reports/background_calibration_diagnostics_v1/RN50_GDINO/natural_background.json": "d5b2db603d1870ca0927f872a671d25d3a485cfe4bc51330b38904b668afbbdf",
+    "reports/background_calibration_diagnostics_v1/RN50_SAM2/background.json": "873f781c2641a9986bd08d10cdfbd4c162ff82d489cf4bcda3d90a786785b952",
+    "reports/background_calibration_diagnostics_v1/RN50_SAM2/natural_background.json": "d65a7f905d043ccf0be6ac80a8ccf9d88b8a2426f73956d2be8a0de2b0083e89",
+    "reports/retrieval_evidence_verification_v1/RN50_SAM2.json": "09477f7e614a29c577de24ca2722b8cd93d6fe86ba3b539ee5115b88d7b411a9",
+    "reports/retrieval_evidence_verification_v1/RN50_GDINO.json": "afc5672dbbc6c87de1842529fea2e1e68e0de5033a17b77bdcbb556624c69925",
+    "reports/concept_study_v1/cifar10/m50_k1024_verified.json": "13719230848038a3d210996de50fd68bad57d581e8c1e0c969518a61a495d08e",
+    "reports/backbone_v1/ViT-B16/results.json": "cc012a3e6b9e4624067944b57dcf42d4a8337655a9a75a99f023150c8e07ed98"
+  },
+  "preserved_places_concept_source_proposals": {
+    "complete_source_images": 2400,
+    "required_for_full_library": 18250,
+    "scope": "partial preparation, not performance evidence"
+  },
+  "completed_background_groups": 4,
+  "completed_concept_configs": 8,
+  "closed_waiting_followers": [
+    {
+      "manager": "localization_uncertainty_v1",
+      "pid": 750955,
+      "start_ticks": "466134008",
+      "phase": "waiting_for_full_test_localization",
+      "command": "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python -u -m pi_experiments.localization_uncertainty --wait-pid 597541 ",
+      "closed_at": 1791202484.8880804,
+      "reason": "Waiting for explicitly deferred full matrix; no active child or new scientific computation interrupted."
+    },
+    {
+      "manager": "semantic_uncertainty_v1",
+      "pid": 605127,
+      "termination": "already_exited"
+    }
+  ],
+  "consumer_dependency_notes": "Old complete-matrix consumers can exit with an upstream-phase assertion after their dependency is explicitly deferred. This is recorded as bounded-stage closure, not successful completion of the missing scientific matrix. Independent completed background/retrieval audits remain valid.",
+  "compute_closeout_finished_at": 1791202599.1094594,
+  "live_scientific_managers_at_closeout": [],
+  "closeout_backbone_status": {
+    "manager_pid": 909276,
+    "started_at": 1791200700.0064683,
+    "completed_commands": [
+      {
+        "name": "ViT-B16_cub_features",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_features.log",
+        "finished_at": 1791200720.3666463
+      },
+      {
+        "name": "ViT-B16_cub_crops",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_crops.log",
+        "finished_at": 1791200786.4161832
+      },
+      {
+        "name": "ViT-B16_cub_baseline",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_baseline.log",
+        "finished_at": 1791200917.9006271
+      },
+      {
+        "name": "ViT-B16_cub_search_c0_e0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0_e0.log",
+        "finished_at": 1791200928.0835912
+      },
+      {
+        "name": "ViT-B16_cub_search_c0_e0.001",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0_e0.001.log",
+        "finished_at": 1791200940.6148355
+      },
+      {
+        "name": "ViT-B16_cub_search_c0_e0.01",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0_e0.01.log",
+        "finished_at": 1791200952.8866575
+      },
+      {
+        "name": "ViT-B16_cub_search_c0_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0_e0.1.log",
+        "finished_at": 1791200965.570316
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.01_e0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.01_e0.log",
+        "finished_at": 1791200977.3968801
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.01_e0.001",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.01_e0.001.log",
+        "finished_at": 1791200988.91205
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.01_e0.01",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.01_e0.01.log",
+        "finished_at": 1791201001.530404
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.01_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.01_e0.1.log",
+        "finished_at": 1791201013.6956954
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.1_e0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.1_e0.log",
+        "finished_at": 1791201025.3524904
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.1_e0.001",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.1_e0.001.log",
+        "finished_at": 1791201038.5743306
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.1_e0.01",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.1_e0.01.log",
+        "finished_at": 1791201050.7836773
+      },
+      {
+        "name": "ViT-B16_cub_search_c0.1_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c0.1_e0.1.log",
+        "finished_at": 1791201062.7119298
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e0.log",
+        "finished_at": 1791201074.2121987
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e0.001",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e0.001.log",
+        "finished_at": 1791201085.493642
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e0.01",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e0.01.log",
+        "finished_at": 1791201097.0645864
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e0.1.log",
+        "finished_at": 1791201109.1985674
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e0.3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e0.3.log",
+        "finished_at": 1791201121.2338939
+      },
+      {
+        "name": "ViT-B16_cub_search_c1_e1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c1_e1.log",
+        "finished_at": 1791201133.7741718
+      },
+      {
+        "name": "ViT-B16_cub_search_c3_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c3_e0.1.log",
+        "finished_at": 1791201145.723292
+      },
+      {
+        "name": "ViT-B16_cub_search_c3_e0.3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c3_e0.3.log",
+        "finished_at": 1791201157.7366333
+      },
+      {
+        "name": "ViT-B16_cub_search_c3_e1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c3_e1.log",
+        "finished_at": 1791201169.4155765
+      },
+      {
+        "name": "ViT-B16_cub_search_c10_e0.1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c10_e0.1.log",
+        "finished_at": 1791201181.0619626
+      },
+      {
+        "name": "ViT-B16_cub_search_c10_e0.3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c10_e0.3.log",
+        "finished_at": 1791201192.86735
+      },
+      {
+        "name": "ViT-B16_cub_search_c10_e1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_search_c10_e1.log",
+        "finished_at": 1791201204.876406
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed0.log",
+        "finished_at": 1791201207.605771
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed0_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed0_analysis.log",
+        "finished_at": 1791201212.6659112
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed0_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed0_concepts.log",
+        "finished_at": 1791201263.6642923
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed1.log",
+        "finished_at": 1791201266.252976
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed1_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed1_analysis.log",
+        "finished_at": 1791201271.1398604
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed1_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed1_concepts.log",
+        "finished_at": 1791201307.7522473
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed2",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed2.log",
+        "finished_at": 1791201310.3298979
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed2_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed2_analysis.log",
+        "finished_at": 1791201315.4057465
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed2_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed2_concepts.log",
+        "finished_at": 1791201353.1513982
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed3.log",
+        "finished_at": 1791201355.8533306
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed3_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed3_analysis.log",
+        "finished_at": 1791201360.8971887
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed3_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed3_concepts.log",
+        "finished_at": 1791201398.1991196
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed4",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed4.log",
+        "finished_at": 1791201400.931899
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed4_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed4_analysis.log",
+        "finished_at": 1791201406.4662645
+      },
+      {
+        "name": "ViT-B16_cub_clean_seed4_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_seed4_concepts.log",
+        "finished_at": 1791201444.291308
+      },
+      {
+        "name": "ViT-B16_cub_clean_summary",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_clean_summary.log",
+        "finished_at": 1791201460.7430692
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed0.log",
+        "finished_at": 1791201463.3839982
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed0_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed0_analysis.log",
+        "finished_at": 1791201468.3755553
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed0_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed0_concepts.log",
+        "finished_at": 1791201505.641013
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed1.log",
+        "finished_at": 1791201508.3008087
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed1_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed1_analysis.log",
+        "finished_at": 1791201513.4569016
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed1_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed1_concepts.log",
+        "finished_at": 1791201550.60947
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed2",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed2.log",
+        "finished_at": 1791201553.2717347
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed2_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed2_analysis.log",
+        "finished_at": 1791201558.342272
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed2_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed2_concepts.log",
+        "finished_at": 1791201595.321626
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed3.log",
+        "finished_at": 1791201597.945054
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed3_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed3_analysis.log",
+        "finished_at": 1791201603.2310183
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed3_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed3_concepts.log",
+        "finished_at": 1791201640.7114978
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed4",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed4.log",
+        "finished_at": 1791201643.3648868
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed4_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed4_analysis.log",
+        "finished_at": 1791201648.6569104
+      },
+      {
+        "name": "ViT-B16_cub_fixed_seed4_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_seed4_concepts.log",
+        "finished_at": 1791201685.6825738
+      },
+      {
+        "name": "ViT-B16_cub_fixed_summary",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_fixed_summary.log",
+        "finished_at": 1791201701.4904888
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed0.log",
+        "finished_at": 1791201713.4817874
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed0_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed0_analysis.log",
+        "finished_at": 1791201719.0029058
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed0_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed0_concepts.log",
+        "finished_at": 1791201756.7692049
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed1.log",
+        "finished_at": 1791201768.8247416
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed1_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed1_analysis.log",
+        "finished_at": 1791201774.2658036
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed1_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed1_concepts.log",
+        "finished_at": 1791201812.2282894
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed2",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed2.log",
+        "finished_at": 1791201824.0086997
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed2_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed2_analysis.log",
+        "finished_at": 1791201829.3376822
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed2_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed2_concepts.log",
+        "finished_at": 1791201866.6519325
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed3.log",
+        "finished_at": 1791201878.9623404
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed3_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed3_analysis.log",
+        "finished_at": 1791201884.7582896
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed3_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed3_concepts.log",
+        "finished_at": 1791201922.8931255
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed4",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed4.log",
+        "finished_at": 1791201934.519366
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed4_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed4_analysis.log",
+        "finished_at": 1791201939.685872
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_seed4_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_seed4_concepts.log",
+        "finished_at": 1791201975.7999585
+      },
+      {
+        "name": "ViT-B16_cub_mean_only_summary",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_mean_only_summary.log",
+        "finished_at": 1791201991.0152678
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed0.log",
+        "finished_at": 1791202003.5108278
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed0_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed0_analysis.log",
+        "finished_at": 1791202008.7989576
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed0_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed0_concepts.log",
+        "finished_at": 1791202045.7881932
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed1.log",
+        "finished_at": 1791202058.4154668
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed1_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed1_analysis.log",
+        "finished_at": 1791202063.6546087
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed1_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed1_concepts.log",
+        "finished_at": 1791202100.341846
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed2",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed2.log",
+        "finished_at": 1791202113.2953672
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed2_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed2_analysis.log",
+        "finished_at": 1791202118.6646042
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed2_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed2_concepts.log",
+        "finished_at": 1791202154.934236
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed3.log",
+        "finished_at": 1791202168.126238
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed3_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed3_analysis.log",
+        "finished_at": 1791202173.446645
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed3_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed3_concepts.log",
+        "finished_at": 1791202210.3780406
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed4",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed4.log",
+        "finished_at": 1791202222.1096292
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed4_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed4_analysis.log",
+        "finished_at": 1791202227.2920914
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_seed4_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_seed4_concepts.log",
+        "finished_at": 1791202264.691679
+      },
+      {
+        "name": "ViT-B16_cub_adapter_matched_summary",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_adapter_matched_summary.log",
+        "finished_at": 1791202280.509033
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed0",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed0.log",
+        "finished_at": 1791202292.96551
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed0_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed0_analysis.log",
+        "finished_at": 1791202298.078024
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed0_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed0_concepts.log",
+        "finished_at": 1791202335.2362087
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed1",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed1.log",
+        "finished_at": 1791202347.8163915
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed1_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed1_analysis.log",
+        "finished_at": 1791202352.9239066
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed1_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed1_concepts.log",
+        "finished_at": 1791202389.8186255
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed2",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed2.log",
+        "finished_at": 1791202402.4155698
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed2_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed2_analysis.log",
+        "finished_at": 1791202407.4918828
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed2_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed2_concepts.log",
+        "finished_at": 1791202444.9981074
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed3",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed3.log",
+        "finished_at": 1791202456.988645
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed3_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed3_analysis.log",
+        "finished_at": 1791202462.196834
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed3_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed3_concepts.log",
+        "finished_at": 1791202499.0702355
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed4",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed4.log",
+        "finished_at": 1791202512.0039103
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed4_analysis",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed4_analysis.log",
+        "finished_at": 1791202517.3177152
+      },
+      {
+        "name": "ViT-B16_cub_pi_seed4_concepts",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_seed4_concepts.log",
+        "finished_at": 1791202554.4795547
+      },
+      {
+        "name": "ViT-B16_cub_pi_summary",
+        "returncode": 0,
+        "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_summary.log",
+        "finished_at": 1791202572.9743404
+      }
+    ],
+    "phase": "complete",
+    "child_pid": null,
+    "command": [
+      "/home/pengcheng/miniconda3/envs/pi-cbm/bin/python",
+      "-u",
+      "-m",
+      "pi_experiments.summarize",
+      "--root",
+      "outputs/backbone_v1/ViT-B16",
+      "--output",
+      "reports/backbone_v1/ViT-B16"
+    ],
+    "log": "artifacts/logs/closeout_backbone_v1/ViT-B16_cub_pi_summary.log",
+    "next_command": "ViT-B16_cub_pi_seed4",
+    "finished_at": 1791202572.9752915
+  },
+  "completed_backbone_cub": true,
+  "scientific_condition_changes": "None: original 24-grid validation search, epochs, full test set and seeds 0–4 retained.",
+  "verified_core_cases": [
+    "RN50 / CIFAR-10",
+    "RN50 / CIFAR-100",
+    "RN50 / CUB-GDINO",
+    "ViT-B/16 / CIFAR-10",
+    "ViT-L/14 / CIFAR-10",
+    "RN50 / CUB-SAM2",
+    "ViT-B/16 / CIFAR-100",
+    "ViT-B/16 / CUB-SAM2"
+  ],
+  "core_paired_intervals_reproduced": 40,
+  "final_coverage": {
+    "checked_at": 1791202667.2315133,
+    "source_plan": "Essay/D/研究方案.md",
+    "limits": "This inventories expected artifacts. File presence is not proof of scientific validity, complete test coverage, frozen invariants, or goal completion. Inspect contents and corresponding verification."
+  },
+  "full_delivery_verification_sha256": "ec0269e1f64c0ca1bd64820a48ed6a771d715d94849d348a84458148e8860228",
+  "code_snapshots_manifest_sha256": "6b9cf7834316a2c40bea8374789bea613335ee21fbc3e0e900d4505a788a8db8"
+}

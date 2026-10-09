@@ -1,0 +1,37 @@
+{
+  "dataset": "places365",
+  "backbone": "ViT-L/14",
+  "image_count": 1839960,
+  "splits": {
+    "train": {
+      "images": 1623114,
+      "feature_dimension": 768,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "b8b8ea171d0a53ed65c00d3ac17b36e4ca9c8e1413f08c11b822a6b0001ae3a0"
+    },
+    "val": {
+      "images": 180346,
+      "feature_dimension": 768,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "0f98c8ce6669b6e79f18e4fbc72f6ed50d26b441c16700d9bfcc50a738332294"
+    },
+    "test": {
+      "images": 36500,
+      "feature_dimension": 768,
+      "features_finite": true,
+      "indices_exact": true,
+      "all_source_labels_exact": true,
+      "sha256": "c42d691626f432eef8d94b2aaa392394a8a078692708d67404ce72385e001698"
+    }
+  },
+  "manifest_sha256": "aff30d17c4bceb39f283cfa2a5cce74647709990bb865a2ca59fc31fbe77c3f1",
+  "parent_manifest_sha256": "a0462fc57eed4ec92abd1031c36824265213e7135a14fff5df78f9b912095e6a",
+  "scope": "Full train-standard; global features only. Region banks and model evaluations remain incomplete.",
+  "protocol": "Original backbone_prepare feature entry, verified original weights/transforms and global GPU lease. Only preparation starts earlier; later studies reuse these atomic caches.",
+  "code_sha256": "cb1a9076fbd142496633a583d56cb3427c69e512d058c3f44befa06003e047ee",
+  "checked_at": 1791186794.5587764
+}

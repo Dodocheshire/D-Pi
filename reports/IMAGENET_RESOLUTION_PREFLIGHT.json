@@ -1,0 +1,54 @@
+{
+  "source": "Existing clean ImageNet training+adapter_val pool",
+  "training_images": 210000,
+  "classes": 1000,
+  "test_images": 50000,
+  "sampled_training_images": 5000,
+  "seed": 731,
+  "over_1024_long_side": 76,
+  "max_long_side": 3264,
+  "largest": [
+    {
+      "index": 140716,
+      "size": [
+        3200,
+        3200
+      ],
+      "pixels": 10240000
+    },
+    {
+      "index": 90148,
+      "size": [
+        3264,
+        2448
+      ],
+      "pixels": 7990272
+    },
+    {
+      "index": 139641,
+      "size": [
+        3072,
+        2304
+      ],
+      "pixels": 7077888
+    },
+    {
+      "index": 184737,
+      "size": [
+        3072,
+        2304
+      ],
+      "pixels": 7077888
+    },
+    {
+      "index": 199196,
+      "size": [
+        2658,
+        2454
+      ],
+      "pixels": 6522732
+    }
+  ],
+  "errors": [],
+  "seconds": 2.7368275178596377
+}

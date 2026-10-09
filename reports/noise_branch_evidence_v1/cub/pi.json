@@ -1,0 +1,570 @@
+{
+  "dataset": "cub",
+  "variant": "pi",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "groups": {
+    "no_noise": {
+      "mean_multiplier": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6311701536178589,
+        "std": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.6325071683733422,
+        "std": 0.0
+      },
+      "nll": {
+        "mean": 1.314818263053894,
+        "std": 0.0
+      },
+      "ece_15_bins": {
+        "mean": 0.01862487022500106,
+        "std": 0.0
+      },
+      "brier": {
+        "mean": 0.49180734157562256,
+        "std": 0.0
+      },
+      "mean_energy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_energy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_energy_fraction": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "standardized_concept_mse": {
+        "mean": 1.4086498420083811e-14,
+        "std": 0.0
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "nll_delta_vs_mean": {
+        "mean": 0.07974443435668946,
+        "std": 0.0043134016495385554
+      }
+    },
+    "scale_only": {
+      "mean_multiplier": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6309975981712341,
+        "std": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.6323610847794501,
+        "std": 1.2037148031565567e-06
+      },
+      "nll": {
+        "mean": 1.3147329807281494,
+        "std": 1.358190939769126e-05
+      },
+      "ece_15_bins": {
+        "mean": 0.01889023336480472,
+        "std": 0.00022718650268739666
+      },
+      "brier": {
+        "mean": 0.49178123474121094,
+        "std": 4.275153274514164e-06
+      },
+      "mean_energy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_energy": {
+        "mean": 9.986800432670861e-05,
+        "std": 1.3425660108731493e-06
+      },
+      "scale_energy_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "standardized_concept_mse": {
+        "mean": 3.3079889362852553e-06,
+        "std": 4.7005606999227554e-07
+      },
+      "concept_sampling_variance": {
+        "mean": 4.976189447916113e-05,
+        "std": 7.107894004692763e-06
+      },
+      "nll_delta_vs_mean": {
+        "mean": 0.07965915203094483,
+        "std": 0.004323586030310424
+      }
+    },
+    "mean_only": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.654021394252777,
+        "std": 0.002311061985726247
+      },
+      "macro_f1": {
+        "mean": 0.6555621002199669,
+        "std": 0.0020631025203838096
+      },
+      "nll": {
+        "mean": 1.2350738048553467,
+        "std": 0.004313429807908118
+      },
+      "ece_15_bins": {
+        "mean": 0.03350110646627977,
+        "std": 0.002524591157829813
+      },
+      "brier": {
+        "mean": 0.4660742342472076,
+        "std": 0.002194744152181299
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "scale_energy_fraction": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "standardized_concept_mse": {
+        "mean": 0.011619486287236214,
+        "std": 0.0008889864093691557
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "nll_delta_vs_mean": {
+        "mean": -2.384185791015625e-08,
+        "std": 5.331201499700046e-08
+      }
+    },
+    "mean_plus_scale_x0.25": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 0.25,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.654090428352356,
+        "std": 0.0022082414960550236
+      },
+      "macro_f1": {
+        "mean": 0.6556649155313472,
+        "std": 0.001923492475073453
+      },
+      "nll": {
+        "mean": 1.2350509881973266,
+        "std": 0.004310574410105814
+      },
+      "ece_15_bins": {
+        "mean": 0.033594160990774495,
+        "std": 0.0023562724771328514
+      },
+      "brier": {
+        "mean": 0.4660672783851624,
+        "std": 0.0021937045611422844
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 6.2417502704192884e-06,
+        "std": 8.391037567957183e-08
+      },
+      "scale_energy_fraction": {
+        "mean": 0.00030347473129708856,
+        "std": 2.2190870566687643e-05
+      },
+      "standardized_concept_mse": {
+        "mean": 0.01161963976919651,
+        "std": 0.0008889672969995085
+      },
+      "concept_sampling_variance": {
+        "mean": 3.109464660155936e-06,
+        "std": 4.434685209839165e-07
+      },
+      "nll_delta_vs_mean": {
+        "mean": -2.2840499877929687e-05,
+        "std": 3.971297843643962e-06
+      }
+    },
+    "mean_plus_scale_x0.5": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6541939973831177,
+        "std": 0.0021508375317693795
+      },
+      "macro_f1": {
+        "mean": 0.6557578172107178,
+        "std": 0.001884812132751656
+      },
+      "nll": {
+        "mean": 1.2350275993347168,
+        "std": 0.00430769540630702
+      },
+      "ece_15_bins": {
+        "mean": 0.033276964843888306,
+        "std": 0.0024992604740313507
+      },
+      "brier": {
+        "mean": 0.4660602867603302,
+        "std": 0.002192723046033639
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 2.4967001081677154e-05,
+        "std": 3.3564150271828733e-07
+      },
+      "scale_energy_fraction": {
+        "mean": 0.001212790053144949,
+        "std": 8.859944039664589e-05
+      },
+      "standardized_concept_mse": {
+        "mean": 0.011620204895734787,
+        "std": 0.0008888906134995476
+      },
+      "concept_sampling_variance": {
+        "mean": 1.2437843179213814e-05,
+        "std": 1.7738762376671066e-06
+      },
+      "nll_delta_vs_mean": {
+        "mean": -4.622936248779297e-05,
+        "std": 7.949749246954042e-06
+      }
+    },
+    "mean_plus_scale_x1": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6542975544929505,
+        "std": 0.0022994299006834826
+      },
+      "macro_f1": {
+        "mean": 0.6558225649721885,
+        "std": 0.002002555680647176
+      },
+      "nll": {
+        "mean": 1.2349799156188965,
+        "std": 0.00430208127161281
+      },
+      "ece_15_bins": {
+        "mean": 0.033242299648418884,
+        "std": 0.002485549696040714
+      },
+      "brier": {
+        "mean": 0.4660461962223053,
+        "std": 0.0021907523764976814
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 9.986800432670861e-05,
+        "std": 1.3425660108731493e-06
+      },
+      "scale_energy_fraction": {
+        "mean": 0.004833499348369818,
+        "std": 0.00035179123570156206
+      },
+      "standardized_concept_mse": {
+        "mean": 0.011622573249042034,
+        "std": 0.0008885665704888092
+      },
+      "concept_sampling_variance": {
+        "mean": 4.9751335609471425e-05,
+        "std": 7.0955075380911154e-06
+      },
+      "nll_delta_vs_mean": {
+        "mean": -9.391307830810546e-05,
+        "std": 1.5888277436664863e-05
+      }
+    },
+    "mean_plus_scale_x2": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 2.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6540904402732849,
+        "std": 0.002355124612162051
+      },
+      "macro_f1": {
+        "mean": 0.6556052185623136,
+        "std": 0.002010861514168365
+      },
+      "nll": {
+        "mean": 1.2348801374435425,
+        "std": 0.0042907960165404135
+      },
+      "ece_15_bins": {
+        "mean": 0.03323315182777437,
+        "std": 0.0027241285447889316
+      },
+      "brier": {
+        "mean": 0.46601768732070925,
+        "std": 0.0021870214011916796
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 0.00039947201730683446,
+        "std": 5.370264043492597e-06
+      },
+      "scale_energy_fraction": {
+        "mean": 0.019056514628109998,
+        "std": 0.001366592241556656
+      },
+      "standardized_concept_mse": {
+        "mean": 0.011632256954908372,
+        "std": 0.0008872308335387642
+      },
+      "concept_sampling_variance": {
+        "mean": 0.000199005170725286,
+        "std": 2.8382025541166625e-05
+      },
+      "nll_delta_vs_mean": {
+        "mean": -0.00019369125366210937,
+        "std": 3.178256930472384e-05
+      }
+    },
+    "mean_plus_scale_x4": {
+      "mean_multiplier": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "scale_multiplier": {
+        "mean": 4.0,
+        "std": 0.0
+      },
+      "accuracy": {
+        "mean": 0.6540214061737061,
+        "std": 0.002371496365046645
+      },
+      "macro_f1": {
+        "mean": 0.65553003225244,
+        "std": 0.002027976893236108
+      },
+      "nll": {
+        "mean": 1.2346638202667237,
+        "std": 0.0042689919669641144
+      },
+      "ece_15_bins": {
+        "mean": 0.03351976222281705,
+        "std": 0.0032500940795390683
+      },
+      "brier": {
+        "mean": 0.4659594178199768,
+        "std": 0.00218035723418881
+      },
+      "mean_energy": {
+        "mean": 0.02065570279955864,
+        "std": 0.0016241437790939577
+      },
+      "scale_energy": {
+        "mean": 0.0015978880692273378,
+        "std": 2.148105617397039e-05
+      },
+      "scale_energy_fraction": {
+        "mean": 0.07208876228673221,
+        "std": 0.004882765001184408
+      },
+      "standardized_concept_mse": {
+        "mean": 0.011671417392790318,
+        "std": 0.0008818134296548865
+      },
+      "concept_sampling_variance": {
+        "mean": 0.0007960196817293763,
+        "std": 0.00011352816285627011
+      },
+      "nll_delta_vs_mean": {
+        "mean": -0.00041000843048095704,
+        "std": 6.264664236093613e-05
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "scenario": "no_noise",
+      "reference": "mean_reference",
+      "accuracy_delta": -0.022851225405591993,
+      "ci95": [
+        -0.029376078702105624,
+        -0.01653348291335865
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "scale_only",
+      "reference": "mean_reference",
+      "accuracy_delta": -0.023023817742492233,
+      "ci95": [
+        -0.029482222989299277,
+        -0.016775112185018988
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "mean_plus_scale_x0.25",
+      "reference": "mean_reference",
+      "accuracy_delta": 6.903693476009665e-05,
+      "ci95": [
+        -0.00013807386952019332,
+        0.0003106662064204349
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "mean_plus_scale_x0.5",
+      "reference": "mean_reference",
+      "accuracy_delta": 0.00017259233690024162,
+      "ci95": [
+        -0.00013807386952019332,
+        0.0005522954780807733
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "mean_plus_scale_x1",
+      "reference": "mean_reference",
+      "accuracy_delta": 0.0002761477390403866,
+      "ci95": [
+        -0.0002071108042802899,
+        0.0007939247497411114
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "mean_plus_scale_x2",
+      "reference": "mean_reference",
+      "accuracy_delta": 6.903693476009665e-05,
+      "ci95": [
+        -0.0006558508802209182,
+        0.0008629616845012082
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    },
+    {
+      "scenario": "mean_plus_scale_x4",
+      "reference": "mean_reference",
+      "accuracy_delta": 0.0,
+      "ci95": [
+        -0.0008629616845012082,
+        0.0008629616845012082
+      ],
+      "adaptation_seeds": 5,
+      "test_images": 5794,
+      "draws": 2000,
+      "seed": 731,
+      "protocol": "Resample paired adaptation seeds and common test images; fixed prototype bank, selected source-checkpoint generator and its original initial head within every inference pair."
+    }
+  ],
+  "source_checkpoint_sha256": [
+    "24530187db5d0b2d229eeb8c1816462faa74e62cc18838ec302353b5a5f7e196",
+    "eaa2a0fcf515d7ba3abd6ecc4685ab1e894db02cc083667106b3e0a97970a387",
+    "bba52fac121d8a6727c6ec9efa0955fbcbc9291e5f56fa2cadfc20e01f6dd466",
+    "252f8b919da5358402e82717c2134024e1a9ba43c2f76050577dba62e625ef51",
+    "fa6b1c5f77ff60b71bfcc480f1d16b2f9f69b21f93394163053f535d120aa560"
+  ],
+  "predictions_sha256": [
+    "b7c979d35c9872dd2a6e950258849ca7ff612afee1d579ed16b65c110747aae3",
+    "c18e8827169e50388972dcd24a556cc2eae3698a98e63fbbb18c5dc69b00f6ad",
+    "0b4522c7dfc22a15db2d9bc2788b15a5392e1bc179f3c92c28de082417053eac",
+    "c20477d2c922b4dcd98f876f337e9ccdf91661d7ea29cc2c6926c063c95db1ca",
+    "745e2965ea3fe4a0dbcc9e451a4eb08541bd595bb8eb106bdbae9babe5660130"
+  ],
+  "run_code_sha256": [
+    "c2ed594bee2548c6f932aa470075d74ab01328794f8acffdd5643c1f9a8e7ebe",
+    "c2ed594bee2548c6f932aa470075d74ab01328794f8acffdd5643c1f9a8e7ebe",
+    "c2ed594bee2548c6f932aa470075d74ab01328794f8acffdd5643c1f9a8e7ebe",
+    "c2ed594bee2548c6f932aa470075d74ab01328794f8acffdd5643c1f9a8e7ebe",
+    "c2ed594bee2548c6f932aa470075d74ab01328794f8acffdd5643c1f9a8e7ebe"
+  ],
+  "head_protocol": "Each source checkpoint head remains fixed within paired branch interventions; original initial head",
+  "code_sha256": "097a5f6ec054b68776749f821b9cc36d0e7dd15e215a55c541da2e05cb66c46b",
+  "checked_at": 1791196779.1338596,
+  "limits": "Inference interventions on each unchanged selected checkpoint; no multiplier or budget selection. Paired seeds/common images, unadjusted descriptive intervals conditional on fixed banks, heads, selected generators and one shared MC16 realization. Do not infer effects of retraining without a branch. Energy fractions are before feature-RMS scaling; response drift is not true concept accuracy."
+}
